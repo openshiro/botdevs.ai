@@ -1,12 +1,10 @@
-# RailsDevs
+# Waivolt
 
 The reverse job board for electricians.
 
-![RailsDevs homepage](https://user-images.githubusercontent.com/2092156/147028085-eea40303-c572-48c0-b107-0be93cce067c.png)
+Waivolt empowers electricians available for their next job. It is being built around [three core values](https://railsdevs.com/about):
 
-RailsDevs empowers independent developers available for their next gig. It is being built around [three core values](https://railsdevs.com/about):
-
-1. Empowering the independent developer
+1. Empowering electricians
 1. Doing everything in public
 1. Creating a safe, inclusive environment
 

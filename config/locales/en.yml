@@ -468,7 +468,7 @@ en:
       cta: Edit my profile
       title: Your electrician profile is invisible – only you can see it.
     meta:
-      description: "%{count}+ electricians looking for their next gig. Juniors to seniors and everyone in between, you'll find them all here."
+      description: "%{count}+ electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       freelance: freelance
       hire: Hire
       in_country: in %{country}
@@ -569,13 +569,13 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: Waivolt empowers independent electricians available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
+      description_og: Waivolt empowers electricians available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
       developers_heading: New electricians on Waivolt
       get_started: Get started
       learn_more: Learn more
       more: See more electricians
       subtitle_1: Waivolt
-      subtitle_2: empowers independent electricians available for their next gig.
+      subtitle_2: empowers electricians available for their next job.
       subtitle_3: Stop scouring job boards and sit back as companies reach out to you first.
       title_1: The reverse job board for
       title_2: Electricians
@@ -756,12 +756,12 @@ en:
       description: Directly connect with hundreds of electricians looking for their next job.
       title: Hire electricians
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of electricians, from juniors to C-level.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of electricians, from apprentice to master.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
         message: Message directly with electricians
-        oss: Support independent electricians and OSS
+        oss: Support independent electricians
         rails: Exclusively electricians
         support: Email and video support from the founder
         title: Waivolt exclusives
@@ -809,7 +809,7 @@ en:
       hiring_developers: I'm hiring electricians
       hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master electrician.
       looking_for_work: I'm looking for work
-      looking_for_work_help_text: You're an electrician looking for your next gig.
+      looking_for_work_help_text: You're an electrician looking for your next job.
       what_brings_you_here: What brings you to Waivolt?
   sessions:
     sign_in: Sign in
