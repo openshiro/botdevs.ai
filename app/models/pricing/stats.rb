@@ -1,14 +1,20 @@
 module Pricing
   class Stats
     def developers
+      return 0 unless visible_developers.positive?
+
       SignificantFigure.new(visible_developers).rounded
     end
 
     def response_rate
+      return 1 unless conversations.positive?
+
       responded_to_conversations.fdiv(conversations)
     end
 
     def new_devs
+      return 0 unless devs_per_month.positive?
+
       SignificantFigure.new(devs_per_month).rounded
     end
 
