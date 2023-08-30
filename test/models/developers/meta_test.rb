@@ -3,35 +3,35 @@ require "test_helper"
 class Developers::MetaTest < ActiveSupport::TestCase
   test "displays role level when one is selected" do
     title = build_title(role_levels: [:junior])
-    assert_equal title, "Hire junior Ruby on Rails developers"
+    assert_equal title, "Hire junior electricians"
 
     title = build_title(role_levels: [:junior, :senior])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
 
     title = build_title(role_levels: [])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
   end
 
   test "displays 'freelance' when only both contract role types are selected" do
     title = build_title(role_types: [:part_time_contract, :full_time_contract])
-    assert_equal title, "Hire freelance Ruby on Rails developers"
+    assert_equal title, "Hire freelance electricians"
 
     title = build_title(role_types: [:part_time_contract, :full_time_contract, :full_time_employment])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
 
     title = build_title(role_types: [:part_time_contract])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
   end
 
   test "displays country if one is selected" do
     title = build_title(countries: ["United States"])
-    assert_equal title, "Hire Ruby on Rails developers in United States"
+    assert_equal title, "Hire electricians in United States"
 
     title = build_title(countries: ["United States", "Canada"])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
 
     title = build_title(countries: [])
-    assert_equal title, "Hire Ruby on Rails developers"
+    assert_equal title, "Hire electricians"
   end
 
   test "role level comes before freelance (and country at the end)" do
@@ -40,7 +40,7 @@ class Developers::MetaTest < ActiveSupport::TestCase
       role_types: [:part_time_contract, :full_time_contract],
       countries: ["United States"]
     )
-    assert_equal title, "Hire senior freelance Ruby on Rails developers in United States"
+    assert_equal title, "Hire senior freelance electricians in United States"
   end
 
   def build_title(query_options = {})

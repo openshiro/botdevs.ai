@@ -55,8 +55,8 @@ en:
         one: Business
         other: Businesses
       developer:
-        one: Developer
-        other: Developers
+        one: Electrician
+        other: Electricians
       user:
         one: User
         other: Users
@@ -67,13 +67,13 @@ en:
           actions: Actions
           business: Business
           details: Details
-          developer: Developer
+          developer: Electrician
           employment_type: Employment type
           start_date: Start date
           title: Hiring invoice requests
         show:
           billing_address: Billing address
-          developer_name: Developer Name
+          developer_name: Electrician Name
           employment_type: Employment type
           feedback: Feedback
           full_name: Full name
@@ -93,14 +93,14 @@ en:
       index:
         business: Business
         conversations: "'s conversations"
-        developer: Developer
+        developer: Electrician
         email: Email
-        email_tooltip: The developer mentioned an email address in a reply.
+        email_tooltip: The electrician mentioned an email address in a reply.
         no_potential_email: No potential email
         no_response: No response
         potential_email: Potential email
         replied: Replied
-        replied_tooltip: The developer has replied to this conversation.
+        replied_tooltip: The electrician has replied to this conversation.
         reply_rate: Reply rate
         started: Started
         title: Conversations
@@ -111,7 +111,7 @@ en:
           actions: Actions
           company: Company
           details: Details
-          developer: Developer
+          developer: Electrician
           employment_type: Employment type
           start_date: Start date
           title: Celebration package requests
@@ -161,9 +161,9 @@ en:
         view: View
     specialties:
       create:
-        created: Developer specialty created.
+        created: Electrician specialty created.
       edit:
-        title: Edit developer specialty
+        title: Edit electrician specialty
       form:
         cancel: Cancel
       index:
@@ -171,17 +171,17 @@ en:
         add: Add specialty
         delete: Delete
         delete_confirmation: Are you sure you want to delete this specialty?
-        developers: Developers
+        developers: Electricians
         edit: Edit
         name: Name
-        title: Developer specialties
+        title: Electrician specialties
       new:
-        title: New developer specialty
+        title: New electrician specialty
       show:
-        developer_specialty: Developer specialty
-        no_developers: No developers with this specialty.
+        developer_specialty: Electrician specialty
+        no_developers: No electricians with this specialty.
       update:
-        updated: Developer specialty updated.
+        updated: Electrician specialty updated.
     transactions:
       create:
         created: Transaction created
@@ -200,14 +200,14 @@ en:
     users:
       index:
         business: Business
-        developer: Developer
+        developer: Electrician
         email: Email
         impersonate: Impersonate
         title: Users
       referrals:
         index:
           business: Business
-          developer: Developer
+          developer: Electrician
           referrals: "'s referrals"
           referrals_count: Referrals
           referred_user: Referred user
@@ -262,8 +262,8 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new developers add their profile to Waivolt.
-        legend: Developer notifications
+        help_text: Receive daily or weekly email notifications when new electricians add their profile to Waivolt.
+        legend: Electrician notifications
         values:
           daily: Daily
           'no': Never
@@ -289,7 +289,7 @@ en:
       new:
         billing_address: Billing address
         description: Congrats on your new hire!
-        developer_name: Developer's name
+        developer_name: Electrician's name
         feedback: Feedback (optional)
         feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
         requesting: Requesting...
@@ -313,8 +313,8 @@ en:
       title: Requires an active business subscription.
     upgrade_required_component:
       body:
-        expired: Your subscription has expired. Reactivate your account to continue messaging developers.
-        upgrade: With your current plan you can only message developers looking for part-time work. Upgrade your account to message this developer.
+        expired: Your subscription has expired. Reactivate your account to continue messaging electricians.
+        upgrade: With your current plan you can only message electricians looking for part-time work. Upgrade your account to message this electrician.
       cta:
         expired: Reactivate my account
         upgrade: Upgrade my account
@@ -332,8 +332,8 @@ en:
     ago: ago
     index:
       empty_state:
-        body: Get started by finding a developer to message.
-        cta: Find a developer
+        body: Get started by finding a electrician to message.
+        cta: Find a electrician
         title: No conversations
       title: Your conversations
     read_indicator_component:
@@ -384,23 +384,23 @@ en:
         title: Did you find a job through Waivolt?
     count_component:
       cta: Reset filters
-      title_html: Showing <span class='font-bold'>%{count}</span> of <span class='font-bold'>%{total}</span>+ developers.
+      title_html: Showing <span class='font-bold'>%{count}</span> of <span class='font-bold'>%{total}</span>+ electricians.
     cover_image_component:
-      alt: Developer's cover image
+      alt: Electrician's cover image
     create:
       created: Your profile was added!
     details:
       title: Details
     edit:
-      title: Your developer profile
+      title: Your electrician profile
     form:
       bio:
-        description: Share a few paragraphs on what makes you unique as a developer. This is your chance to market yourself to potential employers – sell yourself a little!
+        description: Share a few paragraphs on what makes you unique as a electrician. This is your chance to market yourself to potential employers – sell yourself a little!
         examples:
           accomplishment: A recent milestone or accomplishment
           help: How you can help where others can't
           learned: Something new you learned
-          origin: Your developer origin story
+          origin: Your electrician origin story
           passion: What you're passionate about
           title: Example topics
           unique: Your unique skills that make you awesome
@@ -412,7 +412,7 @@ en:
         product_announcement_notifications: Feature announcements
         product_announcement_notifications_help: Keep me up to date with new product features.
         profile_reminder_notifications: Profile reminders
-        profile_reminder_notifications_help: Periodically remind me to update my developer profile.
+        profile_reminder_notifications_help: Periodically remind me to update my electrician profile.
         title: Email notifications
       online_presence:
         help_text: Where can people learn more about you and your work?
@@ -423,7 +423,7 @@ en:
         change: Upload
         cover_image: Cover image
         help_text: This information will be displayed publicly so be careful what you share.
-        hero_help_text: Summarize yourself as a developer in a few words.
+        hero_help_text: Summarize yourself as a electrician in a few words.
         location_help_text: Providing your location makes it easier to connect with local business.
         name_help_text_html: Your name will <i>not</i> be displayed on your public profile.
         title: Profile
@@ -446,15 +446,15 @@ en:
         open_help_text: Companies can still find you, but you won't appear on the homepage.
         title: Search status
       specialties:
-        description: Choose up to 5 specialties that set you apart from other developers. Pick ones that you are passionate about - you don't need to be an expert.
+        description: Choose up to 5 specialties that set you apart from other electricians. Pick ones that you are passionate about - you don't need to be an expert.
         new:
           before: If you don't see a specialty that matches your unique skills you can
           cta: suggest a new specialty
-          subject: New developer specialty suggestion
+          subject: New electrician specialty suggestion
         note:
           description: This feature is in beta and might be changed. Add your specialties ASAP - businesses will be able to filter by them soon.
           title: BETA
-      title: Your developer profile
+      title: Your electrician profile
       updating: Updating...
       work_preferences:
         help_text: What kind of work are you looking for next?
@@ -462,11 +462,11 @@ en:
     index:
       empty_state:
         body: Try changing or clearing your filters.
-        title: No developers found
+        title: No electricians found
       title: Electricians
     invisible_banner_component:
       cta: Edit my profile
-      title: Your developer profile is invisible – only you can see it.
+      title: Your electrician profile is invisible – only you can see it.
     meta:
       description: "%{count}+ electricians looking for their next gig. Juniors to seniors and everyone in between, you'll find them all here."
       freelance: freelance
@@ -477,9 +477,9 @@ en:
       new: New!
     new_fields_component:
       cta: Complete my profile
-      title: New fields were added to developer profiles!
+      title: New fields were added to electrician profiles!
     open_graph_tags_component:
-      turbo_native_title: Developer profile
+      turbo_native_title: Electrician profile
     profile_action_component:
       add_profile: Add my profile
       edit_profile: Update my profile
@@ -494,7 +494,7 @@ en:
       country:
         title: Location
       filters: Filters
-      include_not_interested: Include developers not currently interested
+      include_not_interested: Include electricians not currently interested
       paywalled_search:
         title: Text search requires a paid account.
       role_level:
@@ -505,7 +505,7 @@ en:
         title: Specialties
       timezone:
         title: Timezone
-      title: Developer filters
+      title: Electrician filters
       work_preference:
         title: Work preference
     query_sort_button_component:
@@ -534,11 +534,11 @@ en:
       updated: Your profile was updated!
   dir: ltr
   errors:
-    business_blank: Fill out your business profile to message developers.
-    business_subscription_inactive: Sign up for a business subscription to message developers.
-    developer_blank: Please create a developer profile first.
+    business_blank: Fill out your business profile to message electricians.
+    business_subscription_inactive: Sign up for a business subscription to message electricians.
+    developer_blank: Please create a electrician profile first.
     hiring_agreements:
-      cold_message: Please sign the hiring agreement to message developers.
+      cold_message: Please sign the hiring agreement to message electricians.
       payment: Please sign the hiring agreement before subscribing.
     messages:
       attached: is not attached
@@ -569,13 +569,13 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: Waivolt empowers independent developers available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
+      description_og: Waivolt empowers independent electricians available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
       developers_heading: New electricians on Waivolt
       get_started: Get started
       learn_more: Learn more
-      more: See more developers
+      more: See more electricians
       subtitle_1: Waivolt
-      subtitle_2: empowers independent developers available for their next gig.
+      subtitle_2: empowers independent electricians available for their next gig.
       subtitle_3: Stop scouring job boards and sit back as companies reach out to you first.
       title_1: The reverse job board for
       title_2: Electricians
@@ -589,7 +589,7 @@ en:
   messages:
     form:
       help: Add your message
-      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this developer for a full-time role.
+      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this electrician for a full-time role.
       hiring_fee_cta: Questions?
       sending: Sending...
       submit: Send
@@ -600,7 +600,7 @@ en:
   nav_bar:
     base_component:
       affiliates: Affiliate program
-      developers: Developers
+      developers: Electricians
       home: Home
       pricing: Pricing
     guest_component:
@@ -619,13 +619,13 @@ en:
       hiring_agreement_terms: Hiring agreement terms
       my_business_profile: My business profile
       my_conversations: My conversations
-      my_developer_profile: My developer profile
+      my_developer_profile: My electrician profile
       new: New!
       new_notifications: You have a new notification
       open_user_menu: Open user menu
       referrals: Referrals
       sign_out: Sign out
-      specialties: Developer specialties
+      specialties: Electrician specialties
       transactions: Transactions
       users: Users
       view_conversations: View conversations
@@ -637,7 +637,7 @@ en:
           title: "%{email} requested to join the affiliate program"
       businesses:
         hiring_invoice_request_notification:
-          title: "%{business} hired a developer"
+          title: "%{business} hired an electrician"
       developers:
         celebration_package_request:
           title: "%{developer} requested a celebration package"
@@ -648,8 +648,8 @@ en:
         email_subject: New conversation started
         title: "%{name} (%{company}) started a conversation with %{developer}"
       new_developer_notification:
-        email_subject: New developer profile added
-        title: "%{developer} added their developer profile"
+        email_subject: New electrician profile added
+        title: "%{developer} added their electrician profile"
       potential_hire_notification:
         email_subject: New potential hire
         title: "%{developer} may have been hired"
@@ -660,11 +660,11 @@ en:
       invisiblize_notification:
         title: Your profile on Waivolt was flagged
       product_announcement_notification:
-        email_subject: "[Waivolt] New feature alert: Developer specialties 🚨"
-        title: 'New feature alert: Developer specialties'
+        email_subject: "[Waivolt] New feature alert: Electrician specialties 🚨"
+        title: 'New feature alert: Electrician specialties'
       profile_reminder_notification:
         email_subject: Is your Waivolt profile up to date?
-        title: Is your developer profile up to date?
+        title: Is your electrician profile up to date?
     index:
       cta: View history
       empty_state:
@@ -743,8 +743,8 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. Waivolt is free for developers.
-        q: Does Waivolt cost anything for developers?
+        a: No. Waivolt is free for electricians.
+        q: Does Waivolt cost anything for electricians?
       fee:
         a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
@@ -760,8 +760,8 @@ en:
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
-        message: Message directly with developers
-        oss: Support independent developers and OSS
+        message: Message directly with electricians
+        oss: Support independent electricians and OSS
         rails: Exclusively electricians
         support: Email and video support from the founder
         title: Waivolt exclusives
@@ -784,7 +784,7 @@ en:
     new:
       cancel: Cancel
       copy_link: Copy link
-      message: Share your developer profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
+      message: Share your electrician profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
       title: Share your profile
   read_notifications:
     create:
@@ -806,7 +806,7 @@ en:
       interested_in_roles: Interested in roles
   roles:
     new:
-      hiring_developers: I'm hiring developers
+      hiring_developers: I'm hiring electricians
       hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master electrician.
       looking_for_work: I'm looking for work
       looking_for_work_help_text: You're an electrician looking for your next gig.

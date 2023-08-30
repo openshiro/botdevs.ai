@@ -1,6 +1,6 @@
 # RailsDevs
 
-The reverse job board for Rails developers.
+The reverse job board for electricians.
 
 ![RailsDevs homepage](https://user-images.githubusercontent.com/2092156/147028085-eea40303-c572-48c0-b107-0be93cce067c.png)
 
