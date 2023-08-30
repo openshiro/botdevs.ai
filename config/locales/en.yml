@@ -217,7 +217,7 @@ en:
   affiliates:
     registrations:
       create:
-        notice: Your request will be approved shortly. Look out for an email from Joe soon.
+        notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
         description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for electricians.
         title: Earn money promoting Waivolt
@@ -285,7 +285,7 @@ en:
       title: Have you hired %{developer}?
     hiring_invoice_requests:
       create:
-        success: Thank you! Joe will reach out to you soon.
+        success: Thank you! Duncan will reach out to you soon.
       new:
         billing_address: Billing address
         description: Congrats on your new hire!
@@ -371,7 +371,7 @@ en:
       source_contributor: Source contributor
     celebration_package_requests:
       create:
-        success: Thank you! Joe will reach out to you soon.
+        success: Thank you! Duncan will reach out to you soon.
       new:
         company_name: Company name
         description: Congrats on your new job! Tell us about it and we'll send you a custom Waivolt celebration package free.
@@ -559,7 +559,7 @@ en:
         accepting: Accepting...
         agreement: By checking this box I confirm understanding and acceptance of the outlined terms. I acknowledge that this constitutes a legally binding agreement under applicable laws.
         description: Last updated %{last_updated}
-        questions_html: Questions? Email the founder – that's me, Joe! – at <a href="mailto:duncan@waivolt.com" class="font-medium no-underline hover:underline">duncan@waivolt.com</a>.
+        questions_html: Questions? Email the founder – that's me, Duncan! – at <a href="mailto:duncan@waivolt.com" class="font-medium no-underline hover:underline">duncan@waivolt.com</a>.
         sign_below: Sign agreement below
         title: Waivolt hiring agreement
     terms:
@@ -737,7 +737,7 @@ en:
       title: Ready to start hiring?
     faq:
       annual:
-        a_html: Yes. Email Joe to set up discounted annual billing at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
+        a_html: Yes. Email Duncan to set up discounted annual billing at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
         q: Can I pay annually or yearly?
       cancellation:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
@@ -749,7 +749,7 @@ en:
         a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
       support:
-        a_html: Email the founder – that's me, Joe! – with any questions. You can reach me at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
+        a_html: Email the founder – that's me, Duncan! – with any questions. You can reach me at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
         q: Who can I contact for more specific questions?
       title: Frequently asked questions
     hero:
@@ -852,8 +852,8 @@ en:
       title: Private information
     suspended:
       show:
-        cta: Email Joe
-        description: Failure to comply with the hiring agreement has forced Waivolt to suspend your account. Contact Joe to pay your obligated hiring fees and resume your account.
+        cta: Email Duncan
+        description: Failure to comply with the hiring agreement has forced Waivolt to suspend your account. Contact Duncan to pay your obligated hiring fees and resume your account.
         learn_more: Learn more
         title: Your account has been suspended.
   utc_offsets:
