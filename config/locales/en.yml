@@ -683,13 +683,13 @@ en:
         amount: Amount
         contributions: Contributions
         date: Date
-        description: Waivolt contributes 10% of profits to women-focused communities and 2% of revenue to CO₂ removal.
+        description: Waivolt contributes 10% of profits to educational scholarships and 1% of revenue to CO₂ removal.
         external_link: Open in new tab
         open_startup: Open startup
         recipient: Recipient
         title: Waivolt contributions
         to_co2_removal: to CO₂ removal
-        to_communities: to communities
+        to_communities: to scholarships
     dashboard:
       show:
         contributions: Contributions
@@ -715,7 +715,7 @@ en:
       index:
         amount: Amount
         date: Date
-        description: All revenue Waivolt has generated since launching in November, 2021.
+        description: All revenue Waivolt has generated since launching in 2023.
         open_startup: Open startup
         revenue: Revenue
         source: Source
