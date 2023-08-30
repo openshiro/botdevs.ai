@@ -81,7 +81,7 @@ jobs:
       - name: Prepare database
         env:
           RAILS_ENV: test
-          DATABASE_URL: postgres://postgres:password@localhost:5432/railsdevs_test
+          DATABASE_URL: postgres://postgres:password@localhost:5432/waivolt_test
           RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
           TZ: America/New_York
         run: |
@@ -91,7 +91,7 @@ jobs:
       - name: Run tests
         env:
           RAILS_ENV: test
-          DATABASE_URL: postgres://postgres:password@localhost:5432/railsdevs_test
+          DATABASE_URL: postgres://postgres:password@localhost:5432/waivolt_test
           RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
           TZ: America/New_York
         run: |
@@ -101,7 +101,7 @@ jobs:
       - name: Smoke test database seeds
         env:
           RAILS_ENV: test
-          DATABASE_URL: postgres://postgres:password@localhost:5432/railsdevs_test
+          DATABASE_URL: postgres://postgres:password@localhost:5432/waivolt_test
           RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
           TZ: America/New_York
         run: bin/rails db:reset
@@ -109,7 +109,7 @@ jobs:
       - name: Verify mailer previews
         env:
           RAILS_ENV: test
-          DATABASE_URL: postgres://postgres:password@localhost:5432/railsdevs_test
+          DATABASE_URL: postgres://postgres:password@localhost:5432/waivolt_test
           RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
           TZ: America/New_York
         run: bin/rails verify_mailer_previews

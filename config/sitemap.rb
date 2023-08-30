@@ -1,6 +1,6 @@
 require "aws-sdk-s3"
 
-SitemapGenerator::Sitemap.default_host = "https://railsdevs.com"
+SitemapGenerator::Sitemap.default_host = "https://waivolt.com"
 SitemapGenerator::Sitemap.public_path = "tmp"
 SitemapGenerator::Sitemap.sitemaps_host = Rails.configuration.sitemaps_host
 SitemapGenerator::Sitemap.sitemaps_path = "sitemaps/"

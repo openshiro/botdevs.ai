@@ -1,6 +1,6 @@
 shared:
   support: duncan@waivolt.com
   support_mailbox: "Joe Masilotti from RailsDevs <duncan@waivolt.com>"
-  notifications_mailbox: "RailsDevs <notifications@railsdevs.com>"
-  updates_mailbox: "RailsDevs <updates@railsdevs.com>"
-  reminders_mailbox: "RailsDevs <reminders@railsdevs.com>"
+  notifications_mailbox: "RailsDevs <notifications@waivolt.com>"
+  updates_mailbox: "RailsDevs <updates@waivolt.com>"
+  reminders_mailbox: "RailsDevs <reminders@waivolt.com>"
