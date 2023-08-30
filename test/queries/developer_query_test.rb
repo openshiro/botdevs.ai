@@ -49,7 +49,7 @@ class DeveloperQueryTest < ActiveSupport::TestCase
     {
       utc_offsets: [1],
       role_types: [:full_time_employment],
-      role_levels: [:junior],
+      role_levels: [:entry_level],
       include_not_interested: true,
       search_query: "developer"
     }.each do |key, value|
@@ -102,16 +102,16 @@ class DeveloperQueryTest < ActiveSupport::TestCase
   end
 
   test "filtering by role level" do
-    junior = create_developer(role_level_attributes: {junior: true})
-    mid = create_developer(role_level_attributes: {mid: true})
-    senior = create_developer(role_level_attributes: {senior: true})
+    entry_level = create_developer(role_level_attributes: {entry_level: true})
+    apprentice = create_developer(role_level_attributes: {apprentice: true})
+    journeyman = create_developer(role_level_attributes: {journeyman: true})
     blank = create_developer
 
-    records = DeveloperQuery.new(role_levels: ["junior", "mid"]).records
+    records = DeveloperQuery.new(role_levels: ["entry_level", "apprentice"]).records
 
-    assert_includes records, junior
-    assert_includes records, mid
-    refute_includes records, senior
+    assert_includes records, entry_level
+    assert_includes records, apprentice
+    refute_includes records, journeyman
     refute_includes records, blank
   end
 
@@ -201,7 +201,7 @@ class DeveloperQueryTest < ActiveSupport::TestCase
       sort: :newest,
       utc_offsets:,
       role_types: [:part_time_contract],
-      role_levels: [:junior],
+      role_levels: [:entry_level],
       include_not_interested: true,
       search_query: "rails engineer",
       countries: ["United States"],

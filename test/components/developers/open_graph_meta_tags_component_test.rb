@@ -11,7 +11,7 @@ module Developers
 
       assert_meta property: "og:title", content: "#{developer.hero} · Waivolt"
       assert_meta property: "og:description", content: developer.bio
-      assert_meta property: "og:url", content: "http://test.host/developers/#{developer.hashid}"
+      assert_meta property: "og:url", content: "http://test.host/electricians/#{developer.hashid}"
     end
 
     test "excludes special tags when not present" do

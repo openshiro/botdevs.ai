@@ -29,10 +29,10 @@ en:
         country_code: Country
       role_level:
         c_level: C-level
-        junior: Junior
-        mid: Mid-level
-        principal: Principal / staff
-        senior: Senior
+        entry_level: Entry-level
+        apprentice: Apprentice
+        master: Master
+        journeyman: Journeyman
       role_type:
         full_time_contract: Full-time contract
         full_time_employment: Full-time employment

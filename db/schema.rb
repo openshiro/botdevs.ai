@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_06_182219) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_stat_statements"
   enable_extension "plpgsql"
@@ -418,11 +418,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_06_182219) do
 
   create_table "role_levels", force: :cascade do |t|
     t.bigint "developer_id"
-    t.boolean "junior"
-    t.boolean "mid"
-    t.boolean "senior"
-    t.boolean "principal"
-    t.boolean "c_level"
+    t.boolean "entry_level"
+    t.boolean "apprentice"
+    t.boolean "journeyman"
+    t.boolean "master"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["developer_id"], name: "index_role_levels_on_developer_id", unique: true

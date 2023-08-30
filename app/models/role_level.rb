@@ -1,5 +1,5 @@
 class RoleLevel < ApplicationRecord
-  TYPES = %i[junior mid senior principal c_level].freeze
+  TYPES = %i[entry_level apprentice journeyman master].freeze
 
   belongs_to :developer
 

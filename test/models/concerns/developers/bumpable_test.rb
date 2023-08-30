@@ -18,7 +18,7 @@ module Developers
       end
 
       assert_changes "@developer.profile_updated_at" do
-        @developer.update!(role_level_attributes: {junior: false}, user_initiated: true)
+        @developer.update!(role_level_attributes: {entry_level: false}, user_initiated: true)
       end
 
       assert_changes "@developer.profile_updated_at" do

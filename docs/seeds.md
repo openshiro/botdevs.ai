@@ -16,7 +16,7 @@ The "named" developers cover most states of each field on the profile. There are
 * `minimum@example.com` - Has filled in the absolute minimum profile fields.
 * `invisible@example.com` - Will not show up in search results.
 * `stale@example.com` - Updates their profile over a month ago.
-* `junior@example.com` - Actively looking for full-time junior roles.
+* `entry_level@example.com` - Actively looking for full-time entry_level roles.
 * `freelancer@example.com` - Available soon, open to offers, and looking for contract work.
 * `new@example.com` - A recently added profile.
 * `updated@example.com` - A recently updated profile.

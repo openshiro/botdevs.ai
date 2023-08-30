@@ -13,11 +13,10 @@ module RoleLevels
 
       render_inline Component.new(role_level)
 
-      assert_text RoleLevel.human_attribute_name("junior")
-      assert_text RoleLevel.human_attribute_name("senior")
-      assert_text RoleLevel.human_attribute_name("principal")
-      assert_no_text RoleLevel.human_attribute_name("mid")
-      assert_no_text RoleLevel.human_attribute_name("c_level")
+      assert_text RoleLevel.human_attribute_name("entry_level")
+      assert_text RoleLevel.human_attribute_name("journeyman")
+      assert_text RoleLevel.human_attribute_name("master")
+      assert_no_text RoleLevel.human_attribute_name("apprentice")
     end
   end
 end
