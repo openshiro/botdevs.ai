@@ -303,26 +303,6 @@
 
         <div class="mt-5 md:mt-0 md:col-span-2">
           <div class="space-y-6">
-            <div>
-              <%= form.label :website, class: "block text-sm font-medium text-gray-700" %>
-              <div class="mt-1 flex rounded-md shadow-sm">
-                <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                  https://
-                </span>
-                <%= form.text_field :website, class: "flex-1 focus:ring-gray-500 focus:border-gray-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300" %>
-              </div>
-            </div>
-
-            <div class="sm:col-start-1 sm:col-end-4">
-              <%= form.label :github, class: "block text-sm font-medium text-gray-700" %>
-              <div class="mt-1 flex rounded-md shadow-sm">
-                <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                  github.com/
-                </span>
-                <%= form.text_field :github, class: "flex-1 focus:ring-gray-500 focus:border-gray-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300" %>
-              </div>
-            </div>
-
             <div class="sm:col-start-1 sm:col-end-4">
               <%= form.label :linkedin, class: "block text-sm font-medium text-gray-700" %>
               <div class="mt-1 flex rounded-md shadow-sm">
@@ -333,13 +313,13 @@
               </div>
             </div>
 
-            <div class="sm:col-start-1 sm:col-end-4">
-              <%= form.label :stack_overflow, "Stack Overflow", class: "block text-sm font-medium text-gray-700" %>
+            <div>
+              <%= form.label :website, class: "block text-sm font-medium text-gray-700" %>
               <div class="mt-1 flex rounded-md shadow-sm">
                 <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                  stackoverflow/users/
+                  https://
                 </span>
-                <%= form.text_field :stack_overflow, class: "flex-1 focus:ring-gray-500 focus:border-gray-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300" %>
+                <%= form.text_field :website, class: "flex-1 focus:ring-gray-500 focus:border-gray-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300" %>
               </div>
             </div>
 
@@ -353,15 +333,6 @@
               </div>
             </div>
 
-            <div>
-              <%= form.label :mastodon, class: "block text-sm font-medium text-gray-700" %>
-              <div class="mt-1 flex rounded-md shadow-sm">
-                <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                  https://
-                </span>
-                <%= form.text_field :mastodon, class: "flex-1 focus:ring-gray-500 focus:border-gray-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300" %>
-              </div>
-            </div>
           </div>
         </div>
       </div>
