@@ -219,7 +219,7 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Joe soon.
       index:
-        description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for Ruby on Rails developers.
+        description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for electricians.
         title: Earn money promoting Waivolt
       new:
         agreement: I agree to these rules
@@ -463,16 +463,16 @@ en:
       empty_state:
         body: Try changing or clearing your filters.
         title: No developers found
-      title: Ruby on Rails developers
+      title: Electricians
     invisible_banner_component:
       cta: Edit my profile
       title: Your developer profile is invisible – only you can see it.
     meta:
-      description: "%{count}+ Ruby on Rails developers looking for their next gig. Juniors to seniors and everyone in between, you'll find them all here."
+      description: "%{count}+ electricians looking for their next gig. Juniors to seniors and everyone in between, you'll find them all here."
       freelance: freelance
       hire: Hire
       in_country: in %{country}
-      ruby_on_rails_developers: Ruby on Rails developers
+      ruby_on_rails_developers: electricians
     new_field_component:
       new: New!
     new_fields_component:
@@ -570,7 +570,7 @@ en:
   home:
     show:
       description_og: Waivolt empowers independent developers available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New Rails developers on Waivolt
+      developers_heading: New electricians on Waivolt
       get_started: Get started
       learn_more: Learn more
       more: See more developers
@@ -578,8 +578,8 @@ en:
       subtitle_2: empowers independent developers available for their next gig.
       subtitle_3: Stop scouring job boards and sit back as companies reach out to you first.
       title_1: The reverse job board for
-      title_2: Rails developers
-      title_og: The reverse job board for Ruby on Rails developers
+      title_2: Electricians
+      title_og: The reverse job board for electrcians
       turbo_native_title: Waivolt
   impersonating_banner_component:
     cta: Sign out
@@ -733,7 +733,7 @@ en:
   pricing:
     cta:
       cta: Get started today
-      subtitle: Find your next Rails developer today.
+      subtitle: Find your next electrician today.
       title: Ready to start hiring?
     faq:
       annual:
@@ -753,16 +753,16 @@ en:
         q: Who can I contact for more specific questions?
       title: Frequently asked questions
     hero:
-      description: Directly connect with hundreds of Ruby on Rails developers looking for their next job.
-      title: Hire Ruby on Rails developers
+      description: Directly connect with hundreds of electricians looking for their next job.
+      title: Hire electricians
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of Ruby on Rails developers, from juniors to C-level.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of electricians, from juniors to C-level.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
         message: Message directly with developers
         oss: Support independent developers and OSS
-        rails: Exclusively Ruby on Rails developers
+        rails: Exclusively electricians
         support: Email and video support from the founder
         title: Waivolt exclusives
       hiring_fee: "+ 10% first year salary"
@@ -771,15 +771,15 @@ en:
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to Waivolt and directly connect with hundreds of Ruby on Rails developers who are looking for freelance, contract, and full-time work.
+      description: Subscribe to Waivolt and directly connect with hundreds of electricians who are looking for freelance, contract, and full-time work.
       title_og: Pricing
-      turbo_native_title: Hire Rails developers
+      turbo_native_title: Hire electricians
     stats:
       description: Organic, genuine conversations with higher response rates than LinkedIn or cold email.
       new_devs: New devs a month
-      rails_developers: Rails developers
+      rails_developers: Electricians
       response_rate: Response rate
-      title: The Rails-only hiring platform
+      title: The electrician hiring platform
   public_profiles:
     new:
       cancel: Cancel
@@ -807,9 +807,9 @@ en:
   roles:
     new:
       hiring_developers: I'm hiring developers
-      hiring_developers_help_text: You're a business looking to hire a freelance, part-time, or full-time Ruby on Rails developer.
+      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master electrician.
       looking_for_work: I'm looking for work
-      looking_for_work_help_text: You're a Ruby on Rails developer looking for your next gig.
+      looking_for_work_help_text: You're an electrician looking for your next gig.
       what_brings_you_here: What brings you to Waivolt?
   sessions:
     sign_in: Sign in
@@ -841,7 +841,7 @@ en:
     saving: Saving...
   subscription_cta_component:
     cta: Start hiring
-    description: Gain access to %{developers}+ Ruby on Rails developers.
+    description: Gain access to %{developers}+ electricians.
     title: Sign up now to see more profiles.
   users:
     paywalled:
