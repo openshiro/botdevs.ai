@@ -12,7 +12,6 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "pg_stat_statements"
   enable_extension "plpgsql"
 
   create_table "action_mailbox_inbound_emails", force: :cascade do |t|
@@ -142,8 +141,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
     t.string "stack_overflow"
     t.string "public_profile_key"
     t.boolean "source_contributor", default: false, null: false
-    t.string "mastodon"
     t.integer "response_rate", default: 0, null: false
+    t.string "mastodon"
     t.boolean "product_announcement_notifications", default: true
     t.string "scheduling_link"
     t.datetime "profile_updated_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
@@ -380,8 +379,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
     t.string "processor_plan", null: false
     t.integer "quantity", default: 1, null: false
     t.string "status", null: false
-    t.datetime "trial_ends_at", precision: nil
-    t.datetime "ends_at", precision: nil
+    t.datetime "trial_ends_at"
+    t.datetime "ends_at"
     t.decimal "application_fee_percent", precision: 8, scale: 2
     t.jsonb "metadata"
     t.jsonb "data"
