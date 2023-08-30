@@ -10,12 +10,12 @@ Waivolt strives to give power back to the independent developer. Instead of comp
 
 Waivolt is an Open Startup *and* open source. It operates fully transparent and shares its metrics, like revenue and traffic.
 
-* [Source code](https://github.com/joemasilotti/railsdevs.com/)
+* [Source code](https://github.com/openshiro/waivolt/)
 * [Public analytics](https://app.usefathom.com/share/cacnfaan/railsdevs.com)
 * [Revenue and expenses](/open)
 * [Bug reports](https://app.honeybadger.io/project/EKRGgkQdR0)
 
-On top of that, I'm making all my decisions in public. I'm posting questions and ideas when I'm looking for feedback on [GitHub Discussions](https://github.com/joemasilotti/railsdevs.com/discussions). And I'm tweeting about work in progress (and sneak previews) [on Twitter](https://twitter.com/joemasilotti).
+On top of that, I'm making all my decisions in public. I'm posting questions and ideas when I'm looking for feedback on [GitHub Discussions](https://github.com/openshiro/waivolt/discussions). And I'm tweeting about work in progress (and sneak previews) [on Twitter](https://twitter.com/joemasilotti).
 
 ### Creating a safe, inclusive environment
 
