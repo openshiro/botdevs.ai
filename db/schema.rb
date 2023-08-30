@@ -340,7 +340,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_06_182219) do
     t.string "owner_type"
     t.bigint "owner_id"
     t.string "processor", null: false
-    t.string "processor_id", precision: nil
+    t.string "processor_id"
     t.boolean "default"
     t.jsonb "data"
     t.datetime "deleted_at"
