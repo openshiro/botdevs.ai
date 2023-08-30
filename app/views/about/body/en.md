@@ -1,6 +1,6 @@
 ### Empowering electricians
 
-I've been working in training for the building trades since 2007. As founder and former president of [HeatSpring](https://heatspring.com), I built an online training platform responsible for training tens of thousands of electricians. In 2023 I created Waivolt, an Oregon benefit company, to help companies hire electricians.
+I've been working in training for the building trades since 2007. With my first company, HeatSpring, I built an online training platform responsible for training tens of thousands of electrcians on clean energy techologies like solar PV. In 2023 I created Waivolt, an Oregon benefit company, to help electricians find work.
 
 Now more than ever, the world is in need of electricians. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment to electrify everything. Millions of electricans will be required to do the job, are you up for saving the planet?
 
