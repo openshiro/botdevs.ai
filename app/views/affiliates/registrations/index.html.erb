@@ -12,7 +12,7 @@
     <!-- Details -->
     <div class="mt-10 max-w-2xl">
       <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">How much can I make?</h2>
-      <p class="mt-6">Waivolt charges businesses $299 for a monthly subscription and a 10% hiring fee for full-time employees. If you refer a business that subscribes for 3 months and hires a developer at $150,000 <span class="font-semibold">you will make about $1,600</span>.</p>
+      <p class="mt-6">Waivolt charges businesses $299 for a monthly subscription and a 10% hiring fee for full-time employees. If you refer a business that subscribes for 3 months and hires an electrician at $50,000 <span class="font-semibold">you will make about $600</span>.</p>
     </div>
 
     <!-- How it works -->
@@ -21,7 +21,7 @@
       <ol role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
         <li class="flex flex-col">
           <strong class="font-semibold text-gray-900">Step 1</strong>
-          Sign up for a Waivolt account. You don't need to create a developer or business profile and it's free to join.
+          Sign up for a Waivolt account. You don't need to create an electrician or business profile and it's free to join.
         </li>
         <li class="flex flex-col">
           <strong class="font-semibold text-gray-900">Step 2</strong>
@@ -32,7 +32,7 @@
           Get paid 10% recurring commissions. You’ll get paid for every month your referral is a paying customer of Waivolt.
         </li>
       </ol>
-      <p class="mt-8">Commissions include the monthly subscription fee <em>and</em> hiring fees. If your referral hires a developer for $150,000 you will receive $1,500 - 10% of the <%= link_to "10% hiring fee", pricing_path, class: "font-semibold underline" %>.</p>
+      <p class="mt-8">Commissions include the monthly subscription fee <em>and</em> hiring fees. If your referral hires an electrician for $50,000 you will receive $500 (10% of the <%= link_to "10% hiring fee", pricing_path, class: "font-semibold underline" %>).</p>
     </div>
 
     <!-- Rules -->
@@ -40,7 +40,7 @@
       <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Program rules</h2>
       <ol role="list" class="mt-8 max-w-xl space-y-2 text-gray-600">
         <li>You can't refer yourself.</li>
-        <li>You <em>can</em> refer your hiring manager, CTO, HR department, etc.</li>
+        <li>You <em>can</em> refer your hiring manager, HR department, etc.</li>
         <li>No ads and no pretending to be an employee.</li>
       </ol>
       <p class="mt-8">Questions? <%= link_to "Send Duncan an email", "mailto:#{Rails.application.config.emails.support}", class: "font-semibold underline" %>.</p>
@@ -55,13 +55,13 @@
             <span class="text-base font-semibold leading-7">How do I get paid?</span>
           </dt>
           <dd class="mt-2">
-            <p class="text-base leading-7 text-gray-600">Commission fees pay out on the first business day of each month. Affiliates are paid via PayPal and have no minimums to hit before you receive your money.</p>
+            <p class="text-base leading-7 text-gray-600">Commission fees pay out on the first business day of each month. Affiliates are paid via check or direct deposit and have no minimums to hit before you receive your money.</p>
           </dd>
         </div>
 
         <div>
           <dt>
-            <span class="text-base font-semibold leading-7">How do I track my referrals?</span>
+            <span class="text-base font-semibold leading-7">How do I see my referrals?</span>
           </dt>
           <dd class="mt-2">
             <p class="text-base leading-7 text-gray-600"><%= link_to "Email Duncan", "mailto:#{Rails.application.config.emails.support}", class: "font-semibold underline" %> for a report on your referrals. A self-serve dashboard is coming soon.</p>
@@ -79,7 +79,7 @@
 
         <div>
           <dt>
-            <span class="text-base font-semibold leading-7">Do I get money for referring developers?</span>
+            <span class="text-base font-semibold leading-7">Do I get money for referring electricians?</span>
           </dt>
           <dd class="mt-2">
             <p class="text-base leading-7 text-gray-600">Not at this time, no. You only get paid for referring businesses that sign up for a paid subscription.</p>
