@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: waivolt_production
-  username: waivolt
-  password: <%= ENV["WAIVOLT_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
