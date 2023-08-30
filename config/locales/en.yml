@@ -2,11 +2,11 @@
 en:
   about:
     show:
-      caption: founder of RailsDevs
-      description: I'm Joe Masilotti. I'm building RailsDevs to make it easier for Ruby on Rails developers to find their next gig.
+      caption: founder of Waivolt
+      description: I'm Joe Masilotti. I'm building Waivolt to make it easier for Ruby on Rails developers to find their next gig.
       readtime: 1 minute read
       title: About
-      title_og: About RailsDevs
+      title_og: About Waivolt
   activerecord:
     attributes:
       business:
@@ -219,14 +219,14 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Joe soon.
       index:
-        description: Earn 10% recurring commissions for every referral to RailsDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for Ruby on Rails developers.
-        title: Earn money promoting RailsDevs
+        description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for Ruby on Rails developers.
+        title: Earn money promoting Waivolt
       new:
         agreement: I agree to these rules
         submit: Register
         submitting: Registering...
         subtitle: Program rules
-        title: RailsDevs affiliate program registration
+        title: Waivolt affiliate program registration
   blocks:
     create:
       notice: "%{other_recipient} was blocked."
@@ -237,11 +237,11 @@ en:
       title: Block sender
   business_mailer:
     cancel_subscription:
-      subject: RailsDevs cancellation confirmation
+      subject: Waivolt cancellation confirmation
     subscribed:
-      subject: "Your RailsDevs subscription is live! 🎉 Let's find your perfect match."
+      subject: "Your Waivolt subscription is live! 🎉 Let's find your perfect match."
     welcome:
-      subject: "Welcome to RailsDevs 👋"
+      subject: "Welcome to Waivolt 👋"
   businesses:
     admin_component:
       conversations: Conversations
@@ -262,7 +262,7 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new developers add their profile to RailsDevs.
+        help_text: Receive daily or weekly email notifications when new developers add their profile to Waivolt.
         legend: Developer notifications
         values:
           daily: Daily
@@ -272,11 +272,11 @@ en:
       notifications:
         title: Email notifications
       personal:
-        help: Information about you, the contact point for your business on RailsDevs.
+        help: Information about you, the contact point for your business on Waivolt.
         title: Personal details
       something_went_wrong: Something went wrong uploading your image, please try again.
       survey_request_notifications:
-        help_text: Help RailsDevs by receiving short, infrequent surveys about how you use the platform.
+        help_text: Help Waivolt by receiving short, infrequent surveys about how you use the platform.
         legend: Survey requests
       updating: Updating...
       your_business_profile: Your business profile
@@ -291,10 +291,10 @@ en:
         description: Congrats on your new hire!
         developer_name: Developer's name
         feedback: Feedback (optional)
-        feedback_help: Please let us know how we can improve RailsDevs or anything you'd like to share.
+        feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
         requesting: Requesting...
         submit: Submit
-        title: Did you hire through RailsDevs?
+        title: Did you hire through Waivolt?
     primary_action_component:
       edit: Edit
     scheduling_link_component:
@@ -352,9 +352,9 @@ en:
     celebration_promotion:
       subject: How's your conversation going with %{contact} at %{company}?
     first_message:
-      subject: Tips on responding to your first message on RailsDevs
+      subject: Tips on responding to your first message on Waivolt
     welcome:
-      subject: "Welcome to RailsDevs 👋"
+      subject: "Welcome to Waivolt 👋"
   developers:
     admin_component:
       conversations: Conversations
@@ -374,14 +374,14 @@ en:
         success: Thank you! Joe will reach out to you soon.
       new:
         company_name: Company name
-        description: Congrats on your new job! Tell us about it and we'll send you a custom RailsDevs celebration package free.
+        description: Congrats on your new job! Tell us about it and we'll send you a custom Waivolt celebration package free.
         feedback: Feedback (optional)
-        feedback_help: Please let us know how we can improve RailsDevs or anything you'd like to share.
+        feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
         mailing_address: Mailing address
         mailing_address_help: Where can we send your celebration package?
         request_package: Request package
         requesting: Requesting...
-        title: Did you find a job through RailsDevs?
+        title: Did you find a job through Waivolt?
     count_component:
       cta: Reset filters
       title_html: Showing <span class='font-bold'>%{count}</span> of <span class='font-bold'>%{total}</span>+ developers.
@@ -547,8 +547,8 @@ en:
     unauthorized: You don't have access to that.
   hired:
     show:
-      description: RailsDevs offers a celebration package to congratulate you on joining a company through the platform.
-      image_alt: RailsDevs celebration package
+      description: Waivolt offers a celebration package to congratulate you on joining a company through the platform.
+      image_alt: Waivolt celebration package
       title: Congrats on your new job!
   hiring_agreements:
     signatures:
@@ -561,7 +561,7 @@ en:
         description: Last updated %{last_updated}
         questions_html: Questions? Email the founder – that's me, Joe! – at <a href="mailto:duncan@waivolt.com" class="font-medium no-underline hover:underline">duncan@waivolt.com</a>.
         sign_below: Sign agreement below
-        title: RailsDevs hiring agreement
+        title: Waivolt hiring agreement
     terms:
       show:
         download: Download signed PDF
@@ -569,18 +569,18 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: RailsDevs empowers independent developers available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New Rails developers on RailsDevs
+      description_og: Waivolt empowers independent developers available for their next gig. Stop scouring job boards and sit back as companies reach out to you first.
+      developers_heading: New Rails developers on Waivolt
       get_started: Get started
       learn_more: Learn more
       more: See more developers
-      subtitle_1: RailsDevs
+      subtitle_1: Waivolt
       subtitle_2: empowers independent developers available for their next gig.
       subtitle_3: Stop scouring job boards and sit back as companies reach out to you first.
       title_1: The reverse job board for
       title_2: Rails developers
       title_og: The reverse job board for Ruby on Rails developers
-      turbo_native_title: RailsDevs
+      turbo_native_title: Waivolt
   impersonating_banner_component:
     cta: Sign out
     title: Signed in as %{email}
@@ -589,7 +589,7 @@ en:
   messages:
     form:
       help: Add your message
-      hiring_fee_agreement: I agree to pay RailsDevs the 10% hiring fee if I hire this developer for a full-time role.
+      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this developer for a full-time role.
       hiring_fee_cta: Questions?
       sending: Sending...
       submit: Send
@@ -655,15 +655,15 @@ en:
         title: "%{developer} may have been hired"
     businesses:
       invisiblize_notification:
-        title: Your profile on RailsDevs was flagged
+        title: Your profile on Waivolt was flagged
     developers:
       invisiblize_notification:
-        title: Your profile on RailsDevs was flagged
+        title: Your profile on Waivolt was flagged
       product_announcement_notification:
-        email_subject: "[RailsDevs] New feature alert: Developer specialties 🚨"
+        email_subject: "[Waivolt] New feature alert: Developer specialties 🚨"
         title: 'New feature alert: Developer specialties'
       profile_reminder_notification:
-        email_subject: Is your RailsDevs profile up to date?
+        email_subject: Is your Waivolt profile up to date?
         title: Is your developer profile up to date?
     index:
       cta: View history
@@ -673,7 +673,7 @@ en:
       mark_all_as_read: Mark all as read
       title: New notifications
     new_message_notification:
-      email_subject: "%{sender} sent you a message on RailsDevs"
+      email_subject: "%{sender} sent you a message on Waivolt"
       title: "%{sender} sent you a message"
     show:
       notice: Notification marked as read.
@@ -683,18 +683,18 @@ en:
         amount: Amount
         contributions: Contributions
         date: Date
-        description: RailsDevs contributes 10% of profits to women-focused communities and 2% of revenue to CO₂ removal.
+        description: Waivolt contributes 10% of profits to women-focused communities and 2% of revenue to CO₂ removal.
         external_link: Open in new tab
         open_startup: Open startup
         recipient: Recipient
-        title: RailsDevs contributions
+        title: Waivolt contributions
         to_co2_removal: to CO₂ removal
         to_communities: to communities
     dashboard:
       show:
         contributions: Contributions
         date: Date
-        description: RailsDevs is an open startup with public metrics.
+        description: Waivolt is an open startup with public metrics.
         expenses: Expenses
         external_link: Open in new tab
         mrr: MRR
@@ -706,23 +706,23 @@ en:
       index:
         amount: Amount
         date: Date
-        description: All monetary transactions associated with RailsDevs, like hosting, fees, and purchases.
+        description: All monetary transactions associated with Waivolt, like hosting, fees, and purchases.
         expenses: Expenses
         open_startup: Open startup
         source: Source
-        title: RailsDevs expenses
+        title: Waivolt expenses
     revenue:
       index:
         amount: Amount
         date: Date
-        description: All revenue RailsDevs has generated since launching in November, 2021.
+        description: All revenue Waivolt has generated since launching in November, 2021.
         open_startup: Open startup
         revenue: Revenue
         source: Source
-        title: RailsDevs revenue
+        title: Waivolt revenue
   pay_mailer:
     subscription_renewing:
-      subject: Your RailsDevs subscription renews soon. Have you made a hire?
+      subject: Your Waivolt subscription renews soon. Have you made a hire?
   policies:
     privacy:
       show:
@@ -743,10 +743,10 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. RailsDevs is free for developers.
-        q: Does RailsDevs cost anything for developers?
+        a: No. Waivolt is free for developers.
+        q: Does Waivolt cost anything for developers?
       fee:
-        a_html: If you hire a full-time employee through RailsDevs you agree to pay a placement fee equal to 10% of their salary.
+        a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
       support:
         a_html: Email the founder – that's me, Joe! – with any questions. You can reach me at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
@@ -764,14 +764,14 @@ en:
         oss: Support independent developers and OSS
         rails: Exclusively Ruby on Rails developers
         support: Email and video support from the founder
-        title: RailsDevs exclusives
+        title: Waivolt exclusives
       hiring_fee: "+ 10% first year salary"
       per_month: "/month"
       title_html: For your 1<sup>st</sup> hire and beyond
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to RailsDevs and directly connect with hundreds of Ruby on Rails developers who are looking for freelance, contract, and full-time work.
+      description: Subscribe to Waivolt and directly connect with hundreds of Ruby on Rails developers who are looking for freelance, contract, and full-time work.
       title_og: Pricing
       turbo_native_title: Hire Rails developers
     stats:
@@ -810,7 +810,7 @@ en:
       hiring_developers_help_text: You're a business looking to hire a freelance, part-time, or full-time Ruby on Rails developer.
       looking_for_work: I'm looking for work
       looking_for_work_help_text: You're a Ruby on Rails developer looking for your next gig.
-      what_brings_you_here: What brings you to RailsDevs?
+      what_brings_you_here: What brings you to Waivolt?
   sessions:
     sign_in: Sign in
     sign_in_hero: Sign in to your account
@@ -853,7 +853,7 @@ en:
     suspended:
       show:
         cta: Email Joe
-        description: Failure to comply with the hiring agreement has forced RailsDevs to suspend your account. Contact Joe to pay your obligated hiring fees and resume your account.
+        description: Failure to comply with the hiring agreement has forced Waivolt to suspend your account. Contact Joe to pay your obligated hiring fees and resume your account.
         learn_more: Learn more
         title: Your account has been suspended.
   utc_offsets:
