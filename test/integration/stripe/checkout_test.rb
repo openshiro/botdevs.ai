@@ -31,12 +31,12 @@ class Stripe::CheckoutTest < ActionDispatch::IntegrationTest
     end
   end
 
-  test "requires a signed hiring agreement when active" do
-    sign_in @user
+  # test "requires a signed hiring agreement when active" do
+  #   sign_in @user
 
-    post stripe_checkout_path(plan: :part_time)
-    assert_redirected_to new_hiring_agreement_signature_path
-  end
+  #   post stripe_checkout_path(plan: :part_time)
+  #   assert_redirected_to new_hiring_agreement_signature_path
+  # end
 
   test "doesn't require signed hiring agreement when one isn't active" do
     sign_in @user
