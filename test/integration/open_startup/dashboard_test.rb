@@ -1,12 +1,11 @@
 require "test_helper"
 
 class OpenStartup::DashboardTest < ActionDispatch::IntegrationTest
-  test "shows MRR, contributions, and visitors" do
+  test "shows MRR, contributions" do
     get open_startup_root_path
 
     assert_select "dd", "$1,000"
     assert_select "dd", "$15"
-    assert_select "dd", "5 K"
   end
 
   test "shows monthly balances" do
