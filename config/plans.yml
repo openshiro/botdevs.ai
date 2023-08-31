@@ -1,4 +1,9 @@
 shared:
+  legacy:
+    name: Legacy
+    price: 99
+    stripe_price_id: <%= stripe_price_id(:legacy) %>
+    revenue_cat_product_identifier:
   part_time:
     name: Part-time
     price: 99
