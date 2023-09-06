@@ -471,7 +471,7 @@ en:
       description: "%{count}+ electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       freelance: freelance
       hire: Hire
-      in_country: in %{country}
+      in_state: in %{state}
       ruby_on_rails_developers: electricians
     new_field_component:
       new: New!
@@ -484,14 +484,14 @@ en:
       add_profile: Add my profile
       edit_profile: Update my profile
     query_component:
-      all_countries:
+      all_states:
         title: All locations
       apply: Apply
       badge:
         title: Badges
       clear: Clear
       close_menu: Close menu
-      country:
+      state:
         title: Location
       filters: Filters
       include_not_interested: Include electricians not currently interested

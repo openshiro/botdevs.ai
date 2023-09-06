@@ -44,17 +44,17 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     assert response.body.index("Newest") < response.body.index("Oldest")
   end
 
-  test "subscribers can filter developers by countries" do
-    country = "United States"
-    create_developer(hero: "Pacific", location_attributes: {country: country})
+  test "subscribers can filter developers by states" do
+    state = "Oregon"
+    create_developer(hero: "Pacific", location_attributes: {state: state})
     user = users(:subscribed_business)
 
     sign_in user
 
-    get developers_path(countries: [country])
+    get developers_path(states: [state])
 
-    assert_select "input[checked][type=checkbox][value='#{country}'][name='countries[]']"
-    assert_text "Hire electricians in #{country}"
+    assert_select "input[checked][type=checkbox][value='#{state}'][name='states[]']"
+    assert_text "Hire electricians in #{state}"
   end
 
   test "developers can be filtered by role type" do

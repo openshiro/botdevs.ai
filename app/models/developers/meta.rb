@@ -23,8 +23,8 @@ module Developers
       # i18n-tasks-use t("developers.meta.ruby_on_rails_developers")
       components << i18n("ruby_on_rails_developers")
 
-      # i18n-tasks-use t("developers.meta.in_country")
-      components << i18n("in_country", country:) if country
+      # i18n-tasks-use t("developers.meta.in_state")
+      components << i18n("in_state", state:) if state
 
       components.join(" ")
     end
@@ -54,9 +54,9 @@ module Developers
         !query.role_types.include?(:full_time_employment)
     end
 
-    def country
-      if query.countries.one?
-        query.countries.first
+    def state
+      if query.states.one?
+        query.states.first
       end
     end
   end

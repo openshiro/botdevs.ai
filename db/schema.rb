@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_06_200913) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -67,7 +67,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_30_211801) do
     t.string "role_levels", default: [], null: false, array: true
     t.string "role_types", default: [], null: false, array: true
     t.boolean "include_not_interested"
-    t.string "countries", default: [], null: false, array: true
+    t.string "states", default: [], null: false, array: true
     t.integer "utc_offsets"
     t.string "sort"
     t.integer "page"

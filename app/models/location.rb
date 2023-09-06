@@ -1,21 +1,21 @@
 class Location < ApplicationRecord
   belongs_to :developer
 
-  scope :top_countries, ->(limit = ENV.fetch("TOP_COUNTRIES", 5)) do
-    group(:country)
-      .where.not(country: nil)
+  scope :top_states, ->(limit = ENV.fetch("TOP_STATES", 5)) do
+    group(:state)
+      .where.not(state: nil)
       .order("count_all DESC")
       .limit(limit)
       .count
       .keys
   end
 
-  scope :not_top_countries, ->(limit = ENV.fetch("TOP_COUNTRIES", 5)) do
-    where.not(country: top_countries(limit))
-      .select(:country)
+  scope :not_top_states, ->(limit = ENV.fetch("TOP_STATES", 5)) do
+    where.not(state: top_states(limit))
+      .select(:state)
       .distinct
-      .order(:country)
-      .pluck(:country)
+      .order(:state)
+      .pluck(:state)
   end
 
   validates :time_zone, presence: true

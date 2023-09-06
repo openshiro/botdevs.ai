@@ -23,14 +23,14 @@ class Developers::MetaTest < ActiveSupport::TestCase
     assert_equal title, "Hire electricians"
   end
 
-  test "displays country if one is selected" do
-    title = build_title(countries: ["United States"])
-    assert_equal title, "Hire electricians in United States"
+  test "displays state if one is selected" do
+    title = build_title(states: ["Oregon"])
+    assert_equal title, "Hire electricians in Oregon"
 
-    title = build_title(countries: ["United States", "Canada"])
+    title = build_title(states: ["Oregon", "Washington"])
     assert_equal title, "Hire electricians"
 
-    title = build_title(countries: [])
+    title = build_title(states: [])
     assert_equal title, "Hire electricians"
   end
 
@@ -38,9 +38,9 @@ class Developers::MetaTest < ActiveSupport::TestCase
     title = build_title(
       role_levels: [:journeyman],
       role_types: [:part_time_contract, :full_time_contract],
-      countries: ["United States"]
+      states: ["Oregon"]
     )
-    assert_equal title, "Hire journeyman freelance electricians in United States"
+    assert_equal title, "Hire journeyman freelance electricians in Oregon"
   end
 
   def build_title(query_options = {})

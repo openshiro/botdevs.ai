@@ -61,31 +61,31 @@ class LocationTest < ActiveSupport::TestCase
     end
   end
 
-  test "top_countries does not include least common countries (or nil)" do
-    stub_geocoder("Shanghai", country: "China")
-    6.times { |_n| create_location!(city: "Shanghai") }
-    stub_geocoder("Mumbai", country: "India")
-    create_location!(city: "Atlantis").update!(country: nil)
+  test "top_states does not include least common states (or nil)" do
+    stub_geocoder("Portland", state: "Oregon")
+    6.times { |_n| create_location!(city: "Portland") }
+    stub_geocoder("Seattle", state: "Washington")
+    create_location!(city: "Atlantis").update!(state: nil)
 
-    top_countries = Location.top_countries(3)
+    top_states = Location.top_states(3)
 
-    assert_equal 2, top_countries.count
-    assert top_countries.include?("China")
-    refute top_countries.include?("India")
+    assert_equal 3, top_states.count
+    assert top_states.include?("Oregon")
+    refute top_states.include?("Washington")
   end
 
-  test "not_top_countries does include least common countries" do
-    stub_geocoder("Shanghai", country: "China")
-    5.times { create_location!(city: "Shanghai") }
+  test "not_top_states does include least common countries" do
+    stub_geocoder("Portland", state: "Oregon")
+    5.times { create_location!(city: "Portland") }
 
-    stub_geocoder("Mumbai", country: "India")
-    2.times { create_location!(city: "Mumbai") }
+    stub_geocoder("Seattle", state: "Washington")
+    2.times { create_location!(city: "Seattle") }
 
-    not_top_countries = Location.not_top_countries(2)
+    not_top_states = Location.not_top_states(2)
 
-    assert_equal 1, not_top_countries.count
-    refute_includes not_top_countries, "China"
-    assert_includes not_top_countries, "United States"
+    assert_equal 1, not_top_states.count
+    refute_includes not_top_states, "Oregon"
+    assert_includes not_top_states, "Florida"
   end
 
   def stub_geocoder(query, city: "Portland", city_district: nil, state: "Oregon", country: "United States", country_code: "US", latitude: 45.523064, longitude: -122.676483, data: {"city" => "Portland"})

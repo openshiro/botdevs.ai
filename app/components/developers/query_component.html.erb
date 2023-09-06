@@ -107,13 +107,13 @@
     <div data-controller="toggle accessibility" data-toggle-visibility-class="hidden">
       <div class="border-t border-gray-200 py-6">
         <h3 class="-mx-2 -my-3 flow-root">
-          <%= render CollapseControlComponent.new(t(".country.title"), collapsed: collapse_location?) %>
+          <%= render CollapseControlComponent.new(t(".state.title"), collapsed: collapse_location?) %>
         </h3>
         <%= tag.div id: "location-accordion", "data-toggle-target": "element", class: [hidden: collapse_location?] do %>
           <div class="space-y-4 pt-6">
-            <%= form.collection_check_boxes(:countries, top_countries, :first, :last, {include_hidden: false}) do |b| %>
+            <%= form.collection_check_boxes(:states, top_states, :first, :last, {include_hidden: false}) do |b| %>
               <div class="flex items-center">
-                <%= b.check_box checked: country_selected?(b.object), class: "h-4 w-4 border-gray-300 rounded text-gray-600 focus:ring-gray-500" %>
+                <%= b.check_box checked: state_selected?(b.object), class: "h-4 w-4 border-gray-300 rounded text-gray-600 focus:ring-gray-500" %>
                 <%= b.label class: "ml-3 text-gray-500 text-sm" %>
               </div>
             <% end %>
@@ -122,13 +122,13 @@
           <div data-controller="toggle accessibility" data-toggle-visibility-class="hidden">
             <div class="pt-6">
               <h5 class="-mx-2 -my-3 flow-root">
-                <%= render CollapseControlComponent.new(t(".all_countries.title"), collapsed: collapse_all_locations?, subcomponent: true) %>
+                <%= render CollapseControlComponent.new(t(".all_states.title"), collapsed: collapse_all_locations?, subcomponent: true) %>
               </h5>
               <%= tag.div id: "all-locations-accordion", "data-toggle-target": "element", class: [hidden: collapse_all_locations?] do %>
                 <div class="space-y-4 pt-6">
-                  <%= form.collection_check_boxes(:countries, countries, :first, :last, {include_hidden: false}) do |b| %>
+                  <%= form.collection_check_boxes(:states, states, :first, :last, {include_hidden: false}) do |b| %>
                     <div class="flex items-center">
-                      <%= b.check_box checked: country_selected?(b.object), class: "h-4 w-4 border-gray-300 rounded text-gray-600 focus:ring-gray-500" %>
+                      <%= b.check_box checked: state_selected?(b.object), class: "h-4 w-4 border-gray-300 rounded text-gray-600 focus:ring-gray-500" %>
                       <%= b.label class: "ml-3 text-gray-500 text-sm" %>
                     </div>
                   <% end %>
