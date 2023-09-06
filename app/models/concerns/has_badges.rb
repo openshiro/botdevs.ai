@@ -4,7 +4,6 @@ module HasBadges
   # TODO #758: Cache developer badges to a new model
   BADGES = %i[
     high_response_rate
-    source_contributor
     recently_added
     recently_updated
   ]
