@@ -139,7 +139,9 @@ Rails.application.routes.draw do
   get "/sitemap.xml.gz", to: redirect("#{Rails.configuration.sitemaps_host}sitemaps/sitemap.xml.gz"), as: :sitemap
   get "robots.:format" => "robots#index"
 
-  authenticate :user, lambda { |user| SidekiqPolicy.new(user).visible? } do
-    mount Sidekiq::Web => "/sidekiq"
-  end
+  mount Sidekiq::Web => "/sidekiq"
+
+  # authenticate :user, lambda { |user| SidekiqPolicy.new(user).visible? } do
+  #   mount Sidekiq::Web => "/sidekiq"
+  # end
 end
