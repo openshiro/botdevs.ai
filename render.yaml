@@ -20,14 +20,14 @@ services:
 
   # redis instance
   - type: redis
-    name: sidekiq-redis-production
+    name: sidekiq-redis
     region: oregon
     maxmemoryPolicy: noeviction
     ipAllowList: []
 
   # background worker
   - type: worker
-    name: sidekiq-worker-production
+    name: sidekiq-worker
     env: ruby
     region: oregon
     buildCommand: "bundle install"
@@ -36,5 +36,5 @@ services:
       - key: REDIS_URL
         fromDatabase:
           type: redis
-          name: sidekiq-redis-production
+          name: sidekiq-redis
           property: connectionString
