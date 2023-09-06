@@ -52,7 +52,7 @@ class BusinessMailer < ApplicationMailer
   def survey
     @business = params[:business]
     from = Rails.configuration.emails.support_mailbox!
-    subject = "Why do you use Waivolt to hire? 1 question survey + swag"
+    subject = "Why do you use Waivolt to hire? 1 question survey"
 
     mail(to: @business.user.email, subject:, from:, message_stream: :broadcast)
   end

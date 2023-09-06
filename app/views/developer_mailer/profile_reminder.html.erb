@@ -1,7 +1,6 @@
 <p>Hey <%= @developer.first_name %>,</p>
 <p>Duncan, founder of Waivolt here. It looks like your electrician profile hasn't been updated in a while.</p>
 <ul>
-  <li>Found a job? <%= link_to "Fill out this form", new_developers_celebration_package_request_url %> so I can send you some swag!</li>
   <li>Still looking? <%= link_to "Update your profile", notification_url(@notification.record) %> to get bumped to the top of search results.</li>
 </ul>
 <%= render "shared/signature" %>
