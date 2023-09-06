@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   match "(*any)",
   to: redirect(subdomain: "www"),
   via: :all,
-  constraints: { subdomain: "" }
+  constraints: { subdomain: "", host: "waivolt.com" }
 
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     devise_for :users, controllers: {
