@@ -1,8 +1,9 @@
 databases:
-  - name: waivolt-postgres-production
-    databaseName: waivolt-postgres-production
+  - name: waivolt
+    databaseName: waivolt
     user: waivolt
 
+# web server
 services:
   - type: web
     name: waivolt-web-production
@@ -12,20 +13,28 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: waivolt-postgres-production
+          name: waivolt
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
+
+  # redis instance
+  - type: redis
+    name: sidekiq-redis
+    region: oregon
+    maxmemoryPolicy: noeviction
+    ipAllowList: []
+
+  # background worker
   - type: worker
-    name: waivolt-reddis-production
+    name: sidekiq-worker
     env: ruby
     region: oregon
     buildCommand: "bundle install"
-    startCommand: "bundle exec sidekiq -t 25"
+    startCommand: "bundle exec sidekiq -r ./main.rb"
     envVars:
-      - key: DATABASE_URL
+      - key: REDIS_URL
         fromDatabase:
-          name: waivolt-postgres-production
+          type: redis
+          name: sidekiq-redis
           property: connectionString
-      - key: RAILS_MASTER_KEY
-        sync: false
