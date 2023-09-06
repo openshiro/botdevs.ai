@@ -20,7 +20,7 @@ services:
 
   # redis instance
   - type: redis
-    name: sidekiq-redis
+    name: sidekiq-redis-production
     region: oregon
     maxmemoryPolicy: noeviction
     ipAllowList: []
@@ -36,5 +36,5 @@ services:
       - key: REDIS_URL
         fromDatabase:
           type: redis
-          name: sidekiq-redis
+          name: sidekiq-redis-production
           property: connectionString
