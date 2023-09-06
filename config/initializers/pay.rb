@@ -1,6 +1,6 @@
 Pay.setup do |config|
   config.business_name = "Waivolt"
-  config.business_address = "2625 SE Market St, Portland, OR 97214"
+  config.business_address = "511 SW 10th Ave Suite 1108, Portland, OR 97205"
   config.application_name = "Waivolt"
   config.support_email = Rails.configuration.emails.support_mailbox!
 
