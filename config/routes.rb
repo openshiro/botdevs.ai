@@ -1,6 +1,11 @@
 require "sidekiq/web"
 
 Rails.application.routes.draw do
+  match "(*any)",
+  to: redirect(subdomain: "www"),
+  via: :all,
+  constraints: { subdomain: "" }
+
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     devise_for :users, controllers: {
       registrations: "users"
