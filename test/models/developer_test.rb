@@ -144,13 +144,6 @@ class DeveloperTest < ActiveSupport::TestCase
     assert @developer.missing_fields?
   end
 
-  test "missing fields when scheduling link is blank" do
-    refute @developer.missing_fields?
-
-    @developer.scheduling_link = nil
-    assert @developer.missing_fields?
-  end
-
   test "visible scope includes developers who are not invisible and haven't set their search status" do
     assert_includes Developer.visible, developers(:one)
 
