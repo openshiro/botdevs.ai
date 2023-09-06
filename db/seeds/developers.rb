@@ -46,7 +46,7 @@ SeedsHelper.create_developer!("entry_level", {
 
 # Freelancer developer
 SeedsHelper.create_developer!("freelancer", {
-  hero: "Freelance Electrician",
+  hero: "Contract Electrician",
   location: SeedsHelper.locations[:new_york],
   search_status: :open,
   role_type: RoleType.new(part_time_contract: true),

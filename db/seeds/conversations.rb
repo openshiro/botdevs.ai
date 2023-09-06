@@ -15,7 +15,7 @@ SeedsHelper.create_message!(conversation:, sender: developer, body: "I'd love to
 developer = User.find_by(email: "hired@example.com").developer
 business = User.find_by(email: "part-time@example.com").business
 conversation = Conversation.find_or_create_by!(developer:, business:)
-SeedsHelper.create_message!(conversation:, sender: business, body: "Looking for freelance work?", cold_message: true)
+SeedsHelper.create_message!(conversation:, sender: business, body: "Looking for contract work?", cold_message: true)
 
 # Populate response rate for developers
 developers = Developer.joins(:conversations).distinct

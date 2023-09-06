@@ -469,10 +469,10 @@ en:
       title: Your electrician profile is invisible – only you can see it.
     meta:
       description: "%{count}+ electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
-      freelance: freelance
+      independent: independent
       hire: Hire
       in_state: in %{state}
-      ruby_on_rails_developers: electricians
+      electricians: electricians
     new_field_component:
       new: New!
     new_fields_component:
@@ -769,7 +769,7 @@ en:
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to Waivolt and directly connect with hundreds of electricians who are looking for freelance, contract, and full-time work.
+      description: Subscribe to Waivolt and directly connect with hundreds of electricians who are looking for contract and full-time work.
       title_og: Pricing
       turbo_native_title: Hire electricians
     stats:

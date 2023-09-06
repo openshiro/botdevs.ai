@@ -12,9 +12,9 @@ class Developers::MetaTest < ActiveSupport::TestCase
     assert_equal title, "Hire electricians"
   end
 
-  test "displays 'freelance' when only both contract role types are selected" do
+  test "displays 'independent' when only both contract role types are selected" do
     title = build_title(role_types: [:part_time_contract, :full_time_contract])
-    assert_equal title, "Hire freelance electricians"
+    assert_equal title, "Hire independent electricians"
 
     title = build_title(role_types: [:part_time_contract, :full_time_contract, :full_time_employment])
     assert_equal title, "Hire electricians"
@@ -34,13 +34,13 @@ class Developers::MetaTest < ActiveSupport::TestCase
     assert_equal title, "Hire electricians"
   end
 
-  test "role level comes before freelance (and country at the end)" do
+  test "role level comes before independent (and country at the end)" do
     title = build_title(
       role_levels: [:journeyman],
       role_types: [:part_time_contract, :full_time_contract],
       states: ["Oregon"]
     )
-    assert_equal title, "Hire journeyman freelance electricians in Oregon"
+    assert_equal title, "Hire journeyman independent electricians in Oregon"
   end
 
   def build_title(query_options = {})
