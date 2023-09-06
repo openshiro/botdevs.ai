@@ -1,6 +1,6 @@
 databases:
   - name: waivolt-postgres-production
-    databaseName: waivolt-postgres-production
+    databaseName: waivolt_postgres_production
     user: waivolt
 
 # web server
