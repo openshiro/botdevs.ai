@@ -2,7 +2,7 @@
 
 The reverse job board for electricians.
 
-Waivolt empowers electricians available for their next job. It is being built around [three core values](https://railsdevs.com/about):
+Waivolt empowers electricians available for their next job. It is being built around [three core values](https://waivolt.com/about):
 
 1. Empowering electricians
 1. Doing everything in public
@@ -120,7 +120,7 @@ All other resources including, but not limited to, images, copy, and branding, a
 
 ## Open source support
 
-RailsDevs uses a free or discounted open-source plan from the following companies. Thank you for the support!
+Waivolt uses a free or discounted open-source plan from the following companies. Thank you for the support!
 
 ### Scout APM – application monitoring
 
