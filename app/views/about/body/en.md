@@ -29,4 +29,4 @@ If something doesn't feel right, or you ever feel uncomfortable, please [send me
 
 ### Thanks to Joe Masilotti at RailsDevs
 
-Waivolt is a fork of [Joe Masilotti's](https://masilotti.com/) open source [RailsDevs](https://railsdevs.com/) project.
+Waivolt is a fork of [Joe Masilotti's](https://masilotti.com/) open source [RailsDevs](https://github.com/joemasilotti/railsdevs.com) project.
