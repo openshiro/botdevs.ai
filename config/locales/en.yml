@@ -384,7 +384,7 @@ en:
         title: Did you find a job through Waivolt?
     count_component:
       cta: Reset filters
-      title_html: Showing <span class='font-bold'>%{count}</span> of <span class='font-bold'>%{total}</span>+ electricians.
+      title_html: Showing <span class='font-bold'>%{count}</span> electricians.
     cover_image_component:
       alt: Electrician's cover image
     create:
@@ -468,7 +468,7 @@ en:
       cta: Edit my profile
       title: Your electrician profile is invisible – only you can see it.
     meta:
-      description: "%{count}+ electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
+      description: "Find electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       independent: independent
       hire: Hire
       in_state: in %{state}
