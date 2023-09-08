@@ -10,6 +10,23 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
 
     assert_select "h1", "Articles"
+    assert_select "li", @article.title
+  end
+
+  test "article should not appear if draft" do
+    @article.update(content: "foo", published_at: nil)
+    get articles_url
+
+
+    assert_select "li", {count: 0, text: @article.title}
+  end
+
+  test "article should not appear if scheduled" do
+    @article.update(content: "foo", published_at: 2.days.from_now)
+    get articles_url
+
+
+    assert_select "li", {count: 0, text: @article.title}
   end
 
   test "should show article" do
@@ -17,5 +34,21 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
 
     assert_select "h1", @article.title
+  end
+
+  test "article should redirect if scheduled" do
+    @article.update(content: "foo", published_at: 2.days.from_now)
+    get article_url(@article)
+    assert_response :redirect
+
+    assert_select "h1", {count: 0, text: @article.title}
+  end
+
+  test "article should redirect if draft" do
+    @article.update(content: "foo", published_at: nil)
+    get article_url(@article)
+    assert_response :redirect
+
+    assert_select "h1", {count: 0, text: @article.title}
   end
 end
