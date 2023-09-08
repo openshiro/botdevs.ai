@@ -19,7 +19,7 @@ class Admin::ArticlesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create article" do
     assert_difference("Article.count") do
-      post admin_articles_url, params: { article: { published_at: @article.published_at, status: @article.status, title: "Bar", content: "Foo" } }
+      post admin_articles_url, params: { article: { published_at: @article.published_at, title: "Bar", content: "Foo" } }
     end
 
     assert_redirected_to admin_article_url(Article.last)
@@ -36,7 +36,7 @@ class Admin::ArticlesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update article" do
-    patch admin_article_url(@article), params: { article: { published_at: @article.published_at, status: @article.status, title: "Bar", content: "Foo" } }
+    patch admin_article_url(@article), params: { article: { published_at: @article.published_at, title: "Bar", content: "Foo" } }
     assert_redirected_to admin_article_url(@article.slug)
   end
 

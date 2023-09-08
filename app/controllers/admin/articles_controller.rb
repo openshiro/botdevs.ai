@@ -54,7 +54,7 @@ module Admin
 
       # Only allow a list of trusted parameters through.
       def article_params
-        params.require(:article).permit(:title, :status, :published_at, :content)
+        params.require(:article).permit(:title, :published_at, :content)
       end
   end
 end
