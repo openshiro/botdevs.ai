@@ -1,7 +1,13 @@
 require "test_helper"
 
 class ArticleTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  setup do
+    @article = articles(:one)
+  end
+
+  test "#draft? responds correctly " do
+    @article.published_at = nil
+
+    assert @article.draft?
+  end
 end
