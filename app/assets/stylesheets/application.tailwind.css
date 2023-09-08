@@ -4,3 +4,4 @@
 @import "./tailwindcss/overrides.css";
 
 @import "./components/pagy.css";
+@import 'actiontext.css';
