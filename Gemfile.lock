@@ -187,6 +187,8 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
+    friendly_id (5.4.2)
+      activerecord (>= 4.0.0)
     gemoji (4.0.0.rc3)
     geocoder (1.7.3)
     globalid (1.1.0)
@@ -488,6 +490,7 @@ DEPENDENCIES
   faraday
   faraday_middleware
   fathom_api
+  friendly_id (~> 5.4.0)
   geocoder
   groupdate
   hashid-rails

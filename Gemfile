@@ -73,3 +73,7 @@ gem "stripe"
 gem "tarpon"
 gem "timezone_finder"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+### Waivolt Gems ###
+
+gem "friendly_id", "~> 5.4.0"

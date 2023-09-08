@@ -7,6 +7,6 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1
   def show
-    @article = Article.find(params[:id])
+    @article = Article.friendly.find(params[:id])
   end
 end
