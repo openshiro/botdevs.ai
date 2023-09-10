@@ -36,7 +36,7 @@ class Admin::ArticlesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update article" do
-    patch admin_article_url(@article), params: { article: { published_at: @article.published_at, title: "Bar", content: "Foo" } }
+    patch admin_article_url(@article), params: { article: { published_at: @article.published_at, title: @article.title, content: "Foo" } }
     assert_redirected_to admin_article_url(@article.slug)
   end
 
