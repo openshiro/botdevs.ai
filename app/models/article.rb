@@ -12,6 +12,10 @@ class Article < ApplicationRecord
   scope :published, ->{ where("published_at <= ?", Time.current)}
   scope :scheduled, ->{ where("published_at >= ?", Time.current)}
 
+  def should_generate_new_friendly_id?
+    title_changed?
+  end
+
   def draft?
     published_at.nil?
   end
