@@ -5,7 +5,9 @@ module Admin
         text: ->(**args) { TextInputComponent.new(form, field, classes:, **args) },
         text_area: ->(**args) { TextAreaInputComponent.new(form, field, classes:, **args) },
         select: ->(**args) { SelectInputComponent.new(form, field, classes:, **args) },
-        currency: ->(**args) { CurrencyInputComponent.new(form, field, classes:, **args) }
+        currency: ->(**args) { CurrencyInputComponent.new(form, field, classes:, **args) },
+        rich_text_area: ->(**args) { RichTextAreaInputComponent.new(form, field, classes:, **args) },
+        datetime: ->(**args) { DatetimeInputComponent.new(form, field, classes:, **args) }
       }
 
       attr_reader :form, :field, :label, :help

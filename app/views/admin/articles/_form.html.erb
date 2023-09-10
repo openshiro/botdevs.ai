@@ -1,32 +1,18 @@
-<%= form_with(model: [:admin, article]) do |form| %>
-  <% if article.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(article.errors.count, "error") %> prohibited this article from being saved:</h2>
+<%= form_with model: [:admin, article] do |form| %>
+  <%= render Admin::Forms::ContainerComponent.new(title) do |container| %>
+    <%= render Admin::Forms::FieldComponent.new(form, :title) do |field| %>
+      <% field.with_input_text %>
+    <% end %>
+    <%= render Admin::Forms::FieldComponent.new(form, :published_at) do |field| %>
+      <% field.with_input_datetime %>
+    <% end %>
+    <%= render Admin::Forms::FieldComponent.new(form, :content) do |field| %>
+      <% field.with_input_rich_text_area rows: 25 %>
+    <% end %>
 
-      <ul>
-        <% article.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
+    <% container.with_button_group do %>
+      <%= render Admin::Forms::ButtonLinkComponent.new("cancel", admin_articles_path) %>
+      <%= render SubmitButtonComponent.new(button_classes: "ml-3") %>
+    <% end %>
   <% end %>
-
-  <div>
-    <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
-  </div>
-
-  <div>
-    <%= form.label :published_at, style: "display: block" %>
-    <%= form.datetime_field :published_at %>
-  </div>
-
-  <div>
-    <%= form.label :content, style: "display: block" %>
-    <%= form.rich_text_area :content %>
-  </div>
-
-  <div>
-    <%= form.submit %>
-  </div>
 <% end %>
