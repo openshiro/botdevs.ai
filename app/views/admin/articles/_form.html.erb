@@ -7,7 +7,7 @@
       <% field.with_input_datetime %>
     <% end %>
     <%= render Admin::Forms::FieldComponent.new(form, :content) do |field| %>
-      <% field.with_input_rich_text_area rows: 25 %>
+      <% field.with_input_rich_text_area classes: "prose max-w-none" %>
     <% end %>
 
     <% container.with_button_group do %>
