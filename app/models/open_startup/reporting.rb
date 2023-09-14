@@ -25,7 +25,9 @@ module OpenStartup
 
     def calculate
       calculate_mrr
-      fetch_visitors
+
+      # disable for now since we are not using fathom
+      # fetch_visitors
     end
 
     private
