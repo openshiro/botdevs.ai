@@ -6,76 +6,74 @@ Rails.application.routes.draw do
   via: :all,
   constraints: { subdomain: "", host: "waivolt.com" }
 
-  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
-    devise_for :users, controllers: {
-      registrations: "users"
-    }
+  devise_for :users, controllers: {
+    registrations: "users"
+  }
 
-    resources :articles, only: [:show, :index]
-    resource :about, only: :show, controller: :about
-    resource :conduct, only: :show
-    resource :home, only: :show
-    resource :pricing, only: :show, controller: :pricing
-    resource :recommended_sorting, only: :show
-    resource :role, only: :new
-    resources :affiliates, only: %w[index create new], controller: "affiliates/registrations"
+  resources :articles, only: [:show, :index]
+  resource :about, only: :show, controller: :about
+  resource :conduct, only: :show
+  resource :home, only: :show
+  resource :pricing, only: :show, controller: :pricing
+  resource :recommended_sorting, only: :show
+  resource :role, only: :new
+  resources :affiliates, only: %w[index create new], controller: "affiliates/registrations"
 
-    resources :businesses, except: :destroy
+  resources :businesses, except: :destroy
 
-    namespace :businesses do
-      resources :hiring_invoice_requests, only: [:new, :create]
-    end
-
-    # /notifications/read must come before /notifications/:id.
-    resources :read_notifications, only: [:index, :create], path: "/notifications/read"
-    resources :notifications, only: %i[index show]
-
-    namespace :analytics do
-      resources :events, only: :show
-    end
-
-    resources :conversations, only: %i[index show] do
-      resource :block, only: %i[new create]
-      resources :messages, only: :create
-    end
-
-    resources :developers, except: :destroy, path: "electricians" do
-      resources :messages, only: %i[new create], controller: :cold_messages
-      resources :public_profiles, only: :new
-    end
-
-    namespace :developers do
-      resources :celebration_package_requests, only: [:new, :create]
-    end
-
-    get "developers/:id/:key", to: "developers#show", as: :developer_public
-
-    resource :hired, only: :show, controller: :hired
-
-    namespace :hiring_agreement, module: :hiring_agreements do
-      resource :terms, only: :show
-      resource :signature, only: %i[new create]
-    end
-
-    namespace :open_startup, path: "/open" do
-      resources :contributions, only: :index
-      resources :expenses, only: :index
-      resources :revenue, only: :index
-
-      root to: "dashboard#show"
-    end
-
-    namespace :policies do
-      resource :privacy, only: :show, controller: :privacy
-      resource :terms, only: :show
-    end
-
-    namespace :users do
-      resource :suspended, only: :show, controller: :suspended
-    end
-
-    root to: "home#show"
+  namespace :businesses do
+    resources :hiring_invoice_requests, only: [:new, :create]
   end
+
+  # /notifications/read must come before /notifications/:id.
+  resources :read_notifications, only: [:index, :create], path: "/notifications/read"
+  resources :notifications, only: %i[index show]
+
+  namespace :analytics do
+    resources :events, only: :show
+  end
+
+  resources :conversations, only: %i[index show] do
+    resource :block, only: %i[new create]
+    resources :messages, only: :create
+  end
+
+  resources :developers, except: :destroy, path: "electricians" do
+    resources :messages, only: %i[new create], controller: :cold_messages
+    resources :public_profiles, only: :new
+  end
+
+  namespace :developers do
+    resources :celebration_package_requests, only: [:new, :create]
+  end
+
+  get "developers/:id/:key", to: "developers#show", as: :developer_public
+
+  resource :hired, only: :show, controller: :hired
+
+  namespace :hiring_agreement, module: :hiring_agreements do
+    resource :terms, only: :show
+    resource :signature, only: %i[new create]
+  end
+
+  namespace :open_startup, path: "/open" do
+    resources :contributions, only: :index
+    resources :expenses, only: :index
+    resources :revenue, only: :index
+
+    root to: "dashboard#show"
+  end
+
+  namespace :policies do
+    resource :privacy, only: :show, controller: :privacy
+    resource :terms, only: :show
+  end
+
+  namespace :users do
+    resource :suspended, only: :show, controller: :suspended
+  end
+
+  root to: "home#show"
 
   namespace :admin do
     resource :impersonate, only: [:create, :destroy]
