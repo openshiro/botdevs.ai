@@ -19,14 +19,14 @@ module Developers
         role_types: [],
         badges: [],
         utc_offsets: [],
-        states: []
+        states: [],
+        specialty_ids: []
       ]
     end
 
     def paywalled_attributes
       [
-        :search_query,
-        specialty_ids: []
+        :search_query,\
       ]
     end
   end
