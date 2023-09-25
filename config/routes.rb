@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   via: :all,
   constraints: { subdomain: "", host: "waivolt.com" }
 
+  get "/electricians", to: redirect("professionals")
+  get "/electricians/:id", to: redirect("professionals/%{id}")
+
   devise_for :users, controllers: {
     registrations: "users"
   }
