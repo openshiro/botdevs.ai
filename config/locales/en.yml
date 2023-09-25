@@ -3,7 +3,7 @@ en:
   about:
     show:
       caption: founder of Waivolt
-      description: I'm Duncan Miller. I'm building Waivolt to make it easier for electricians to find their next job.
+      description: I'm Duncan Miller. I'm building Waivolt to make it easier for energy professionals to find their next job.
       readtime: 1 minute read
       title: About
       title_og: About Waivolt
@@ -56,7 +56,7 @@ en:
         other: Businesses
       developer:
         one: Electrician
-        other: Electricians
+        other: Energy professionals
       user:
         one: User
         other: Users
@@ -95,12 +95,12 @@ en:
         conversations: "'s conversations"
         developer: Electrician
         email: Email
-        email_tooltip: The electrician mentioned an email address in a reply.
+        email_tooltip: The energy professional mentioned an email address in a reply.
         no_potential_email: No potential email
         no_response: No response
         potential_email: Potential email
         replied: Replied
-        replied_tooltip: The electrician has replied to this conversation.
+        replied_tooltip: The energy professional has replied to this conversation.
         reply_rate: Reply rate
         started: Started
         title: Conversations
@@ -163,7 +163,7 @@ en:
       create:
         created: Electrician specialty created.
       edit:
-        title: Edit electrician specialty
+        title: Edit energy professional specialty
       form:
         cancel: Cancel
       index:
@@ -171,15 +171,15 @@ en:
         add: Add specialty
         delete: Delete
         delete_confirmation: Are you sure you want to delete this specialty?
-        developers: Electricians
+        developers: Energy professionals
         edit: Edit
         name: Name
         title: Electrician specialties
       new:
-        title: New electrician specialty
+        title: New energy professional specialty
       show:
         developer_specialty: Electrician specialty
-        no_developers: No electricians with this specialty.
+        no_developers: No energy professionals with this specialty.
       update:
         updated: Electrician specialty updated.
     transactions:
@@ -219,7 +219,7 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
-        description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for electricians.
+        description: Earn 10% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for energy professionals.
         title: Earn money promoting Waivolt
       new:
         agreement: I agree to these rules
@@ -262,7 +262,7 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new electricians add their profile to Waivolt.
+        help_text: Receive daily or weekly email notifications when new energy professionals add their profile to Waivolt.
         legend: Electrician notifications
         values:
           daily: Daily
@@ -313,8 +313,8 @@ en:
       title: Requires an active business subscription.
     upgrade_required_component:
       body:
-        expired: Your subscription has expired. Reactivate your account to continue messaging electricians.
-        upgrade: With your current plan you can only message electricians looking for part-time work. Upgrade your account to message this electrician.
+        expired: Your subscription has expired. Reactivate your account to continue messaging energy professionals.
+        upgrade: With your current plan you can only message energy professionals looking for part-time work. Upgrade your account to message this energy professional.
       cta:
         expired: Reactivate my account
         upgrade: Upgrade my account
@@ -332,8 +332,8 @@ en:
     ago: ago
     index:
       empty_state:
-        body: Get started by finding a electrician to message.
-        cta: Find a electrician
+        body: Get started by finding a energy professional to message.
+        cta: Find a energy professional
         title: No conversations
       title: Your conversations
     read_indicator_component:
@@ -384,7 +384,7 @@ en:
         title: Did you find a job through Waivolt?
     count_component:
       cta: Reset filters
-      title_html: Showing <span class='font-bold'>%{count}</span> electricians.
+      title_html: Showing <span class='font-bold'>%{count}</span> energy professionals.
     cover_image_component:
       alt: Electrician's cover image
     create:
@@ -392,15 +392,15 @@ en:
     details:
       title: Details
     edit:
-      title: Your electrician profile
+      title: Your energy professional profile
     form:
       bio:
-        description: Share a few paragraphs on what makes you unique as a electrician. This is your chance to market yourself to potential employers – sell yourself a little!
+        description: Share a few paragraphs on what makes you unique as a energy professional. This is your chance to market yourself to potential employers – sell yourself a little!
         examples:
           accomplishment: A recent milestone or accomplishment
           help: How you can help where others can't
           learned: Something new you learned
-          origin: Your electrician origin story
+          origin: Your energy professional origin story
           passion: What you're passionate about
           title: Example topics
           unique: Your unique skills that make you awesome
@@ -412,7 +412,7 @@ en:
         product_announcement_notifications: Feature announcements
         product_announcement_notifications_help: Keep me up to date with new product features.
         profile_reminder_notifications: Profile reminders
-        profile_reminder_notifications_help: Periodically remind me to update my electrician profile.
+        profile_reminder_notifications_help: Periodically remind me to update my energy professional profile.
         title: Email notifications
       online_presence:
         help_text: Where can people learn more about you and your work?
@@ -423,7 +423,7 @@ en:
         change: Upload
         cover_image: Cover image
         help_text: This information will be displayed publicly so be careful what you share.
-        hero_help_text: Summarize yourself as a electrician in a few words.
+        hero_help_text: Summarize yourself as a energy professional in a few words.
         location_help_text: Providing your location makes it easier to connect with local business.
         name_help_text_html: Your name will <i>not</i> be displayed on your public profile.
         title: Profile
@@ -446,15 +446,15 @@ en:
         open_help_text: Companies can still find you, but you won't appear on the homepage.
         title: Search status
       specialties:
-        description: Choose up to 5 specialties that set you apart from other electricians. Pick ones that you are passionate about - you don't need to be an expert.
+        description: Choose up to 5 specialties that set you apart from other energy professionals. Pick ones that you are passionate about - you don't need to be an expert.
         new:
           before: If you don't see a specialty that matches your unique skills you can
           cta: suggest a new specialty
-          subject: New electrician specialty suggestion
+          subject: New energy professional specialty suggestion
         note:
           description: This feature is in beta and might be changed. Add your specialties ASAP - businesses will be able to filter by them soon.
           title: BETA
-      title: Your electrician profile
+      title: Your energy professional profile
       updating: Updating...
       work_preferences:
         help_text: What kind of work are you looking for next?
@@ -462,22 +462,22 @@ en:
     index:
       empty_state:
         body: Try changing or clearing your filters.
-        title: No electricians found
-      title: Electricians
+        title: No energy professionals found
+      title: Energy professionals
     invisible_banner_component:
       cta: Edit my profile
-      title: Your electrician profile is invisible – only you can see it.
+      title: Your energy professional profile is invisible – only you can see it.
     meta:
-      description: "Find electricians looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
+      description: "Find energy professionals looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       independent: independent
       hire: Hire
       in_state: in %{state}
-      electricians: electricians
+      electricians: energy professionals
     new_field_component:
       new: New!
     new_fields_component:
       cta: Complete my profile
-      title: New fields were added to electrician profiles!
+      title: New fields were added to energy professional profiles!
     open_graph_tags_component:
       turbo_native_title: Electrician profile
     profile_action_component:
@@ -494,7 +494,7 @@ en:
       state:
         title: Location
       filters: Filters
-      include_not_interested: Include electricians not currently interested
+      include_not_interested: Include energy professionals not currently interested
       paywalled_search:
         title: Text search requires a paid account.
       role_level:
@@ -534,11 +534,11 @@ en:
       updated: Your profile was updated!
   dir: ltr
   errors:
-    business_blank: Fill out your business profile to message electricians.
-    business_subscription_inactive: Sign up for a business subscription to message electricians.
-    developer_blank: Please create a electrician profile first.
+    business_blank: Fill out your business profile to message energy professionals.
+    business_subscription_inactive: Sign up for a business subscription to message energy professionals.
+    developer_blank: Please create a energy professional profile first.
     hiring_agreements:
-      cold_message: Please sign the hiring agreement to message electricians.
+      cold_message: Please sign the hiring agreement to message energy professionals.
       payment: Please sign the hiring agreement before subscribing.
     messages:
       attached: is not attached
@@ -569,17 +569,17 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: Waivolt empowers electricians available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New electricians on Waivolt
+      description_og: Waivolt empowers energy professionals available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
+      developers_heading: New energy professionals on Waivolt
       get_started: Get started
       learn_more: Learn more
-      more: See more electricians
+      more: See more energy professionals
       subtitle_1: Waivolt
-      subtitle_2: empowers electricians available for their next job.
+      subtitle_2: empowers energy professionals available for their next job.
       subtitle_3: Stop scouring job boards and sit back as companies reach out to you first.
       title_1: The reverse job board for
-      title_2: Electricians
-      title_og: The reverse job board for electricians
+      title_2: energy professionals
+      title_og: The reverse job board for energy professionals
       turbo_native_title: Waivolt
   impersonating_banner_component:
     cta: Sign out
@@ -589,7 +589,7 @@ en:
   messages:
     form:
       help: Add your message
-      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this electrician for a full-time role.
+      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this energy professional for a full-time role.
       hiring_fee_cta: Questions?
       sending: Sending...
       submit: Send
@@ -600,7 +600,7 @@ en:
   nav_bar:
     base_component:
       affiliates: Affiliate program
-      developers: Electricians
+      developers: Professionals
       home: Home
       pricing: Pricing
     guest_component:
@@ -617,7 +617,7 @@ en:
       hiring_agreement_terms: Hiring agreement terms
       my_business_profile: My business profile
       my_conversations: My conversations
-      my_developer_profile: My electrician profile
+      my_developer_profile: My energy professional profile
       new: New!
       new_notifications: You have a new notification
       open_user_menu: Open user menu
@@ -635,7 +635,7 @@ en:
           title: "%{email} requested to join the affiliate program"
       businesses:
         hiring_invoice_request_notification:
-          title: "%{business} hired an electrician"
+          title: "%{business} hired an energy professional"
       developers:
         celebration_package_request:
           title: "%{developer} requested a celebration package"
@@ -646,8 +646,8 @@ en:
         email_subject: New conversation started
         title: "%{name} (%{company}) started a conversation with %{developer}"
       new_developer_notification:
-        email_subject: New electrician profile added
-        title: "%{developer} added their electrician profile"
+        email_subject: New energy professional profile added
+        title: "%{developer} added their energy professional profile"
       potential_hire_notification:
         email_subject: New potential hire
         title: "%{developer} may have been hired"
@@ -662,7 +662,7 @@ en:
         title: 'New feature alert: Electrician specialties'
       profile_reminder_notification:
         email_subject: Is your Waivolt profile up to date?
-        title: Is your electrician profile up to date?
+        title: Is your energy professional profile up to date?
     index:
       cta: View history
       empty_state:
@@ -731,7 +731,7 @@ en:
   pricing:
     cta:
       cta: Get started today
-      subtitle: Find your next electrician today.
+      subtitle: Find your next energy professional today.
       title: Ready to start hiring?
     faq:
       annual:
@@ -741,8 +741,8 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. Waivolt is free for electricians.
-        q: Does Waivolt cost anything for electricians?
+        a: No. Waivolt is free for energy professionals.
+        q: Does Waivolt cost anything for energy professionals?
       fee:
         a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
@@ -751,16 +751,16 @@ en:
         q: Who can I contact for more specific questions?
       title: Frequently asked questions
     hero:
-      description: Directly connect with hundreds of electricians looking for their next job.
-      title: Hire electricians
+      description: Directly connect with hundreds of energy professionals looking for their next job.
+      title: Hire energy professionals
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of electricians, from apprentice to master.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of energy professionals, from apprentice to master.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
-        message: Message directly with electricians
-        oss: Support independent electricians
-        rails: Exclusively electricians
+        message: Message directly with energy professionals
+        oss: Support independent energy professionals
+        rails: Exclusively energy professionals
         support: Email and video support from the founder
         title: Waivolt exclusives
       hiring_fee: "+ 10% first year salary"
@@ -769,20 +769,20 @@ en:
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to Waivolt and directly connect with hundreds of electricians who are looking for contract and full-time work.
+      description: Subscribe to Waivolt and directly connect with hundreds of energy professionals who are looking for contract and full-time work.
       title_og: Pricing
-      turbo_native_title: Hire electricians
+      turbo_native_title: Hire energy professionals
     stats:
       description: Organic, genuine conversations with higher response rates than LinkedIn or cold email.
-      new_devs: New electricians a month
-      rails_developers: Electricians
+      new_devs: New energy professionals a month
+      rails_developers: Energy professionals
       response_rate: Response rate
-      title: The electrician hiring platform
+      title: The energy professional hiring platform
   public_profiles:
     new:
       cancel: Cancel
       copy_link: Copy link
-      message: Share your electrician profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
+      message: Share your energy professional profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
       title: Share your profile
   read_notifications:
     create:
@@ -804,10 +804,10 @@ en:
       interested_in_roles: Interested in roles
   roles:
     new:
-      hiring_developers: I'm hiring electricians
-      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master electrician.
+      hiring_developers: I'm hiring energy professionals
+      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master energy professional.
       looking_for_work: I'm looking for work
-      looking_for_work_help_text: You're an electrician looking for your next job.
+      looking_for_work_help_text: You're an energy professional looking for your next job.
       what_brings_you_here: What brings you to Waivolt?
   sessions:
     sign_in: Sign in
@@ -838,7 +838,7 @@ en:
     saving: Saving...
   subscription_cta_component:
     cta: Start hiring
-    description: Gain access to %{developers}+ electricians.
+    description: Gain access to %{developers}+ energy professionals.
     title: Sign up now to see more profiles.
   users:
     paywalled:

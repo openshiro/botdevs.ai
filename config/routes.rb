@@ -38,7 +38,7 @@ Rails.application.routes.draw do
     resources :messages, only: :create
   end
 
-  resources :developers, except: :destroy, path: "electricians" do
+  resources :developers, except: :destroy, path: "professionals" do
     resources :messages, only: %i[new create], controller: :cold_messages
     resources :public_profiles, only: :new
   end
