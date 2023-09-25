@@ -55,7 +55,7 @@ en:
         one: Business
         other: Businesses
       developer:
-        one: Electrician
+        one: Solar professional
         other: Solar professionals
       user:
         one: User
@@ -67,13 +67,13 @@ en:
           actions: Actions
           business: Business
           details: Details
-          developer: Electrician
+          developer: Solar professional
           employment_type: Employment type
           start_date: Start date
           title: Hiring invoice requests
         show:
           billing_address: Billing address
-          developer_name: Electrician Name
+          developer_name: Solar Professional Name
           employment_type: Employment type
           feedback: Feedback
           full_name: Full name
@@ -93,7 +93,7 @@ en:
       index:
         business: Business
         conversations: "'s conversations"
-        developer: Electrician
+        developer: Solar professional
         email: Email
         email_tooltip: The solar professional mentioned an email address in a reply.
         no_potential_email: No potential email
@@ -111,7 +111,7 @@ en:
           actions: Actions
           company: Company
           details: Details
-          developer: Electrician
+          developer: Solar professional
           employment_type: Employment type
           start_date: Start date
           title: Celebration package requests
@@ -161,7 +161,7 @@ en:
         view: View
     specialties:
       create:
-        created: Electrician specialty created.
+        created: Solar professional specialty created.
       edit:
         title: Edit solar professional specialty
       form:
@@ -174,14 +174,14 @@ en:
         developers: Solar professionals
         edit: Edit
         name: Name
-        title: Electrician specialties
+        title: Solar professional specialties
       new:
         title: New solar professional specialty
       show:
-        developer_specialty: Electrician specialty
+        developer_specialty: Solar professional specialty
         no_developers: No solar professionals with this specialty.
       update:
-        updated: Electrician specialty updated.
+        updated: Solar professional specialty updated.
     transactions:
       create:
         created: Transaction created
@@ -200,14 +200,14 @@ en:
     users:
       index:
         business: Business
-        developer: Electrician
+        developer: Solar professional
         email: Email
         impersonate: Impersonate
         title: Users
       referrals:
         index:
           business: Business
-          developer: Electrician
+          developer: Solar professional
           referrals: "'s referrals"
           referrals_count: Referrals
           referred_user: Referred user
@@ -263,7 +263,7 @@ en:
       creating: Creating...
       developer_notifications:
         help_text: Receive daily or weekly email notifications when new solar professionals add their profile to Waivolt.
-        legend: Electrician notifications
+        legend: Solar professional notifications
         values:
           daily: Daily
           'no': Never
@@ -289,7 +289,7 @@ en:
       new:
         billing_address: Billing address
         description: Congrats on your new hire!
-        developer_name: Electrician's name
+        developer_name: Solar professional's name
         feedback: Feedback (optional)
         feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
         requesting: Requesting...
@@ -386,7 +386,7 @@ en:
       cta: Reset filters
       title_html: Showing <span class='font-bold'>%{count}</span> solar professionals.
     cover_image_component:
-      alt: Electrician's cover image
+      alt: Solar professional's cover image
     create:
       created: Your profile was added!
     details:
@@ -472,14 +472,14 @@ en:
       independent: independent
       hire: Hire
       in_state: in %{state}
-      electricians: solar professionals
+      professionals: solar professionals
     new_field_component:
       new: New!
     new_fields_component:
       cta: Complete my profile
       title: New fields were added to solar professional profiles!
     open_graph_tags_component:
-      turbo_native_title: Electrician profile
+      turbo_native_title: Solar professional profile
     profile_action_component:
       add_profile: Add my profile
       edit_profile: Update my profile
@@ -505,7 +505,7 @@ en:
         title: Specialties
       timezone:
         title: Timezone
-      title: Electrician filters
+      title: Solar professional filters
       work_preference:
         title: Work preference
     query_sort_button_component:
@@ -623,7 +623,7 @@ en:
       open_user_menu: Open user menu
       referrals: Referrals
       sign_out: Sign out
-      specialties: Electrician specialties
+      specialties: Solar professional specialties
       transactions: Transactions
       users: Users
       view_conversations: View conversations
@@ -658,8 +658,8 @@ en:
       invisiblize_notification:
         title: Your profile on Waivolt was flagged
       product_announcement_notification:
-        email_subject: "[Waivolt] New feature alert: Electrician specialties 🚨"
-        title: 'New feature alert: Electrician specialties'
+        email_subject: "[Waivolt] New feature alert: Solar professional specialties 🚨"
+        title: 'New feature alert: Solar professional specialties'
       profile_reminder_notification:
         email_subject: Is your Waivolt profile up to date?
         title: Is your solar professional profile up to date?

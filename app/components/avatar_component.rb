@@ -31,7 +31,7 @@ class AvatarComponent < ViewComponent::Base
 
   def name
     if avatarable.class.name == "Developer"
-      "Electrician's"
+      "Professional's"
     else
       "#{avatarable.class.name}'s"
     end
