@@ -332,8 +332,8 @@ en:
     ago: ago
     index:
       empty_state:
-        body: Get started by finding a energy professional to message.
-        cta: Find a energy professional
+        body: Get started by finding an energy professional to message.
+        cta: Find an energy professional
         title: No conversations
       title: Your conversations
     read_indicator_component:
@@ -395,7 +395,7 @@ en:
       title: Your energy professional profile
     form:
       bio:
-        description: Share a few paragraphs on what makes you unique as a energy professional. This is your chance to market yourself to potential employers – sell yourself a little!
+        description: Share a few paragraphs on what makes you unique as an energy professional. This is your chance to market yourself to potential employers – sell yourself a little!
         examples:
           accomplishment: A recent milestone or accomplishment
           help: How you can help where others can't
@@ -423,7 +423,7 @@ en:
         change: Upload
         cover_image: Cover image
         help_text: This information will be displayed publicly so be careful what you share.
-        hero_help_text: Summarize yourself as a energy professional in a few words.
+        hero_help_text: Summarize yourself as an energy professional in a few words.
         location_help_text: Providing your location makes it easier to connect with local business.
         name_help_text_html: Your name will <i>not</i> be displayed on your public profile.
         title: Profile
@@ -536,7 +536,7 @@ en:
   errors:
     business_blank: Fill out your business profile to message energy professionals.
     business_subscription_inactive: Sign up for a business subscription to message energy professionals.
-    developer_blank: Please create a energy professional profile first.
+    developer_blank: Please create an energy professional profile first.
     hiring_agreements:
       cold_message: Please sign the hiring agreement to message energy professionals.
       payment: Please sign the hiring agreement before subscribing.
