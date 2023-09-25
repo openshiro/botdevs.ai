@@ -1,10 +1,10 @@
 # Waivolt
 
-The reverse job board for energy professionals.
+The reverse job board for solar professionals.
 
-Waivolt empowers energy professionals available for their next job. It is being built around [three core values](https://waivolt.com/about):
+Waivolt empowers solar professionals available for their next job. It is being built around [three core values](https://waivolt.com/about):
 
-1. Empowering energy professionals
+1. Empowering solar professionals
 1. Doing everything in public
 1. Creating a safe, inclusive environment
 

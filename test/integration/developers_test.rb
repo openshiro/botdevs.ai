@@ -20,7 +20,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
   test "custom meta tags are rendered" do
     get developers_path
-    assert_title_contains "Hire energy professionals"
+    assert_title_contains "Hire solar professionals"
     assert_description_contains "looking for their"
   end
 
@@ -54,7 +54,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     get developers_path(states: [state])
 
     assert_select "input[checked][type=checkbox][value='#{state}'][name='states[]']"
-    assert_text "Hire energy professionals in #{state}"
+    assert_text "Hire solar professionals in #{state}"
   end
 
   test "developers can be filtered by role type" do
