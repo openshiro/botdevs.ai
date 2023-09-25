@@ -106,7 +106,6 @@ class Developer < ApplicationRecord
   def missing_fields?
     search_status.blank? ||
       location.missing_fields? ||
-      role_level.missing_fields? ||
       role_type.missing_fields?
   end
 

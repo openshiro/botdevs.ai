@@ -134,7 +134,7 @@ class DeveloperTest < ActiveSupport::TestCase
     refute @developer.missing_fields?
 
     @developer.build_role_level
-    assert @developer.missing_fields?
+    refute @developer.missing_fields?
   end
 
   test "missing fields when role type is all blank" do
