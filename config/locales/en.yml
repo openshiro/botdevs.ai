@@ -161,9 +161,9 @@ en:
         view: View
     specialties:
       create:
-        created: Solar professional specialty created.
+        created: Speciality created.
       edit:
-        title: Edit solar professional specialty
+        title: Edit speciality
       form:
         cancel: Cancel
       index:
@@ -174,14 +174,14 @@ en:
         developers: Solar professionals
         edit: Edit
         name: Name
-        title: Solar professional specialties
+        title: Specialties
       new:
-        title: New solar professional specialty
+        title: New speciality
       show:
-        developer_specialty: Solar professional specialty
+        developer_specialty: Speciality
         no_developers: No solar professionals with this specialty.
       update:
-        updated: Solar professional specialty updated.
+        updated: Speciality updated.
     transactions:
       create:
         created: Transaction created
@@ -450,7 +450,7 @@ en:
         new:
           before: If you don't see a specialty that matches your unique skills you can
           cta: suggest a new specialty
-          subject: New solar professional specialty suggestion
+          subject: New speciality suggestion
         note:
           description: This feature is in beta and might be changed. Add your specialties ASAP - businesses will be able to filter by them soon.
           title: BETA
@@ -617,13 +617,13 @@ en:
       hiring_agreement_terms: Hiring agreement terms
       my_business_profile: My business profile
       my_conversations: My conversations
-      my_developer_profile: My solar professional profile
+      my_developer_profile: My professional profile
       new: New!
       new_notifications: You have a new notification
       open_user_menu: Open user menu
       referrals: Referrals
       sign_out: Sign out
-      specialties: Solar professional specialties
+      specialties: Specialties
       transactions: Transactions
       users: Users
       view_conversations: View conversations
