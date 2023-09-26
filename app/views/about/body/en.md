@@ -1,15 +1,14 @@
 ### Empowering solar professionals
 
-I've been working in training for the building trades since 2007. With my first company, HeatSpring, I built an online training platform responsible for training tens of thousands of solar professionals on clean solar techologies like solar PV. In 2023 I created Waivolt, an Oregon benefit company, to help solar professionals find work.
+I've been working in training for the building trades since 2007. With my first company, HeatSpring, I built an online training platform responsible for training tens of thousands of professionals on clean solar techologies like solar PV. In 2023 I created Waivolt, an Oregon benefit company, to help solar professionals find work and get better jobs.
 
-Now more than ever, the world is in need of solar professionals. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment to electrify everything. Millions of electricans will be required to do the job, are you up for it?
+Now more than ever, the world is in need of solar professionals. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment in solar. Millions of professionals will be required to do the job, are you up for it?
 
-*Master Electrician?* That's the most in demand and hardest to place position in the market.
-*Journeyman Electrician?* Take your career to the next level.
-*Apprentice Electrician?* There has never been a better time to grow.
+*Licensed Electrician?* That's the most in demand and hardest to place position in the market.
+*NABCEP Certified?* Take your career to the next level.
 *No experience?* You might be more in demand that you think, it takes hard work and a willingness to learn.
 
-Make a [free profile](users/sign_up) to get your career started.
+Make a [free profile](users/sign_up) to get you next career move started.
 
 ### Doing everything in public
 
