@@ -14,6 +14,7 @@ Rails.configuration.developer_response_grace_period = nil
 
 puts "Seeding #{Rails.env} database..."
 seed "admins"
+seed "articles"
 seed "developers"
 seed "businesses"
 seed "conversations"
