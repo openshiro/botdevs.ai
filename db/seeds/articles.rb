@@ -1,4 +1,4 @@
-title = "A published article"
+title = "A published article with a long title that may span multiple lines so we can see"
 attributes = {
   title:,
   published_at: Time.now,
