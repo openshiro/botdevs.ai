@@ -1,6 +1,6 @@
 ### Empowering solar professionals
 
-I've been working in training for the building trades since 2007. With my first company, HeatSpring, I built an online training platform responsible for training tens of thousands of professionals on clean solar techologies like solar PV. In 2023 I created Waivolt, an Oregon benefit company, to help solar professionals find work and get better jobs.
+I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built an online training platform responsible for training tens of thousands of professionals on clean solar techologies like solar PV. In 2023 I created Waivolt, an Oregon benefit company, to help solar professionals find work and get better jobs.
 
 Now more than ever, the world is in need of solar professionals. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment in solar. Millions of professionals will be required to do the job, are you up for it?
 
