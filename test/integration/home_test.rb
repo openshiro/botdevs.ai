@@ -3,7 +3,7 @@ require "test_helper"
 class HomeTest < ActionDispatch::IntegrationTest
   include MetaTagsHelper
 
-  test "shows developer profiles actively looking" do
+  test "shows professional profiles actively looking" do
     developers(:prospect).update!(
       search_status: :open
     )

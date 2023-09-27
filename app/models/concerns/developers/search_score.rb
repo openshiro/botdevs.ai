@@ -1,4 +1,4 @@
-# Recommended sorting alorithm for developer profiles in search results.
+# Recommended sorting alorithm for professional profiles in search results.
 # v1.0 - last updated April 6, 2023
 #
 # | Property                  | Effect on score |

@@ -25,7 +25,7 @@ aws:
 
 ### Hashids
 
-[Hashids](https://github.com/jcypret/hashid-rails) are used to obfuscate developer profile URLs. [Set your own salt](https://github.com/jcypret/hashid-rails#configuration-optional) to ensure IDs are not guessable.
+[Hashids](https://github.com/jcypret/hashid-rails) are used to obfuscate professional profile URLs. [Set your own salt](https://github.com/jcypret/hashid-rails#configuration-optional) to ensure IDs are not guessable.
 
 ```
 hashid:

@@ -9,7 +9,7 @@ class AuthenticationTest < ActionDispatch::IntegrationTest
     assert_redirected_to new_developer_path
   end
 
-  test "redirects to the root path with a developer profile" do
+  test "redirects to the root path with a professional profile" do
     login(users(:developer))
     assert_redirected_to root_path
   end
