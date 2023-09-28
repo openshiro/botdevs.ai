@@ -19,7 +19,7 @@ class InquiriesTest < ActionDispatch::IntegrationTest
 
   test "admin should create inquiry" do
     assert_difference("Inquiry.count") do
-      post admin_inquiries_url, params: { inquiry: { email: @inquiry.email, name: @inquiry.name } }
+      post admin_inquiries_url, params: {inquiry: {email: @inquiry.email, name: @inquiry.name}}
     end
 
     assert_redirected_to admin_inquiry_url(Inquiry.last)

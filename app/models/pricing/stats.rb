@@ -3,7 +3,7 @@ module Pricing
     def developers
       return 0 unless visible_developers.positive?
 
-      #SignificantFigure.new(visible_developers).rounded
+      # SignificantFigure.new(visible_developers).rounded
       visible_developers
     end
 
@@ -16,7 +16,7 @@ module Pricing
     def new_devs
       return 0 unless devs_per_month.positive?
 
-      #SignificantFigure.new(devs_per_month).rounded
+      # SignificantFigure.new(devs_per_month).rounded
       devs_per_month.round
     end
 

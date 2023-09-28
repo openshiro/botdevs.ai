@@ -1,6 +1,5 @@
 module Admin
   class InquiriesController < ApplicationController
-
     # GET /inquiries
     def index
       @inquiries = Inquiry.all
@@ -28,9 +27,10 @@ module Admin
     end
 
     private
-      # Only allow a list of trusted parameters through.
-      def inquiry_params
-        params.require(:inquiry).permit(:email, :name)
-      end
+
+    # Only allow a list of trusted parameters through.
+    def inquiry_params
+      params.require(:inquiry).permit(:email, :name)
+    end
   end
 end

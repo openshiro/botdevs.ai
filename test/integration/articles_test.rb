@@ -17,14 +17,12 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     @article.update(content: "foo", published_at: nil)
     get articles_url
 
-
     assert_select "li", {count: 0, text: @article.title}
   end
 
   test "article should not appear if scheduled" do
     @article.update(content: "foo", published_at: 2.days.from_now)
     get articles_url
-
 
     assert_select "li", {count: 0, text: @article.title}
   end

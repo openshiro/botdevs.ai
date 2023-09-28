@@ -2,9 +2,9 @@ require "sidekiq/web"
 
 Rails.application.routes.draw do
   match "(*any)",
-  to: redirect(subdomain: "www"),
-  via: :all,
-  constraints: { subdomain: "", host: "waivolt.com" }
+    to: redirect(subdomain: "www"),
+    via: :all,
+    constraints: {subdomain: "", host: "waivolt.com"}
 
   get "/electricians", to: redirect("professionals")
   get "/electricians/:id", to: redirect("professionals/%{id}")

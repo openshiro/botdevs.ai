@@ -2,7 +2,7 @@ class Inquiry < ApplicationRecord
   belongs_to :contact, optional: true
 
   validates :email, presence: true
-  validates_format_of :email, with: Devise::email_regexp, message: "is not formatted correctly"
+  validates_format_of :email, with: Devise.email_regexp, message: "is not formatted correctly"
 
   after_create :match_contact
 

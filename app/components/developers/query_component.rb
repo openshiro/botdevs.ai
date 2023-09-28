@@ -78,7 +78,7 @@ module Developers
     end
 
     def collapse_specialties?
-      false #query.specialty_ids.empty?
+      false # query.specialty_ids.empty?
     end
 
     def collapse_location?

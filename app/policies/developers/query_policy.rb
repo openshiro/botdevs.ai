@@ -26,7 +26,7 @@ module Developers
 
     def paywalled_attributes
       [
-        :search_query,\
+        :search_query\
       ]
     end
   end
