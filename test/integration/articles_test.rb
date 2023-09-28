@@ -9,8 +9,8 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     get articles_url
     assert_response :success
 
-    assert_select "h1", "Articles"
-    assert_select "li", @article.title
+    assert_select "h2", "Latest articles"
+    assert_select "h3", @article.title
   end
 
   test "article should not appear if draft" do
