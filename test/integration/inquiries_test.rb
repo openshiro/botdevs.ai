@@ -14,12 +14,5 @@ class InquiriesTest < ActionDispatch::IntegrationTest
     assert_difference("Inquiry.count") do
       post inquiries_url, params: { inquiry: { email: @inquiry.email, name: @inquiry.name } }
     end
-
-    assert_redirected_to inquiry_url(Inquiry.last)
-  end
-
-  test "should show inquiry" do
-    get inquiry_url(@inquiry)
-    assert_response :success
   end
 end

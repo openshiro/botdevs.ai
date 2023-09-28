@@ -6,9 +6,9 @@
   <% @inquiries.each do |inquiry| %>
     <%= render inquiry %>
     <p>
-      <%= link_to "Show this inquiry", inquiry %>
+      <%= link_to "Show this inquiry", admin_inquiry_path(inquiry) %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New inquiry", new_inquiry_path %>
+<%= link_to "New inquiry", new_admin_inquiry_path %>

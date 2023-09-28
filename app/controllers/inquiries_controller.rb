@@ -1,8 +1,4 @@
 class InquiriesController < ApplicationController
-  # GET /inquiries/1
-  def show
-  end
-
   # GET /inquiries/new
   def new
     @inquiry = Inquiry.new

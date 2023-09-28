@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     registrations: "users"
   }
 
-  resources :inquiries, only: %i[new create show]
+  resources :inquiries, only: %i[new create]
   resources :articles, only: [:show, :index]
   resource :about, only: :show, controller: :about
   resource :conduct, only: :show
