@@ -22,13 +22,13 @@ class UsersTest < ActionDispatch::IntegrationTest
   end
 
   test "creating an account persists the referral code" do
-    get root_path(ref: "ref-code")
+    get pricing_path(ref: "ref-code")
     user = register_new_user
     assert_equal "ref-code", user.referral.code
   end
 
   test "invalid account creation doesn't persist referral code" do
-    get root_path(ref: "ref-code")
+    get pricing_path(ref: "ref-code")
 
     assert_no_changes "User.count" do
       post user_registration_path(user: {
