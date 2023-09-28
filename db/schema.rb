@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_28_170859) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_28_175035) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -230,6 +230,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_28_170859) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["message_id"], name: "index_inbound_emails_on_message_id"
+  end
+
+  create_table "inquiries", force: :cascade do |t|
+    t.bigint "contact_id", null: false
+    t.string "email", null: false
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["contact_id"], name: "index_inquiries_on_contact_id"
   end
 
   create_table "locations", force: :cascade do |t|
@@ -510,6 +519,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_28_170859) do
   add_foreign_key "developers_celebration_package_requests", "developers"
   add_foreign_key "hiring_agreements_signatures", "hiring_agreements_terms"
   add_foreign_key "hiring_agreements_signatures", "users"
+  add_foreign_key "inquiries", "contacts"
   add_foreign_key "notification_tokens", "users"
   add_foreign_key "pay_charges", "pay_customers", column: "customer_id"
   add_foreign_key "pay_charges", "pay_subscriptions", column: "subscription_id"

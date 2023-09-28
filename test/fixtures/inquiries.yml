@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contact: one
+  email: foobar@bar.com
+  name: MyString
+
+two:
+  contact: two
+  email: bashbar@bar.com
+  name: MyString

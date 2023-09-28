@@ -1,6 +1,7 @@
 require "sidekiq/web"
 
 Rails.application.routes.draw do
+  resources :inquiries
   match "(*any)",
   to: redirect(subdomain: "www"),
   via: :all,
