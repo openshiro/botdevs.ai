@@ -1,7 +1,6 @@
 require "sidekiq/web"
 
 Rails.application.routes.draw do
-  resources :inquiries
   match "(*any)",
   to: redirect(subdomain: "www"),
   via: :all,
@@ -14,6 +13,7 @@ Rails.application.routes.draw do
     registrations: "users"
   }
 
+  resources :inquiries, only: %i[new create show]
   resources :articles, only: [:show, :index]
   resource :about, only: :show, controller: :about
   resource :conduct, only: :show
@@ -84,6 +84,7 @@ Rails.application.routes.draw do
     resources :conversations, only: :index
     resources :specialties
     resources :transactions, except: :show
+    resources :inquiries, only: %i[new create index show]
     resources :articles
     resources :users, only: [:index] do
       resources :referrals, only: :index, module: :users
