@@ -12,7 +12,7 @@ class InquiriesTest < ActionDispatch::IntegrationTest
 
   test "should create inquiry" do
     assert_difference("Inquiry.count") do
-      post inquiries_url, params: { inquiry: { contact_id: @inquiry.contact_id, email: @inquiry.email, name: @inquiry.name } }
+      post inquiries_url, params: { inquiry: { email: @inquiry.email, name: @inquiry.name } }
     end
 
     assert_redirected_to inquiry_url(Inquiry.last)

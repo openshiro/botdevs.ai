@@ -233,7 +233,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_28_175035) do
   end
 
   create_table "inquiries", force: :cascade do |t|
-    t.bigint "contact_id", null: false
+    t.bigint "contact_id"
     t.string "email", null: false
     t.string "name"
     t.datetime "created_at", null: false
