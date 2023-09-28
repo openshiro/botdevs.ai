@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: foo@bar.com
+  name: MyString
+  subscribed: false
+
+two:
+  email: bar@bash.com
+  name: MyString
+  subscribed: false
