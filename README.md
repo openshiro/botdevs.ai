@@ -1,12 +1,14 @@
 # Waivolt
 
-The reverse job board for solar professionals.
+Waivolt is a reverse job board for the solar industry.
 
-Waivolt empowers solar professionals available for their next job. It is being built around [three core values](https://waivolt.com/about):
+Solar professionals can create a free profile that features their experience, skills and location. Hiring companies can then search the profiles and contact professionals through the platform about jobs.
 
-1. Empowering solar professionals
-1. Doing everything in public
-1. Creating a safe, inclusive environment
+It is being built around [our core values](https://waivolt.com/about):
+
+- Championing **all** solar professionals and their work
+- Operating with trust, integrity and open transparency
+- Working to help to solve the climate crisis
 
 ---
 
