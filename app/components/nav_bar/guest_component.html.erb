@@ -27,13 +27,13 @@
             <div class="ml-4 flex items-center md:ml-6 space-x-4">
               <%= link_to t(".sign_in"), new_user_session_path, class: "text-gray-300 hover:bg-blue-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
 
-              <%= link_to t(".register"), new_user_registration_path, class: "relative inline-flex items-center px-3.5 py-1.5 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-green-500" %>
+              <%= link_to t(".register"), new_user_registration_path, class: "relative inline-flex items-center px-3.5 py-1.5 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-950 focus:ring-green-600" %>
             </div>
           </div>
 
           <div class="-mr-2 flex items-center md:hidden">
             <!-- Mobile menu button -->
-            <button type="button" data-action="toggle#toggle" class="bg-blue-950 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <button type="button" data-action="toggle#toggle" class="bg-blue-950 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-950 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
               <span data-toggle-target="element">
                 <span class="sr-only">Open main menu</span>
                 <%= inline_svg_tag "icons/outline/menu.svg", class: "block h-6 w-6", aria_hidden: true %>
@@ -59,7 +59,7 @@
 
         <div class="pt-2">
           <div class="border-t border-gray-500 pt-6 pb-2">
-            <%= link_to t(".register"), new_user_registration_path, class: "w-full flex items-center justify-center relative inline-flex items-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-green-500" %>
+            <%= link_to t(".register"), new_user_registration_path, class: "w-full flex items-center justify-center relative inline-flex items-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-950 focus:ring-green-600" %>
             <%= link_to new_user_session_path, class: "block mt-4 text-center text-gray-300 group" do %>
               Have an account?
               <span class="text-white font-medium group-hover:text-gray-500"><%= t(".sign_in") %></span>
