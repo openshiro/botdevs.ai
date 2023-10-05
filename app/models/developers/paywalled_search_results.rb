@@ -16,7 +16,7 @@ module Developers
     end
 
     def show_paywall?(result_count)
-      result_count > Pagy::DEFAULT[:items] && !user_authorized?
+      !user_authorized?
     end
 
     private
