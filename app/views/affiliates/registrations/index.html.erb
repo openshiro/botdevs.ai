@@ -6,13 +6,13 @@
     <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= t(".title") %></h1>
     <p class="mt-6 text-xl leading-8"><%= t(".description") %></p>
     <div class="mt-10 flex">
-      <%= link_to "Sign up for an account", new_affiliate_path, class: "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" %>
+      <%= link_to "Sign up for an account", new_affiliate_path, class: "btn" %>
     </div>
 
     <!-- Details -->
     <div class="mt-10 max-w-2xl">
       <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">How much can I make?</h2>
-      <p class="mt-6">Waivolt charges businesses $299 for a monthly subscription and a 10% hiring fee for full-time employees. If you refer a business that subscribes for 3 months and hires an solar professional at $50,000 <span class="font-semibold">you will make about $600</span>.</p>
+      <p class="mt-6">Waivolt charges businesses $299 for a monthly subscription. If you refer a business that subscribes for 6 months <span class="font-semibold">you will make about $450</span>.</p>
     </div>
 
     <!-- How it works -->
@@ -29,10 +29,10 @@
         </li>
         <li class="flex flex-col">
           <strong class="font-semibold text-gray-900">Step 3</strong>
-          Get paid 10% recurring commissions. You’ll get paid for every month your referral is a paying customer of Waivolt.
+          Get paid 25% recurring commissions. You’ll get paid for every month your referral is a paying customer of Waivolt.
         </li>
       </ol>
-      <p class="mt-8">Commissions include the monthly subscription fee <em>and</em> hiring fees. If your referral hires an solar professional for $50,000 you will receive $500 (10% of the <%= link_to "10% hiring fee", pricing_path, class: "font-semibold underline" %>).</p>
+      <p class="mt-8">Commissions are based on the reucrring monthly subscription fee.</p>
     </div>
 
     <!-- Rules -->
@@ -92,7 +92,7 @@
     <div class="mx-auto max-w-3xl py-24">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ready to partner <span class="block sm:inline-block">with Waivolt?</span></h2>
       <div class="mt-8">
-        <%= link_to "Sign up for an account", new_affiliate_path, class: "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" %>
+        <%= link_to "Sign up for an account", new_affiliate_path, class: "btn" %>
       </div>
     </div>
   </div>
