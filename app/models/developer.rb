@@ -69,6 +69,7 @@ class Developer < ApplicationRecord
   end
 
   scope :actively_looking_or_open, -> { where(search_status: [:actively_looking, :open, nil]) }
+  scope :actively_looking, -> { where(search_status: [:actively_looking, nil]) }
   scope :featured, -> { where("featured_at >= ?", FEATURE_LENGTH.ago).order(featured_at: :desc) }
   scope :newest_first, -> { order(created_at: :desc) }
   scope :recently_updated_first, -> { order(updated_at: :desc) }
