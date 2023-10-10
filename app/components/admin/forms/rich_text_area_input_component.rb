@@ -10,7 +10,7 @@ module Admin
       end
 
       def call
-        form.rich_text_area(field, class: classes, cols:, rows:)
+        form.rich_text_area(field, data: { controller: 'trix-toolbar-post' }, class: classes, cols:, rows:)
       end
     end
   end
