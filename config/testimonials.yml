@@ -1,5 +1,11 @@
 shared:
   -
+    image: thomas.jpeg
+    name: Thomas K.
+    testimonial: Right now is a great time for early adopters to get great jobs and for hiring managers to find great talent on Waivolt.
+    title: Verified review
+    url: https://www.solarbusinessinsights.com/waivolt
+  -
     image: avatar.png
     name: Anthony
     testimonial: Stellar customer service.
@@ -11,9 +17,3 @@ shared:
     testimonial: This is really cool.
     title: r/solarbusiness
     url: #
-  # -
-  #   image: phil.jpg
-  #   name: Phil
-  #   testimonial: My lead developer gave notice and I found a replacement in under a week through RailsDevs.
-  #   title: Founder, Theatre Digs Booker
-  #   url: https://testimonial.to/share/railsdevs-hiring/t/5nDZ3xmVezbr8NvNzy2qpdWj9
