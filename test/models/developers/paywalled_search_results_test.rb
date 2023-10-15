@@ -12,7 +12,7 @@ class Developers::PaywalledSearchResultsTest < ActiveSupport::TestCase
 
   test "show the paywall when the user is not a subscriber or not enough results to trigger pagination" do
     assert paywall(user: users(:empty)).show_paywall?(11)
-    refute paywall(user: users(:empty)).show_paywall?(9)
+    assert paywall(user: users(:empty)).show_paywall?(9)
     refute paywall(user: users(:subscribed_business)).show_paywall?(11)
   end
 

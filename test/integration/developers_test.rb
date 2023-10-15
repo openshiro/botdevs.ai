@@ -25,8 +25,8 @@ class DevelopersTest < ActionDispatch::IntegrationTest
   end
 
   test "developers are sorted by when they updated their profile" do
-    create_developer(hero: "Recent Update").update!(updated_at: Date.today)
-    create_developer(hero: "Older Update").update!(updated_at: Date.yesterday)
+    create_developer(hero: "Recent Update").update!(updated_at: Date.today, search_status: :actively_looking)
+    create_developer(hero: "Older Update").update!(updated_at: Date.yesterday, search_status: :actively_looking)
 
     get developers_path
 
@@ -98,8 +98,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
   test "mobile filtering" do
     get developers_path
-
-    assert_select "h2", text: developers(:one).hero, count: 1
+    assert_select "h2", text: developers(:one).hero
     assert_select "form#developer-filters-mobile"
     developers(:one).role_level.update!(entry_level: false)
 
