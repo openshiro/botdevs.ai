@@ -389,6 +389,7 @@ GEM
       railties (>= 5.2)
     rexml (3.2.5)
     rinku (2.0.6)
+    rollbar (3.4.1)
     rubocop (1.29.1)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
@@ -523,6 +524,7 @@ DEPENDENCIES
   redcarpet
   redis
   rexml (>= 3.2.5)
+  rollbar
   scout_apm
   selenium-webdriver
   sidekiq
