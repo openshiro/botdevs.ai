@@ -1,10 +1,10 @@
-### Championing all solar professionals and their work
+### Championing all AI/ML developers and their work
 
-The site is open to all solar professionals, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
+The site is open to all AI/ML developers, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
 
-I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built a platform and developed training for tens of thousands of solar PV professionals and solar companies. In 2023 I created BotDevs, an Oregon benefit company, to help solar professionals find work and get better jobs.
+I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built a platform and developed training for tens of thousands of solar PV professionals and solar companies. In 2023 I created BotDevs, an Oregon benefit company, to help AI/ML developers find work and get better jobs.
 
-Now more than ever, the world is in need of solar professionals. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment in solar. Millions of professionals will be required to do the job, are you up for it?
+Now more than ever, the world is in need of AI/ML developers. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment in solar. Millions of professionals will be required to do the job, are you up for it?
 
 *Licensed Electrician?* That's the most in demand and hardest to place position in the market.
 *NABCEP Certified?* Take your career to the next level.

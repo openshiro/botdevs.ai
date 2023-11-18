@@ -8,7 +8,7 @@ end
 
 # Minimum developer
 SeedsHelper.create_developer!("minimum", {
-  hero: "Minimum Solar professional",
+  hero: "Minimum AI/ML developer",
   location: SeedsHelper.locations[:new_york]
 })
 
@@ -21,7 +21,7 @@ developer.invisiblize_and_notify! unless developer.invisible?
 
 # Stale developer
 developer = SeedsHelper.create_developer!("stale", {
-  hero: "Stale Solar professional",
+  hero: "Stale AI/ML developer",
   location: SeedsHelper.locations[:new_york]
 })
 long_time_ago = 31.days.ago
@@ -30,14 +30,14 @@ developer.notify_as_stale unless Notification.exists?(type: Developers::ProfileR
 
 # Featured developer
 developer = SeedsHelper.create_developer!("featured", {
-  hero: "Featured Solar professional",
+  hero: "Featured AI/ML developer",
   location: SeedsHelper.locations[:new_york]
 })
 developer.feature! unless developer.featured_at?
 
 # Junior developer
 SeedsHelper.create_developer!("entry_level", {
-  hero: "Entry-level Solar professional",
+  hero: "Entry-level AI/ML developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   role_type: RoleType.new(full_time_employment: true),
@@ -84,7 +84,7 @@ developer.update_and_notify(search_status: :not_interested) unless developer.not
 
 # New developer
 SeedsHelper.create_developer!("new", {
-  hero: "New Solar professional",
+  hero: "New AI/ML developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   created_at: Time.current
@@ -92,7 +92,7 @@ SeedsHelper.create_developer!("new", {
 
 # Recently updated developer
 SeedsHelper.create_developer!("updated", {
-  hero: "Recently Updated Solar professional",
+  hero: "Recently Updated AI/ML developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   profile_updated_at: Time.current

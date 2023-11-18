@@ -3,35 +3,35 @@ require "test_helper"
 class Developers::MetaTest < ActiveSupport::TestCase
   test "displays role level when one is selected" do
     title = build_title(role_levels: [:entry_level])
-    assert_equal title, "Hire entry-level solar professionals"
+    assert_equal title, "Hire entry-level AI/ML developers"
 
     title = build_title(role_levels: [:entry_level, :journeyman])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
 
     title = build_title(role_levels: [])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
   end
 
   test "displays 'independent' when only both contract role types are selected" do
     title = build_title(role_types: [:part_time_contract, :full_time_contract])
-    assert_equal title, "Hire independent solar professionals"
+    assert_equal title, "Hire independent AI/ML developers"
 
     title = build_title(role_types: [:part_time_contract, :full_time_contract, :full_time_employment])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
 
     title = build_title(role_types: [:part_time_contract])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
   end
 
   test "displays state if one is selected" do
     title = build_title(states: ["Oregon"])
-    assert_equal title, "Hire solar professionals in Oregon"
+    assert_equal title, "Hire AI/ML developers in Oregon"
 
     title = build_title(states: ["Oregon", "Washington"])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
 
     title = build_title(states: [])
-    assert_equal title, "Hire solar professionals"
+    assert_equal title, "Hire AI/ML developers"
   end
 
   test "role level comes before independent (and country at the end)" do
@@ -40,7 +40,7 @@ class Developers::MetaTest < ActiveSupport::TestCase
       role_types: [:part_time_contract, :full_time_contract],
       states: ["Oregon"]
     )
-    assert_equal title, "Hire journeyman independent solar professionals in Oregon"
+    assert_equal title, "Hire journeyman independent AI/ML developers in Oregon"
   end
 
   def build_title(query_options = {})

@@ -48,8 +48,8 @@ en:
         one: Business
         other: Businesses
       developer:
-        one: Solar professional
-        other: Solar professionals
+        one: AI/ML developer
+        other: AI/ML developers
       user:
         one: User
         other: Users
@@ -60,7 +60,7 @@ en:
           actions: Actions
           business: Business
           details: Details
-          developer: Solar professional
+          developer: AI/ML developer
           employment_type: Employment type
           start_date: Start date
           title: Hiring invoice requests
@@ -86,14 +86,14 @@ en:
       index:
         business: Business
         conversations: "'s conversations"
-        developer: Solar professional
+        developer: AI/ML developer
         email: Email
-        email_tooltip: The solar professional mentioned an email address in a reply.
+        email_tooltip: The developer mentioned an email address in a reply.
         no_potential_email: No potential email
         no_response: No response
         potential_email: Potential email
         replied: Replied
-        replied_tooltip: The solar professional has replied to this conversation.
+        replied_tooltip: The developer has replied to this conversation.
         reply_rate: Reply rate
         started: Started
         title: Conversations
@@ -104,7 +104,7 @@ en:
           actions: Actions
           company: Company
           details: Details
-          developer: Solar professional
+          developer: AI/ML developer
           employment_type: Employment type
           start_date: Start date
           title: Celebration package requests
@@ -164,7 +164,7 @@ en:
         add: Add specialty
         delete: Delete
         delete_confirmation: Are you sure you want to delete this specialty?
-        developers: Solar professionals
+        developers: AI/ML developers
         edit: Edit
         name: Name
         title: Specialties
@@ -172,7 +172,7 @@ en:
         title: New speciality
       show:
         developer_specialty: Speciality
-        no_developers: No solar professionals with this specialty.
+        no_developers: No AI/ML developers with this specialty.
       update:
         updated: Speciality updated.
     transactions:
@@ -193,14 +193,14 @@ en:
     users:
       index:
         business: Business
-        developer: Solar professional
+        developer: AI/ML developer
         email: Email
         impersonate: Impersonate
         title: Users
       referrals:
         index:
           business: Business
-          developer: Solar professional
+          developer: AI/ML developer
           referrals: "'s referrals"
           referrals_count: Referrals
           referred_user: Referred user
@@ -212,7 +212,7 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
-        description: Earn 25% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for solar professionals.
+        description: Earn 25% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for AI/ML developers.
         title: Earn money promoting BotDevs
       new:
         agreement: I agree to these rules
@@ -255,8 +255,8 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new solar professionals add their profile to BotDevs.
-        legend: Solar professional notifications
+        help_text: Receive daily or weekly email notifications when new AI/ML developers add their profile to BotDevs.
+        legend: AI/ML developer notifications
         values:
           daily: Daily
           'no': Never
@@ -282,7 +282,7 @@ en:
       new:
         billing_address: Billing address
         description: Congrats on your new hire!
-        developer_name: Solar professional's name
+        developer_name: AI/ML developer's name
         feedback: Feedback (optional)
         feedback_help: Please let us know how we can improve BotDevs or anything you'd like to share.
         requesting: Requesting...
@@ -306,8 +306,8 @@ en:
       title: Requires an active business subscription.
     upgrade_required_component:
       body:
-        expired: Your subscription has expired. Reactivate your account to continue messaging solar professionals.
-        upgrade: With your current plan you can only message solar professionals looking for part-time work. Upgrade your account to message this solar professional.
+        expired: Your subscription has expired. Reactivate your account to continue messaging AI/ML developers.
+        upgrade: With your current plan you can only message AI/ML developers looking for part-time work. Upgrade your account to message this developer.
       cta:
         expired: Reactivate my account
         upgrade: Upgrade my account
@@ -325,8 +325,8 @@ en:
     ago: ago
     index:
       empty_state:
-        body: Get started by finding an solar professional to message.
-        cta: Find an solar professional
+        body: Get started by finding a developer to message.
+        cta: Find a developer
         title: No conversations
       title: Your conversations
     read_indicator_component:
@@ -377,23 +377,23 @@ en:
         title: Did you find a job through BotDevs?
     count_component:
       cta: Reset filters
-      title_html: Showing <span class='font-bold'>%{count}</span> solar professionals.
+      title_html: Showing <span class='font-bold'>%{count}</span> AI/ML developers.
     cover_image_component:
-      alt: Solar professional's cover image
+      alt: AI/ML developer's cover image
     create:
       created: Your profile was added!
     details:
       title: Details
     edit:
-      title: Your solar professional profile
+      title: Your developer profile
     form:
       bio:
-        description: Share a few paragraphs on what makes you unique as an solar professional. This is your chance to market yourself to potential employers – sell yourself a little!
+        description: Share a few paragraphs on what makes you unique as a developer. This is your chance to market yourself to potential employers – sell yourself a little!
         examples:
           accomplishment: A recent milestone or accomplishment
           help: How you can help where others can't
           learned: Something new you learned
-          origin: Your solar professional origin story
+          origin: Your developer origin story
           passion: What you're passionate about
           title: Example topics
           unique: Your unique skills that make you awesome
@@ -405,7 +405,7 @@ en:
         product_announcement_notifications: Feature announcements
         product_announcement_notifications_help: Keep me up to date with new product features.
         profile_reminder_notifications: Profile reminders
-        profile_reminder_notifications_help: Periodically remind me to update my solar professional profile.
+        profile_reminder_notifications_help: Periodically remind me to update my developer profile.
         title: Email notifications
       online_presence:
         help_text: Where can people learn more about you and your work?
@@ -416,7 +416,7 @@ en:
         change: Upload
         cover_image: Cover image
         help_text: This information will be displayed publicly so be careful what you share.
-        hero_help_text: Summarize yourself as an solar professional in a few words.
+        hero_help_text: Summarize yourself as an AI/ML developer in a few words.
         location_help_text: Providing your location makes it easier to connect with local business.
         name_help_text_html: Your name will <i>not</i> be displayed on your public profile.
         title: Profile
@@ -439,7 +439,7 @@ en:
         open_help_text: Companies can still find you, but you won't appear on the homepage.
         title: Search status
       specialties:
-        description: Choose up to 5 specialties that set you apart from other solar professionals. Pick ones that you are passionate about - you don't need to be an expert.
+        description: Choose up to 5 specialties that set you apart from other AI/ML developers. Pick ones that you are passionate about - you don't need to be an expert.
         new:
           before: If you don't see a specialty that matches your unique skills you can
           cta: suggest a new specialty
@@ -447,7 +447,7 @@ en:
         note:
           description: This feature is in beta and might be changed. Add your specialties ASAP - businesses will be able to filter by them soon.
           title: BETA
-      title: Your solar professional profile
+      title: Your developer profile
       updating: Updating...
       work_preferences:
         help_text: What kind of work are you looking for next?
@@ -455,24 +455,24 @@ en:
     index:
       empty_state:
         body: Try changing or clearing your filters.
-        title: No solar professionals found
-      title: Solar professionals
+        title: No AI/ML developers found
+      title: AI/ML developers
     invisible_banner_component:
       cta: Edit my profile
-      title: Your solar professional profile is invisible – only you can see it.
+      title: Your developer profile is invisible – only you can see it.
     meta:
-      description: "Find solar professionals looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
+      description: "Find AI/ML developers looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       independent: independent
       hire: Hire
       in_state: in %{state}
-      professionals: solar professionals
+      professionals: AI/ML developers
     new_field_component:
       new: New!
     new_fields_component:
       cta: Complete my profile
-      title: New fields were added to solar professional profiles!
+      title: New fields were added to developer profiles!
     open_graph_tags_component:
-      turbo_native_title: Solar professional profile
+      turbo_native_title: AI/ML developer profile
     profile_action_component:
       add_profile: Add my profile
       edit_profile: Update my profile
@@ -487,7 +487,7 @@ en:
       state:
         title: Location
       filters: Filters
-      include_not_interested: Include solar professionals not currently interested
+      include_not_interested: Include AI/ML developers not currently interested
       paywalled_search:
         title: Text search requires a paid account.
       role_level:
@@ -498,7 +498,7 @@ en:
         title: Specialties
       timezone:
         title: Timezone
-      title: Solar professional filters
+      title: AI/ML developer filters
       work_preference:
         title: Work preference
     query_sort_button_component:
@@ -527,11 +527,11 @@ en:
       updated: Your profile was updated!
   dir: ltr
   errors:
-    business_blank: Fill out your business profile to message solar professionals.
-    business_subscription_inactive: Sign up for a business subscription to message solar professionals.
-    developer_blank: Please create an solar professional profile first.
+    business_blank: Fill out your business profile to message AI/ML developers.
+    business_subscription_inactive: Sign up for a business subscription to message AI/ML developers.
+    developer_blank: Please create a developer profile first.
     hiring_agreements:
-      cold_message: Please sign the hiring agreement to message solar professionals.
+      cold_message: Please sign the hiring agreement to message AI/ML developers.
       payment: Please sign the hiring agreement before subscribing.
     messages:
       attached: is not attached
@@ -562,12 +562,12 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: BotDevs empowers solar professionals available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New solar professionals on BotDevs
+      description_og: BotDevs empowers AI/ML developers available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
+      developers_heading: New AI/ML developers on BotDevs
       get_started: Get started
       learn_more: Learn more
-      more: See more solar professionals
-      title_og: The reverse job board for solar professionals
+      more: See more AI/ML developers
+      title_og: The reverse job board for AI/ML developers
       turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: Sign out
@@ -577,7 +577,7 @@ en:
   messages:
     form:
       help: Add your message
-      hiring_fee_agreement: I agree to pay BotDevs the 10% hiring fee if I hire this solar professional for a full-time role.
+      hiring_fee_agreement: I agree to pay BotDevs the 10% hiring fee if I hire this developer for a full-time role.
       hiring_fee_cta: Questions?
       sending: Sending...
       submit: Send
@@ -623,7 +623,7 @@ en:
           title: "%{email} requested to join the affiliate program"
       businesses:
         hiring_invoice_request_notification:
-          title: "%{business} hired an solar professional"
+          title: "%{business} hired a developer"
       developers:
         celebration_package_request:
           title: "%{developer} requested a celebration package"
@@ -634,8 +634,8 @@ en:
         email_subject: New conversation started
         title: "%{name} (%{company}) started a conversation with %{developer}"
       new_developer_notification:
-        email_subject: New solar professional profile added
-        title: "%{developer} added their solar professional profile"
+        email_subject: New developer profile added
+        title: "%{developer} added their developer profile"
       potential_hire_notification:
         email_subject: New potential hire
         title: "%{developer} may have been hired"
@@ -646,11 +646,11 @@ en:
       invisiblize_notification:
         title: Your profile on BotDevs was flagged
       product_announcement_notification:
-        email_subject: "[BotDevs] New feature alert: Solar professional specialties 🚨"
-        title: 'New feature alert: Solar professional specialties'
+        email_subject: "[BotDevs] New feature alert: AI/ML developer specialties 🚨"
+        title: 'New feature alert: AI/ML developer specialties'
       profile_reminder_notification:
         email_subject: Is your BotDevs profile up to date?
-        title: Is your solar professional profile up to date?
+        title: Is your developer profile up to date?
     index:
       cta: View history
       empty_state:
@@ -719,7 +719,7 @@ en:
   pricing:
     cta:
       cta: Get started today
-      subtitle: Find your next solar professional today.
+      subtitle: Find your next AI/ML developer today.
       title: Ready to start hiring?
     faq:
       annual:
@@ -729,8 +729,8 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. BotDevs is free for solar professionals.
-        q: Does BotDevs cost anything for solar professionals?
+        a: No. BotDevs is free for AI/ML developers.
+        q: Does BotDevs cost anything for AI/ML developers?
       fee:
         a_html: If you hire a full-time employee through BotDevs you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
@@ -740,15 +740,15 @@ en:
       title: Frequently asked questions
     hero:
       description: Directly connect with top solar talent looking for their next job.
-      title: Hire solar professionals
+      title: Hire AI/ML developers
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of solar professionals, from apprentice to master.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of AI/ML developers, from apprentice to master.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
-        message: Message directly with solar professionals
-        oss: Support independent solar professionals
-        rails: Exclusively solar professionals
+        message: Message directly with AI/ML developers
+        oss: Support independent AI/ML developers
+        rails: Exclusively AI/ML developers
         support: Email and video support from the founder
         title: BotDevs exclusives
       hiring_fee: "+ 10% first year salary"
@@ -757,20 +757,20 @@ en:
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to BotDevs and directly connect with hundreds of solar professionals who are looking for contract and full-time work.
+      description: Subscribe to BotDevs and directly connect with hundreds of AI/ML developers who are looking for contract and full-time work.
       title_og: Pricing
-      turbo_native_title: Hire solar professionals
+      turbo_native_title: Hire AI/ML developers
     stats:
       description: Organic, genuine conversations with higher response rates than LinkedIn or cold email.
-      new_devs: New solar professionals a month
-      rails_developers: Solar professionals
+      new_devs: New AI/ML developers a month
+      rails_developers: AI/ML developers
       response_rate: Response rate
-      title: The solar professional hiring platform
+      title: The AI/ML developer hiring platform
   public_profiles:
     new:
       cancel: Cancel
       copy_link: Copy link
-      message: Share your solar professional profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
+      message: Share your AI/ML developer profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
       title: Share your profile
   read_notifications:
     create:
@@ -792,10 +792,10 @@ en:
       interested_in_roles: Interested in roles
   roles:
     new:
-      hiring_developers: I'm hiring solar professionals
-      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master solar professional.
+      hiring_developers: I'm hiring AI/ML developers
+      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master AI/ML developer.
       looking_for_work: I'm looking for work
-      looking_for_work_help_text: You're an solar professional looking for your next job.
+      looking_for_work_help_text: You're an AI/ML developer looking for your next job.
       what_brings_you_here: What brings you to BotDevs?
   sessions:
     sign_in: Sign in
@@ -826,7 +826,7 @@ en:
     saving: Saving...
   subscription_cta_component:
     cta: Start hiring
-    description: Gain access to %{developers}+ solar professionals.
+    description: Gain access to %{developers}+ AI/ML developers.
     title: Sign up now to see more profiles.
   users:
     paywalled:
