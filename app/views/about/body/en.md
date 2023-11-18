@@ -19,7 +19,7 @@ Waivolt is an Open Startup *and* open source. No investors. No Bullshit.
 We operate with full transparency and share our key metrics like revenue and expenses. We are an Oregon benefit company and operate on a tripple bottom line accounting system of people, planet and profit. We will never take money from investors and if we ever go out of business our operations can be carried on by our users.
 
 * [Revenue and expenses](/open)
-* [Full open source code](https://github.com/openshiro/waivolt/)
+* [Full open source code](https://github.com/openshiro/botdevs.ai/)
 * [Platform errors and status](https://app.honeybadger.io/project/vlnQvYl85Q)
 
 ### Working to help to solve the climate crisis

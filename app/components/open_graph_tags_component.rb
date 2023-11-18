@@ -41,6 +41,6 @@ class OpenGraphTagsComponent < ApplicationComponent
   end
 
   def twitter
-    "@waivolt"
+    "@botdevs"
   end
 end
