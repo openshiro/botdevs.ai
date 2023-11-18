@@ -746,8 +746,8 @@ en:
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
-        message: Message directly with AI/ML developers
-        oss: Support independent AI/ML developers
+        message: Message directly with developers
+        oss: Support independent developers
         rails: Exclusively AI/ML developers
         support: Email and video support from the founder
         title: BotDevs exclusives
