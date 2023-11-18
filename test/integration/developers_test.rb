@@ -44,9 +44,21 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     assert response.body.index("Newest") < response.body.index("Oldest")
   end
 
-  test "subscribers can filter developers by states" do
-    state = "Oregon"
-    create_developer(hero: "Pacific", location_attributes: {state: state})
+  test "subscribers can filter developers by time zone" do
+    create_developer(hero: "Pacific", location_attributes: {utc_offset: PACIFIC_UTC_OFFSET})
+    user = users(:subscribed_business)
+
+    sign_in user
+
+    get developers_path(utc_offsets: [PACIFIC_UTC_OFFSET])
+
+    assert_select "input[checked][type=checkbox][value=#{PACIFIC_UTC_OFFSET}][name='utc_offsets[]']"
+    assert_select "h2", "Pacific"
+  end
+
+  test "subscribers can filter developers by countries" do
+    country = "United States"
+    create_developer(hero: "Pacific", location_attributes: {country: country})
     user = users(:subscribed_business)
 
     sign_in user

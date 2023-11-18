@@ -34,6 +34,25 @@ module Developers
       assert_selector build_input("states[]", type: "checkbox", value: "Florida", checked: true)
     end
 
+    test "renders unique UTC offset pairs for developers" do
+      query = DeveloperQuery.new({})
+      render_inline QueryComponent.new(query:, user: @user, form_id: nil)
+
+      assert_selector build_input("utc_offsets[]", type: "checkbox", value: EASTERN_UTC_OFFSET)
+      assert_selector build_input("utc_offsets[]", type: "checkbox", value: PACIFIC_UTC_OFFSET)
+
+      assert_selector "label[for=utc_offsets_#{EASTERN_UTC_OFFSET}]", text: "GMT-5"
+      assert_selector "label[for=utc_offsets_#{PACIFIC_UTC_OFFSET}]", text: "GMT-8"
+    end
+
+    test "checks selected timezones" do
+      query = DeveloperQuery.new(utc_offsets: [PACIFIC_UTC_OFFSET])
+      render_inline QueryComponent.new(query:, user: @user, form_id: nil)
+
+      assert_no_selector build_input("utc_offsets[]", type: "checkbox", value: EASTERN_UTC_OFFSET, checked: true)
+      assert_selector build_input("utc_offsets[]", type: "checkbox", value: PACIFIC_UTC_OFFSET, checked: true)
+    end
+
     test "checks selected role types" do
       query = DeveloperQuery.new(role_types: ["part_time_contract", "full_time_contract"])
       render_inline QueryComponent.new(query:, user: @user, form_id: nil)
@@ -104,6 +123,16 @@ module Developers
         assert_selector("#location-accordion:not(.hidden)")
         assert_selector("#all-locations-accordion:not(.hidden)")
       end
+    end
+
+    test "collapse timezone accordion when timezone is not being queried" do
+      query = DeveloperQuery.new
+      render_inline QueryComponent.new(query:, user: @user, form_id: nil)
+      assert_selector("#timezone-accordion", visible: false)
+
+      query = DeveloperQuery.new(utc_offsets: [EASTERN_UTC_OFFSET])
+      render_inline QueryComponent.new(query:, user: @user, form_id: nil)
+      assert_selector("#timezone-accordion", visible: true)
     end
 
     def build_input(name, type: nil, value: nil, checked: nil)
