@@ -6,9 +6,6 @@ Rails.application.routes.draw do
     via: :all,
     constraints: {subdomain: "", host: "botdevs.ai"}
 
-  get "/electricians", to: redirect("professionals")
-  get "/electricians/:id", to: redirect("professionals/%{id}")
-
   devise_for :users, controllers: {
     registrations: "users"
   }
@@ -42,7 +39,7 @@ Rails.application.routes.draw do
     resources :messages, only: :create
   end
 
-  resources :developers, except: :destroy, path: "professionals" do
+  resources :developers, except: :destroy do
     resources :messages, only: %i[new create], controller: :cold_messages
     resources :public_profiles, only: :new
   end
