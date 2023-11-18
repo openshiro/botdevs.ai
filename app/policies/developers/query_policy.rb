@@ -19,7 +19,7 @@ module Developers
         role_types: [],
         badges: [],
         utc_offsets: [],
-        states: [],
+        countries: [],
         specialty_ids: []
       ]
     end

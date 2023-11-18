@@ -10,7 +10,7 @@ class DeveloperQuery
     @items_per_page = options.delete(:items_per_page)
     @sort = options.delete(:sort)
     @specialty_ids = options.delete(:specialty_ids)
-    @states = options.delete(:states)
+    @countries = options.delete(:countries)
     @utc_offsets = options.delete(:utc_offsets)
     @role_types = options.delete(:role_types)
     @role_levels = options.delete(:role_levels)
@@ -21,7 +21,7 @@ class DeveloperQuery
   end
 
   def filters
-    @filters = {sort:, utc_offsets:, role_types:, role_levels:, include_not_interested:, search_query:, states:, badges:}
+    @filters = {sort:, utc_offsets:, role_types:, role_levels:, include_not_interested:, search_query:, countries:, badges:}
   end
 
   def pagy
@@ -44,8 +44,8 @@ class DeveloperQuery
     @sort.to_s.downcase.to_sym == :newest ? :newest : :freshest
   end
 
-  def states
-    @states.to_a.reject(&:blank?)
+  def countries
+    @countries.to_a.reject(&:blank?)
   end
 
   def specialty_ids
@@ -81,7 +81,7 @@ class DeveloperQuery
   def query_and_paginate
     @_records = Developer.includes(:role_type, :specialties).with_attached_avatar.visible
     sort_records
-    state_filter_records
+    country_filter_records
     utc_offset_filter_records
     role_type_filter_records
     role_level_filter_records
@@ -101,7 +101,7 @@ class DeveloperQuery
       role_types.empty? &&
       role_levels.empty? &&
       search_query.blank? &&
-      states.blank? &&
+      countries.blank? &&
       badges.blank? &&
       specialty_ids.empty? &&
       !include_not_interested
@@ -135,8 +135,8 @@ class DeveloperQuery
     end
   end
 
-  def state_filter_records
-    @_records.merge!(Developer.filter_by_states(states)) if states.any?
+  def country_filter_records
+    @_records.merge!(Developer.filter_by_countries(countries)) if countries.any?
   end
 
   def utc_offset_filter_records

@@ -77,7 +77,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_28_175035) do
     t.string "role_levels", default: [], null: false, array: true
     t.string "role_types", default: [], null: false, array: true
     t.boolean "include_not_interested"
-    t.string "states", default: [], null: false, array: true
+    t.string "countries", default: [], null: false, array: true
     t.integer "utc_offsets"
     t.string "sort"
     t.integer "page"

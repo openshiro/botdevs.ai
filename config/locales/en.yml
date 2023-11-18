@@ -464,7 +464,7 @@ en:
       description: "Find AI/ML developers looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
       independent: independent
       hire: Hire
-      in_state: in %{state}
+      in_country: in %{country}
       developers: AI/ML developers
     new_field_component:
       new: New!
@@ -477,14 +477,14 @@ en:
       add_profile: Add my profile
       edit_profile: Update my profile
     query_component:
-      all_states:
+      all_countries:
         title: All locations
       apply: Apply
       badge:
         title: Badges
       clear: Clear
       close_menu: Close menu
-      state:
+      country:
         title: Location
       filters: Filters
       include_not_interested: Include developers not currently interested

@@ -12,13 +12,13 @@ module Developers
       RoleLevel::TYPES.each do |role_level|
         paths += build_paths(role_level:)
 
-        top_states.each do |state|
-          paths += build_paths(role_level:, state:)
+        top_countries.each do |country|
+          paths += build_paths(role_level:, country:)
         end
       end
 
-      top_states.each do |state|
-        paths += build_paths(state:)
+      top_countries.each do |country|
+        paths += build_paths(country:)
       end
 
       paths
@@ -26,21 +26,21 @@ module Developers
 
     private
 
-    def top_states
-      @top_states ||= Location.top_states
+    def top_countries
+      @top_countries ||= Location.top_countries
     end
 
-    def build_paths(role_level: nil, state: nil)
+    def build_paths(role_level: nil, country: nil)
       [
-        build_path(role_level:, state:),
-        build_path(role_level:, state:, freelance: true)
+        build_path(role_level:, country:),
+        build_path(role_level:, country:, freelance: true)
       ]
     end
 
-    def build_path(role_level: nil, state: nil, freelance: false)
+    def build_path(role_level: nil, country: nil, freelance: false)
       options = {}
       options[:role_levels] = [role_level] if role_level.present?
-      options[:states] = [state] if state.present?
+      options[:countries] = [country] if country.present?
       options[:role_types] = [:part_time_contract, :full_time_contract] if freelance
       developers_path(options)
     end

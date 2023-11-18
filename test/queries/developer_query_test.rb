@@ -67,11 +67,11 @@ class DeveloperQueryTest < ActiveSupport::TestCase
     assert records.find_index(newest) < records.find_index(oldest)
   end
 
-  test "filtering by states" do
+  test "filtering by countries" do
     united_states = create_developer
-    singapore = create_developer(location_attributes: {state: "Oregon"})
+    singapore = create_developer(location_attributes: {country: "Singapore"})
 
-    records = DeveloperQuery.new(states: ["Oregon"]).records
+    records = DeveloperQuery.new(countries: ["Singapore"]).records
 
     assert_includes records, singapore
     refute_includes records, united_states
@@ -204,7 +204,7 @@ class DeveloperQueryTest < ActiveSupport::TestCase
       role_levels: [:entry_level],
       include_not_interested: true,
       search_query: "rails engineer",
-      states: ["Oregon"],
+      countries: ["United States"],
       badges: [:recently_added]
     }
     assert_equal DeveloperQuery.new(filters.dup).filters, filters

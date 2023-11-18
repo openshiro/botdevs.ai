@@ -63,10 +63,10 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
     sign_in user
 
-    get developers_path(states: [state])
+    get developers_path(countries: [country])
 
-    assert_select "input[checked][type=checkbox][value='#{state}'][name='states[]']"
-    assert_text "Hire AI/ML developers in #{state}"
+    assert_select "input[checked][type=checkbox][value='#{country}'][name='countries[]']"
+    assert_text "Hire AI/ML developers in #{country}"
   end
 
   test "developers can be filtered by role type" do

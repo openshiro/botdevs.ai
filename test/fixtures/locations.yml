@@ -1,6 +1,5 @@
 one:
   developer: one
-  state: Florida
   country: United States
   time_zone: Eastern Time (US & Canada)
   utc_offset: -18_000

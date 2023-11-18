@@ -64,8 +64,8 @@ class Developer < ApplicationRecord
     joins(:location).where(locations: {utc_offset: utc_offsets})
   end
 
-  scope :filter_by_states, ->(states) do
-    joins(:location).where(locations: {state: states})
+  scope :filter_by_countries, ->(countries) do
+    joins(:location).where(locations: {country: countries})
   end
 
   scope :actively_looking_or_open, -> { where(search_status: [:actively_looking, :open, nil]) }
