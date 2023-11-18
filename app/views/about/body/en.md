@@ -2,7 +2,7 @@
 
 The site is open to all solar professionals, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
 
-I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built a platform and developed training for tens of thousands of solar PV professionals and solar companies. In 2023 I created Waivolt, an Oregon benefit company, to help solar professionals find work and get better jobs.
+I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built a platform and developed training for tens of thousands of solar PV professionals and solar companies. In 2023 I created BotDevs, an Oregon benefit company, to help solar professionals find work and get better jobs.
 
 Now more than ever, the world is in need of solar professionals. The recent passage of the Inflation Reduction Act has paved the way for hundreds of billions of dollars of investment in solar. Millions of professionals will be required to do the job, are you up for it?
 
@@ -14,7 +14,7 @@ Make a [free profile](users/sign_up) to get you next career move started.
 
 ### Operating with trust, integrity and open transparency
 
-Waivolt is an Open Startup *and* open source. No investors. No Bullshit.
+BotDevs is an Open Startup *and* open source. No investors. No Bullshit.
 
 We operate with full transparency and share our key metrics like revenue and expenses. We are an Oregon benefit company and operate on a tripple bottom line accounting system of people, planet and profit. We will never take money from investors and if we ever go out of business our operations can be carried on by our users.
 
@@ -28,4 +28,4 @@ Passion is critical in a good life and good work. It's increadibly rewarding to 
 
 ### Thanks to Joe Masilotti at RailsDevs
 
-Waivolt is a fork of [Joe Masilotti's](https://masilotti.com/) open source [RailsDevs](https://github.com/joemasilotti/railsdevs.com) project.
+BotDevs is a fork of [Joe Masilotti's](https://masilotti.com/) open source [RailsDevs](https://github.com/joemasilotti/railsdevs.com) project.

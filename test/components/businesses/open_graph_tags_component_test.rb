@@ -7,7 +7,7 @@ class OpenGraphTagsComponentTest < ViewComponent::TestCase
     render_inline OpenGraphTagsComponent.new
 
     assert_meta property: "og:type"
-    assert_meta property: "og:title", content: "Waivolt"
+    assert_meta property: "og:title", content: "BotDevs"
     assert_meta property: "og:description", content_begin_with: "The reverse job board"
     assert_meta property: "og:url"
     assert_meta property: "twitter:card"
@@ -19,7 +19,7 @@ class OpenGraphTagsComponentTest < ViewComponent::TestCase
       description: "And a custom description."
     )
 
-    assert_meta property: "og:title", content: "Custom title · Waivolt"
+    assert_meta property: "og:title", content: "Custom title · BotDevs"
     assert_meta property: "og:description", content: "And a custom description."
   end
 

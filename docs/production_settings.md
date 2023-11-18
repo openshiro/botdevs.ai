@@ -229,7 +229,7 @@ A few settings need to be configured in [RevenueCat](https://www.revenuecat.com)
 A few settings need to be configured in [Stripe](https://stripe.com) for payments to work.
 
 1. A product - RailsDevs names this "Business subscription"
-1. A recurring price for the product - Waivolt sets this to $99/mo to match the copy on `/pricing`
+1. A recurring price for the product - BotDevs sets this to $99/mo to match the copy on `/pricing`
 1. All the [webhooks Pay requires](https://github.com/pay-rails/pay/blob/master/docs/stripe/5_webhooks.md), sent to `/pay/webhooks/stripe`
 
 ## Open startup

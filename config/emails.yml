@@ -1,6 +1,6 @@
 shared:
   support: duncan@botdevs.ai
-  support_mailbox: "Duncan Miller from Waivolt <duncan@botdevs.ai>"
-  notifications_mailbox: "Waivolt <notifications@botdevs.ai>"
-  updates_mailbox: "Waivolt <updates@botdevs.ai>"
-  reminders_mailbox: "Waivolt <reminders@botdevs.ai>"
+  support_mailbox: "Duncan Miller from BotDevs <duncan@botdevs.ai>"
+  notifications_mailbox: "BotDevs <notifications@botdevs.ai>"
+  updates_mailbox: "BotDevs <updates@botdevs.ai>"
+  reminders_mailbox: "BotDevs <reminders@botdevs.ai>"

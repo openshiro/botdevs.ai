@@ -12,7 +12,7 @@ The "named" developers cover most states of each field on the profile. There are
 
 * `developer@example.com` - The "core" developer with a complete profile, in a conversation with a business, and has sent and received messages.
 * `featured@example.com` Featured at the top of search results for one week.
-* `hired@example.com` - Has had contact with a business on Waivolt.
+* `hired@example.com` - Has had contact with a business on BotDevs.
 * `minimum@example.com` - Has filled in the absolute minimum profile fields.
 * `invisible@example.com` - Will not show up in search results.
 * `stale@example.com` - Updates their profile over a month ago.

@@ -212,14 +212,14 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
-        description: Earn 25% recurring commissions for every referral to Waivolt. Join the affiliate program today and start earning money while promoting the only open source hiring platform for solar professionals.
-        title: Earn money promoting Waivolt
+        description: Earn 25% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for solar professionals.
+        title: Earn money promoting BotDevs
       new:
         agreement: I agree to these rules
         submit: Register
         submitting: Registering...
         subtitle: Program rules
-        title: Waivolt affiliate program registration
+        title: BotDevs affiliate program registration
   blocks:
     create:
       notice: "%{other_recipient} was blocked."
@@ -230,11 +230,11 @@ en:
       title: Block sender
   business_mailer:
     cancel_subscription:
-      subject: Waivolt cancellation confirmation
+      subject: BotDevs cancellation confirmation
     subscribed:
-      subject: "Your Waivolt subscription is live! 🎉 Let's find your perfect match."
+      subject: "Your BotDevs subscription is live! 🎉 Let's find your perfect match."
     welcome:
-      subject: "Welcome to Waivolt 👋"
+      subject: "Welcome to BotDevs 👋"
   businesses:
     admin_component:
       conversations: Conversations
@@ -255,7 +255,7 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new solar professionals add their profile to Waivolt.
+        help_text: Receive daily or weekly email notifications when new solar professionals add their profile to BotDevs.
         legend: Solar professional notifications
         values:
           daily: Daily
@@ -265,11 +265,11 @@ en:
       notifications:
         title: Email notifications
       personal:
-        help: Information about you, the contact point for your business on Waivolt.
+        help: Information about you, the contact point for your business on BotDevs.
         title: Personal details
       something_went_wrong: Something went wrong uploading your image, please try again.
       survey_request_notifications:
-        help_text: Help Waivolt by receiving short, infrequent surveys about how you use the platform.
+        help_text: Help BotDevs by receiving short, infrequent surveys about how you use the platform.
         legend: Survey requests
       updating: Updating...
       your_business_profile: Your business profile
@@ -284,10 +284,10 @@ en:
         description: Congrats on your new hire!
         developer_name: Solar professional's name
         feedback: Feedback (optional)
-        feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
+        feedback_help: Please let us know how we can improve BotDevs or anything you'd like to share.
         requesting: Requesting...
         submit: Submit
-        title: Did you hire through Waivolt?
+        title: Did you hire through BotDevs?
     primary_action_component:
       edit: Edit
     scheduling_link_component:
@@ -345,9 +345,9 @@ en:
     celebration_promotion:
       subject: How's your conversation going with %{contact} at %{company}?
     first_message:
-      subject: Tips on responding to your first message on Waivolt
+      subject: Tips on responding to your first message on BotDevs
     welcome:
-      subject: "Welcome to Waivolt 👋"
+      subject: "Welcome to BotDevs 👋"
   developers:
     admin_component:
       conversations: Conversations
@@ -367,14 +367,14 @@ en:
         success: Thank you! Duncan will reach out to you soon.
       new:
         company_name: Company name
-        description: Congrats on your new job! Tell us about it and we'll send you a custom Waivolt celebration package free.
+        description: Congrats on your new job! Tell us about it and we'll send you a custom BotDevs celebration package free.
         feedback: Feedback (optional)
-        feedback_help: Please let us know how we can improve Waivolt or anything you'd like to share.
+        feedback_help: Please let us know how we can improve BotDevs or anything you'd like to share.
         mailing_address: Mailing address
         mailing_address_help: Where can we send your celebration package?
         request_package: Request package
         requesting: Requesting...
-        title: Did you find a job through Waivolt?
+        title: Did you find a job through BotDevs?
     count_component:
       cta: Reset filters
       title_html: Showing <span class='font-bold'>%{count}</span> solar professionals.
@@ -540,8 +540,8 @@ en:
     unauthorized: You don't have access to that.
   hired:
     show:
-      description: Waivolt offers a celebration package to congratulate you on joining a company through the platform.
-      image_alt: Waivolt celebration package
+      description: BotDevs offers a celebration package to congratulate you on joining a company through the platform.
+      image_alt: BotDevs celebration package
       title: Congrats on your new job!
   hiring_agreements:
     signatures:
@@ -554,7 +554,7 @@ en:
         description: Last updated %{last_updated}
         questions_html: Questions? Email the founder – that's me, Duncan! – at <a href="mailto:duncan@botdevs.ai" class="font-medium no-underline hover:underline">duncan@botdevs.ai</a>.
         sign_below: Sign agreement below
-        title: Waivolt hiring agreement
+        title: BotDevs hiring agreement
     terms:
       show:
         download: Download signed PDF
@@ -562,13 +562,13 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: Waivolt empowers solar professionals available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New solar professionals on Waivolt
+      description_og: BotDevs empowers solar professionals available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
+      developers_heading: New solar professionals on BotDevs
       get_started: Get started
       learn_more: Learn more
       more: See more solar professionals
       title_og: The reverse job board for solar professionals
-      turbo_native_title: Waivolt
+      turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: Sign out
     title: Signed in as %{email}
@@ -577,7 +577,7 @@ en:
   messages:
     form:
       help: Add your message
-      hiring_fee_agreement: I agree to pay Waivolt the 10% hiring fee if I hire this solar professional for a full-time role.
+      hiring_fee_agreement: I agree to pay BotDevs the 10% hiring fee if I hire this solar professional for a full-time role.
       hiring_fee_cta: Questions?
       sending: Sending...
       submit: Send
@@ -641,15 +641,15 @@ en:
         title: "%{developer} may have been hired"
     businesses:
       invisiblize_notification:
-        title: Your profile on Waivolt was flagged
+        title: Your profile on BotDevs was flagged
     developers:
       invisiblize_notification:
-        title: Your profile on Waivolt was flagged
+        title: Your profile on BotDevs was flagged
       product_announcement_notification:
-        email_subject: "[Waivolt] New feature alert: Solar professional specialties 🚨"
+        email_subject: "[BotDevs] New feature alert: Solar professional specialties 🚨"
         title: 'New feature alert: Solar professional specialties'
       profile_reminder_notification:
-        email_subject: Is your Waivolt profile up to date?
+        email_subject: Is your BotDevs profile up to date?
         title: Is your solar professional profile up to date?
     index:
       cta: View history
@@ -659,7 +659,7 @@ en:
       mark_all_as_read: Mark all as read
       title: New notifications
     new_message_notification:
-      email_subject: "%{sender} sent you a message on Waivolt"
+      email_subject: "%{sender} sent you a message on BotDevs"
       title: "%{sender} sent you a message"
     show:
       notice: Notification marked as read.
@@ -669,18 +669,18 @@ en:
         amount: Amount
         contributions: Contributions
         date: Date
-        description: Waivolt contributes 10% of profits to educational scholarships and 1% of revenue to CO₂ removal.
+        description: BotDevs contributes 10% of profits to educational scholarships and 1% of revenue to CO₂ removal.
         external_link: Open in new tab
         open_startup: Open startup
         recipient: Recipient
-        title: Waivolt contributions
+        title: BotDevs contributions
         to_co2_removal: to CO₂ removal
         to_communities: to scholarships
     dashboard:
       show:
         contributions: Contributions
         date: Date
-        description: Waivolt is an open startup with public metrics.
+        description: BotDevs is an open startup with public metrics.
         expenses: Expenses
         external_link: Open in new tab
         mrr: MRR
@@ -692,23 +692,23 @@ en:
       index:
         amount: Amount
         date: Date
-        description: All monetary transactions associated with Waivolt, like hosting, fees, and purchases.
+        description: All monetary transactions associated with BotDevs, like hosting, fees, and purchases.
         expenses: Expenses
         open_startup: Open startup
         source: Source
-        title: Waivolt expenses
+        title: BotDevs expenses
     revenue:
       index:
         amount: Amount
         date: Date
-        description: All revenue Waivolt has generated since launching in 2023.
+        description: All revenue BotDevs has generated since launching in 2023.
         open_startup: Open startup
         revenue: Revenue
         source: Source
-        title: Waivolt revenue
+        title: BotDevs revenue
   pay_mailer:
     subscription_renewing:
-      subject: Your Waivolt subscription renews soon. Have you made a hire?
+      subject: Your BotDevs subscription renews soon. Have you made a hire?
   policies:
     privacy:
       show:
@@ -729,10 +729,10 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. Waivolt is free for solar professionals.
-        q: Does Waivolt cost anything for solar professionals?
+        a: No. BotDevs is free for solar professionals.
+        q: Does BotDevs cost anything for solar professionals?
       fee:
-        a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
+        a_html: If you hire a full-time employee through BotDevs you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
       support:
         a_html: Email the founder – that's me, Duncan! – with any questions. You can reach me at <a href='mailto:duncan@botdevs.ai' class='underline'>duncan@botdevs.ai</a>.
@@ -750,14 +750,14 @@ en:
         oss: Support independent solar professionals
         rails: Exclusively solar professionals
         support: Email and video support from the founder
-        title: Waivolt exclusives
+        title: BotDevs exclusives
       hiring_fee: "+ 10% first year salary"
       per_month: "/month"
       title_html: For your 1<sup>st</sup> hire and beyond
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to Waivolt and directly connect with hundreds of solar professionals who are looking for contract and full-time work.
+      description: Subscribe to BotDevs and directly connect with hundreds of solar professionals who are looking for contract and full-time work.
       title_og: Pricing
       turbo_native_title: Hire solar professionals
     stats:
@@ -796,7 +796,7 @@ en:
       hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master solar professional.
       looking_for_work: I'm looking for work
       looking_for_work_help_text: You're an solar professional looking for your next job.
-      what_brings_you_here: What brings you to Waivolt?
+      what_brings_you_here: What brings you to BotDevs?
   sessions:
     sign_in: Sign in
     sign_in_hero: Sign in to your account
@@ -838,7 +838,7 @@ en:
     suspended:
       show:
         cta: Email Duncan
-        description: Failure to comply with the hiring agreement has forced Waivolt to suspend your account. Contact Duncan to pay your obligated hiring fees and resume your account.
+        description: Failure to comply with the hiring agreement has forced BotDevs to suspend your account. Contact Duncan to pay your obligated hiring fees and resume your account.
         learn_more: Learn more
         title: Your account has been suspended.
   utc_offsets:

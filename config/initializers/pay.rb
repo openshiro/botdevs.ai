@@ -1,10 +1,10 @@
 Pay.setup do |config|
-  config.business_name = "Waivolt"
+  config.business_name = "BotDevs"
   config.business_address = "511 SW 10th Ave Suite 1108, Portland, OR 97205"
-  config.application_name = "Waivolt"
+  config.application_name = "BotDevs"
   config.support_email = Rails.configuration.emails.support_mailbox!
 
-  config.default_product_name = "Waivolt"
+  config.default_product_name = "BotDevs"
   config.default_plan_name = "Business subscription"
 
   config.automount_routes = true

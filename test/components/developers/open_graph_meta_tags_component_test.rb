@@ -9,7 +9,7 @@ module Developers
 
       render_inline OpenGraphTagsComponent.new(developer:)
 
-      assert_meta property: "og:title", content: "#{developer.hero} · Waivolt"
+      assert_meta property: "og:title", content: "#{developer.hero} · BotDevs"
       assert_meta property: "og:description", content: developer.bio
       assert_meta property: "og:url", content: "http://test.host/professionals/#{developer.hashid}"
     end
