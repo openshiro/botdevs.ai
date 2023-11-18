@@ -465,7 +465,7 @@ en:
       independent: independent
       hire: Hire
       in_state: in %{state}
-      professionals: AI/ML developers
+      developers: AI/ML developers
     new_field_component:
       new: New!
     new_fields_component:
@@ -588,7 +588,7 @@ en:
   nav_bar:
     base_component:
       affiliates: Affiliate program
-      developers: Professionals
+      developers: Developers
       home: Home
       pricing: Pricing
     guest_component:
