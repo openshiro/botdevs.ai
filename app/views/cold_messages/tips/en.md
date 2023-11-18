@@ -6,4 +6,4 @@ These guidelines help increase your chance of getting a response.
 1. Bring up compensation, budget, and experience level as soon as possible.
 1. This is an organic conversation between two real people. Treat it like such.
 
-Questions? Email the founder – that's me, Duncan! – at [duncan@waivolt.com](mailto:duncan@waivolt.com).
+Questions? Email the founder – that's me, Duncan! – at [duncan@botdevs.ai](mailto:duncan@botdevs.ai).

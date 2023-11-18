@@ -117,11 +117,11 @@ class MessagesTest < ActionDispatch::IntegrationTest
 
   test "links are clickable" do
     sign_in @business.user
-    @conversation.messages.last.update!(body: "Check out https://waivolt.com/!")
+    @conversation.messages.last.update!(body: "Check out https://botdevs.ai/!")
 
     get conversation_path(@conversation)
 
-    assert_select "p", html: 'Check out <a href="https://waivolt.com/" target="_blank">https://waivolt.com/</a>!'
+    assert_select "p", html: 'Check out <a href="https://botdevs.ai/" target="_blank">https://botdevs.ai/</a>!'
   end
 
   test "email developer tips when they receive their first message" do

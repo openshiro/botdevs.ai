@@ -552,7 +552,7 @@ en:
         accepting: Accepting...
         agreement: By checking this box I confirm understanding and acceptance of the outlined terms. I acknowledge that this constitutes a legally binding agreement under applicable laws.
         description: Last updated %{last_updated}
-        questions_html: Questions? Email the founder – that's me, Duncan! – at <a href="mailto:duncan@waivolt.com" class="font-medium no-underline hover:underline">duncan@waivolt.com</a>.
+        questions_html: Questions? Email the founder – that's me, Duncan! – at <a href="mailto:duncan@botdevs.ai" class="font-medium no-underline hover:underline">duncan@botdevs.ai</a>.
         sign_below: Sign agreement below
         title: Waivolt hiring agreement
     terms:
@@ -723,7 +723,7 @@ en:
       title: Ready to start hiring?
     faq:
       annual:
-        a_html: Yes. Email Duncan to set up discounted annual billing at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
+        a_html: Yes. Email Duncan to set up discounted annual billing at <a href='mailto:duncan@botdevs.ai' class='underline'>duncan@botdevs.ai</a>.
         q: Can I pay annually or yearly?
       cancellation:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
@@ -735,7 +735,7 @@ en:
         a_html: If you hire a full-time employee through Waivolt you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
       support:
-        a_html: Email the founder – that's me, Duncan! – with any questions. You can reach me at <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
+        a_html: Email the founder – that's me, Duncan! – with any questions. You can reach me at <a href='mailto:duncan@botdevs.ai' class='underline'>duncan@botdevs.ai</a>.
         q: Who can I contact for more specific questions?
       title: Frequently asked questions
     hero:

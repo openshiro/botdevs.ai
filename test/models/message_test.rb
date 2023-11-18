@@ -43,9 +43,9 @@ class MessageTest < ActiveSupport::TestCase
   end
 
   test "body_html is filled with rendered html version of body" do
-    message = Message.new(body: "Check out https://waivolt.com/!")
+    message = Message.new(body: "Check out https://botdevs.ai/!")
 
-    assert_equal '<p>Check out <a href="https://waivolt.com/" target="_blank">https://waivolt.com/</a>!</p>', message.body_html
+    assert_equal '<p>Check out <a href="https://botdevs.ai/" target="_blank">https://botdevs.ai/</a>!</p>', message.body_html
   end
 
   test "user (developer) has their first message" do

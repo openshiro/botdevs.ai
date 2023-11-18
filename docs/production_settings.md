@@ -4,7 +4,7 @@ This documents all of the configuration for the production environment.
 
 ## Environment variables
 
-* `HOST` - Set to the production URL for route helpers, like `root_url`. RailsDevs uses `waivolt.com`.
+* `HOST` - Set to the production URL for route helpers, like `root_url`. RailsDevs uses `botdevs.ai`.
 
 ## Credentials
 

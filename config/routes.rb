@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   match "(*any)",
     to: redirect(subdomain: "www"),
     via: :all,
-    constraints: {subdomain: "", host: "waivolt.com"}
+    constraints: {subdomain: "", host: "botdevs.ai"}
 
   get "/electricians", to: redirect("professionals")
   get "/electricians/:id", to: redirect("professionals/%{id}")

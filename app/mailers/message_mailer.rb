@@ -13,7 +13,7 @@ class MessageMailer < ApplicationMailer
     mail(
       to: @recipient.email,
       subject: @notification.email_subject,
-      reply_to: "#{@sender} <conversation+#{conversation_token}@inbound.waivolt.com>"
+      reply_to: "#{@sender} <conversation+#{conversation_token}@inbound.botdevs.ai>"
     )
   end
 end
