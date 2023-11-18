@@ -2,9 +2,9 @@ require "sidekiq/web"
 
 Rails.application.routes.draw do
   match "(*any)",
-    to: redirect(subdomain: "www"),
+    to: redirect(subdomain: ""),
     via: :all,
-    constraints: {subdomain: "", host: "botdevs.ai"}
+    constraints: { subdomain: "www", domain: "botdevs.ai" }
 
   devise_for :users, controllers: {
     registrations: "users"
