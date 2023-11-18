@@ -2,13 +2,9 @@
 
 The site is open to all AI/ML developers, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
 
-I've been working in renewable energy training for the building trades since 2006. With my first company, HeatSpring, I built a platform and developed training for tens of thousands of clean energy professionals and companies. In 2023 I created BotDevs, an Oregon benefit company, to help AI/ML developers find work and get better jobs.
+I've been developing software since 1999 when I started learning html. With my first company, HeatSpring, I built a online education platform. The first verison was built using static html and css, then it was rebuilt in php and (thankfully) rebuilt again in Ruby on Rails. The platform has been used by over 100,000 clean energy professionals and building companies for training on topics like solar PV installation and design. In 2023 I created BotDevs, an Oregon benefit company, to help AI/ML developers find work and get better jobs.
 
-Now more than ever, the world is in need of AI/ML developers. Millions of developers will be required to do the job, are you up for it?
-
-*Licensed Electrician?* That's the most in demand and hardest to place position in the market.
-*NABCEP Certified?* Take your career to the next level.
-*No experience?* You might be more in demand that you think, it takes hard work and a willingness to learn.
+Now more than ever, the world is in need of AI/ML developers. Millions of developers will be required to do for this exciting new technology frontier, are you up for it?
 
 Make a [free profile](users/sign_up) to get you next career move started.
 
@@ -16,7 +12,7 @@ Make a [free profile](users/sign_up) to get you next career move started.
 
 BotDevs is an Open Startup *and* open source. No investors. No Bullshit.
 
-We operate with full transparency and share our key metrics like revenue and expenses. We are an Oregon benefit company and operate on a tripple bottom line accounting system of people, planet and profit. We will never take money from investors and if we ever go out of business our operations can be carried on by our users.
+We operate with full transparency and share our key metrics like revenue and expenses. We are an Oregon benefit company and operate on a triple bottom line accounting system of people, planet and profit. We will never take money from investors and if we ever go out of business our operations can be carried on by our users.
 
 * [Revenue and expenses](/open)
 * [Full open source code](https://github.com/openshiro/botdevs.ai/)
@@ -24,7 +20,7 @@ We operate with full transparency and share our key metrics like revenue and exp
 
 ### Working to help to solve the climate crisis
 
-Passion is critical in a good life and good work. It's increadibly rewarding to work for something positive. The challenge can be scary and sometimes overwhelming but knowing we are working together and supporting each other gives us strength. There is amazing work being done every day and we want to be part of it.
+Passion is critical in a good life and good work. It's incredibly rewarding to work for something positive. The challenge can be scary and sometimes overwhelming but knowing we are working together and supporting each other gives us strength. There is amazing work being done every day and we want to be part of it.
 
 ### Thanks to Joe Masilotti at RailsDevs
 
