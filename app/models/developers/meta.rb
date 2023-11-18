@@ -18,7 +18,7 @@ module Developers
       components << role_level if role_level
 
       # i18n-tasks-use t("developers.meta.freelance")
-      components << i18n("independent") if freelance?
+      components << i18n("freelance") if freelance?
 
       # i18n-tasks-use t("developers.meta.ruby_on_rails_developers")
       components << i18n("developers")
