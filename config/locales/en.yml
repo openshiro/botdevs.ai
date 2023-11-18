@@ -48,8 +48,8 @@ en:
         one: Business
         other: Businesses
       developer:
-        one: AI/ML developer
-        other: AI/ML developers
+        one: developer
+        other: developers
       user:
         one: User
         other: Users
@@ -60,7 +60,7 @@ en:
           actions: Actions
           business: Business
           details: Details
-          developer: AI/ML developer
+          developer: developer
           employment_type: Employment type
           start_date: Start date
           title: Hiring invoice requests
@@ -86,7 +86,7 @@ en:
       index:
         business: Business
         conversations: "'s conversations"
-        developer: AI/ML developer
+        developer: developer
         email: Email
         email_tooltip: The developer mentioned an email address in a reply.
         no_potential_email: No potential email
@@ -104,7 +104,7 @@ en:
           actions: Actions
           company: Company
           details: Details
-          developer: AI/ML developer
+          developer: developer
           employment_type: Employment type
           start_date: Start date
           title: Celebration package requests
@@ -164,7 +164,7 @@ en:
         add: Add specialty
         delete: Delete
         delete_confirmation: Are you sure you want to delete this specialty?
-        developers: AI/ML developers
+        developers: developers
         edit: Edit
         name: Name
         title: Specialties
@@ -172,7 +172,7 @@ en:
         title: New speciality
       show:
         developer_specialty: Speciality
-        no_developers: No AI/ML developers with this specialty.
+        no_developers: No developers with this specialty.
       update:
         updated: Speciality updated.
     transactions:
@@ -193,14 +193,14 @@ en:
     users:
       index:
         business: Business
-        developer: AI/ML developer
+        developer: developer
         email: Email
         impersonate: Impersonate
         title: Users
       referrals:
         index:
           business: Business
-          developer: AI/ML developer
+          developer: developer
           referrals: "'s referrals"
           referrals_count: Referrals
           referred_user: Referred user
@@ -212,7 +212,7 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
-        description: Earn 25% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for AI/ML developers.
+        description: Earn 25% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for developers.
         title: Earn money promoting BotDevs
       new:
         agreement: I agree to these rules
@@ -256,7 +256,7 @@ en:
       creating: Creating...
       developer_notifications:
         help_text: Receive daily or weekly email notifications when new AI/ML developers add their profile to BotDevs.
-        legend: AI/ML developer notifications
+        legend: developer notifications
         values:
           daily: Daily
           'no': Never
@@ -282,7 +282,7 @@ en:
       new:
         billing_address: Billing address
         description: Congrats on your new hire!
-        developer_name: AI/ML developer's name
+        developer_name: Developer's name
         feedback: Feedback (optional)
         feedback_help: Please let us know how we can improve BotDevs or anything you'd like to share.
         requesting: Requesting...
@@ -455,7 +455,7 @@ en:
     index:
       empty_state:
         body: Try changing or clearing your filters.
-        title: No AI/ML developers found
+        title: No developers found
       title: AI/ML developers
     invisible_banner_component:
       cta: Edit my profile
@@ -472,7 +472,7 @@ en:
       cta: Complete my profile
       title: New fields were added to developer profiles!
     open_graph_tags_component:
-      turbo_native_title: AI/ML developer profile
+      turbo_native_title: developer profile
     profile_action_component:
       add_profile: Add my profile
       edit_profile: Update my profile
@@ -487,7 +487,7 @@ en:
       state:
         title: Location
       filters: Filters
-      include_not_interested: Include AI/ML developers not currently interested
+      include_not_interested: Include developers not currently interested
       paywalled_search:
         title: Text search requires a paid account.
       role_level:
@@ -498,7 +498,7 @@ en:
         title: Specialties
       timezone:
         title: Timezone
-      title: AI/ML developer filters
+      title: developer filters
       work_preference:
         title: Work preference
     query_sort_button_component:
@@ -646,8 +646,8 @@ en:
       invisiblize_notification:
         title: Your profile on BotDevs was flagged
       product_announcement_notification:
-        email_subject: "[BotDevs] New feature alert: AI/ML developer specialties 🚨"
-        title: 'New feature alert: AI/ML developer specialties'
+        email_subject: "[BotDevs] New feature alert: Developer specialties 🚨"
+        title: 'New feature alert: Developer specialties'
       profile_reminder_notification:
         email_subject: Is your BotDevs profile up to date?
         title: Is your developer profile up to date?
@@ -729,8 +729,8 @@ en:
         a_html: Yes. You can cancel your subscription from the Billing link in the user drop-down. You will lose access to all paid features at the end of your billing period.
         q: Can I cancel my subscription at any time?
       developers:
-        a: No. BotDevs is free for AI/ML developers.
-        q: Does BotDevs cost anything for AI/ML developers?
+        a: No. BotDevs is free for developers.
+        q: Does BotDevs cost anything for developers?
       fee:
         a_html: If you hire a full-time employee through BotDevs you agree to pay a placement fee equal to 10% of their salary.
         q: How does the 10% hiring fee work?
