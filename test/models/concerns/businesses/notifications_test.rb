@@ -13,7 +13,6 @@ class Businesses::NotificationsTest < ActiveSupport::TestCase
   end
 
   test "sends a welcome email" do
-    skip "paused for now"
     business = Business.new(business_attributes)
     assert_enqueued_email_with BusinessMailer, :welcome, args: {business:} do
       assert business.save_and_notify

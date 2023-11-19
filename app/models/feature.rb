@@ -8,7 +8,7 @@ class Feature
     when :redesign
       ENV.fetch("REDESIGN", false)
     when :business_welcome_email
-      false
+      true
     when :developer_specialties
       true
     else
