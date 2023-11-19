@@ -26,7 +26,7 @@ SitemapGenerator::Sitemap.create do
   end
 
   Article.published.sorted.find_each do |article|
-    add article_path(article), changefreq: "weekly", priority: 0.8, lastmod: article.updated_at
+    add article_path(article, locale: :en), changefreq: "weekly", priority: 0.8, lastmod: article.updated_at
   end
 
   add new_user_session_path, changefreq: "weekly", priority: 0.7
