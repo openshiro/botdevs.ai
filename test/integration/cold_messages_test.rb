@@ -32,7 +32,6 @@ class ColdMessagesTest < ActionDispatch::IntegrationTest
   end
 
   test "must have signed the active hiring agreement" do
-    skip
     user = @business.user
     user.hiring_agreement_signatures.destroy_all
     sign_in user
@@ -55,7 +54,6 @@ class ColdMessagesTest < ActionDispatch::IntegrationTest
   end
 
   test "a business sees the hiring fee agreement checkbox" do
-    skip
     sign_in @business.user
     get new_developer_message_path(@developer)
 
