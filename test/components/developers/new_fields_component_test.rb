@@ -8,12 +8,12 @@ module Developers
       assert_text I18n.t("developers.new_fields_component.title")
     end
 
-    test "doesn't render if the professional profile is filled in" do
+    test "doesn't render if the developer profile is filled in" do
       render_inline NewFieldsComponent.new(users(:developer))
       refute_component_rendered
     end
 
-    test "doesn't render if the user doesn't have a professional profile" do
+    test "doesn't render if the user doesn't have a developer profile" do
       render_inline NewFieldsComponent.new(users(:empty))
       refute_component_rendered
     end

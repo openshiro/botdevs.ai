@@ -1,7 +1,7 @@
 require "test_helper"
 
 class UsersTest < ActionDispatch::IntegrationTest
-  test "signing in with a professional profile redirects back" do
+  test "signing in with a developer profile redirects back" do
     sign_in users(:developer)
     get root_path
     get new_user_session_path

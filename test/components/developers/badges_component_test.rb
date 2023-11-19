@@ -6,7 +6,7 @@ module Developers
       @developer = developers(:one)
     end
 
-    test "renders feature badge if the professional profile is featured" do
+    test "renders feature badge if the developer profile is featured" do
       @developer.featured_at = Time.now
       render_inline BadgesComponent.new(@developer)
       assert_selector("span[class~='bg-blue-100']")
@@ -39,7 +39,7 @@ module Developers
       assert_no_text "Source contributor"
     end
 
-    test "renders recently added badge if the professional profile was added in the last 7 days" do
+    test "renders recently added badge if the developer profile was added in the last 7 days" do
       @developer.created_at = Date.current
       render_inline BadgesComponent.new(@developer)
       assert_selector("span[class~='bg-green-100']")

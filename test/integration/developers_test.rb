@@ -7,7 +7,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
   include NotificationsHelper
   include PagyHelper
 
-  test "can view professional profiles" do
+  test "can view developer profiles" do
     get developers_path
     assert_select "h2", developers(:one).hero
   end
@@ -236,7 +236,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     assert_redirected_to root_path
   end
 
-  test "can see own professional profile when invisible" do
+  test "can see own developer profile when invisible" do
     developer = create_developer(search_status: :invisible)
     sign_in developer.user
 
@@ -245,7 +245,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     assert_response :ok
   end
 
-  test "admin can see invisible professional profile" do
+  test "admin can see invisible developer profile" do
     developer = create_developer(search_status: :invisible)
     user = users(:admin)
     sign_in user
