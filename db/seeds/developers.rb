@@ -8,20 +8,20 @@ end
 
 # Minimum developer
 SeedsHelper.create_developer!("minimum", {
-  hero: "Minimum developer",
+  hero: "Minimum Developer",
   location: SeedsHelper.locations[:new_york]
 })
 
-# Invisible electrician
+# Invisible developer
 developer = SeedsHelper.create_developer!("invisible", {
-  hero: "Invisible Electrician",
+  hero: "Invisible Developer",
   location: SeedsHelper.locations[:new_york]
 })
 developer.invisiblize_and_notify! unless developer.invisible?
 
 # Stale developer
 developer = SeedsHelper.create_developer!("stale", {
-  hero: "Stale developer",
+  hero: "Stale Developer",
   location: SeedsHelper.locations[:new_york]
 })
 long_time_ago = 31.days.ago
@@ -30,14 +30,14 @@ developer.notify_as_stale unless Notification.exists?(type: Developers::ProfileR
 
 # Featured developer
 developer = SeedsHelper.create_developer!("featured", {
-  hero: "Featured developer",
+  hero: "Featured Developer",
   location: SeedsHelper.locations[:new_york]
 })
 developer.feature! unless developer.featured_at?
 
 # Junior developer
 SeedsHelper.create_developer!("junior", {
-  hero: "Entry-level developer",
+  hero: "Entry-level Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   role_type: RoleType.new(full_time_employment: true),
@@ -46,7 +46,7 @@ SeedsHelper.create_developer!("junior", {
 
 # Freelancer developer
 SeedsHelper.create_developer!("freelancer", {
-  hero: "Contract Electrician",
+  hero: "Freelance Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :open,
   role_type: RoleType.new(part_time_contract: true),
@@ -57,7 +57,7 @@ SeedsHelper.create_developer!("freelancer", {
 
 # Core developer
 developer = SeedsHelper.create_developer!("developer", {
-  hero: "Top Electrician",
+  hero: "Top Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   role_type: RoleType.new(RoleType::TYPES.map { |t| [t, true] }.to_h),
@@ -74,7 +74,7 @@ developer.send_product_announcement unless Notification.exists?(type: Developers
 
 # Potential hire
 developer = SeedsHelper.create_developer!("hired", {
-  hero: "Hired Electrician",
+  hero: "Hired Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   role_type: RoleType.new(RoleType::TYPES.map { |t| [t, true] }.to_h),
@@ -84,7 +84,7 @@ developer.update_and_notify(search_status: :not_interested) unless developer.not
 
 # New developer
 SeedsHelper.create_developer!("new", {
-  hero: "New developer",
+  hero: "New Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   created_at: Time.current
@@ -92,7 +92,7 @@ SeedsHelper.create_developer!("new", {
 
 # Recently updated developer
 SeedsHelper.create_developer!("updated", {
-  hero: "Recently Updated developer",
+  hero: "Recently Updated Developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   profile_updated_at: Time.current
