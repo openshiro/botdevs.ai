@@ -3,7 +3,7 @@ fr:
   about:
     show:
       caption: fondateur de BotDevs
-      description: Je m'appelle Duncan Miller. J'ai créé BotDevs pour permettre aux développeurs Ruby on Rails de trouver plus facilement leur prochain emploi.
+      description: Je m'appelle Duncan Miller. J'ai créé BotDevs pour permettre aux développeurs d'intelligence artificielle de trouver plus facilement leur prochain emploi.
       readtime: 1 minute à lire
       title: À propos
       title_og: À propos de BotDevs
@@ -323,16 +323,16 @@ fr:
       empty_state:
         body: Essayez de changer ou d'enlever vos filtres.
         title: Aucun résultat trouvé
-      title: Développeurs Ruby on Rails
+      title: Développeurs IA
     invisible_banner_component:
       cta: Modifier mon profil
       title: Votre profil de développeur est invisible - vous seul pouvez le voir.
     meta:
-      description: "%{count}+ développeurs Ruby on Rails à la recherche de leur prochain emploi. Allant de junior à senior, vous les trouverez tous ici."
+      description: "%{count}+ développeurs IA à la recherche de leur prochain emploi. Allant de junior à senior, vous les trouverez tous ici."
       freelance: freelance
       hire: Recrutez
       in_country: en %{country}
-      ruby_on_rails_developers: développeurs Ruby on Rails
+      ai_developers: développeurs IA
     new_field_component:
       new: Nouveau!
     new_fields_component:
@@ -425,8 +425,8 @@ fr:
       subtitle_2: aide les développeurs indépendants à trouver leur prochain emploi.
       subtitle_3: Oubliez les sites d'offres d'emploi et attendez que les entreprises vous contactent en premier.
       title_1: Le job board inversé pour
-      title_2: les développeurs Rails
-      title_og: Le job board inversé pour les développeurs Ruby on Rails
+      title_2: les développeurs d'intelligence artificielle
+      title_og: Le job board inversé pour les développeurs d'intelligence artificielle
       turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: Se déconnecter
@@ -583,16 +583,16 @@ fr:
         q: Qui puis-je contacter pour des questions plus spécifiques ?
       title: Questions fréquemment posées
     hero:
-      description: Entrez directement en contact avec des centaines de développeurs Ruby on Rails à la recherche de leur prochain emploi.
-      title: Recrutez des développeurs Ruby on Rails
+      description: Entrez directement en contact avec des centaines de développeurs IA à la recherche de leur prochain emploi.
+      title: Recrutez des développeurs IA
     plan:
-      description: Oubliez les offres d'emploi formelles et les intermédiaires - embauchez directement à partir d'un répertoire de développeurs Ruby on Rails, avec des niveaux d'expérience allant de junior à cadre supérieur.
+      description: Oubliez les offres d'emploi formelles et les intermédiaires - embauchez directement à partir d'un répertoire de développeurs IA, avec des niveaux d'expérience allant de junior à cadre supérieur.
       features:
         email_updates: Mise à jour par e-mail des nouveaux candidats
         hand_selected_matches: Des candidats sélectionnés à la main chaque mois
         message: Contactez des développeurs depuis BotDevs
         oss: Soutenir les développeurs indépendants et les logiciels libres
-        rails: Exclusivement des développeurs Ruby on Rails
+        rails: Exclusivement des développeurs IA
         support: Soutien par e-mail et vidéo du fondateur
         title: Exclusivités BotDevs premium
       hiring_fee: "+ 10 % du salaire de la première année"
@@ -601,7 +601,7 @@ fr:
     purchase_button:
       title: S'abonner
     show:
-      description: Inscrivez-vous à BotDevs et entrez directement en contact avec des centaines de développeurs Ruby on Rails à la recherche d'un emploi ou mission à temps plein ou temps partiel.
+      description: Inscrivez-vous à BotDevs et entrez directement en contact avec des centaines de développeurs IA à la recherche d'un emploi ou mission à temps plein ou temps partiel.
       title_og: Tarif
       turbo_native_title: Recrutez des développeurs Rails
     stats:
@@ -631,9 +631,9 @@ fr:
   roles:
     new:
       hiring_developers: Je recrute des développeurs
-      hiring_developers_help_text: Vous êtes une entreprise qui cherche à recruter un développeur Ruby on Rails à la mission, à temps partiel ou à temps plein.
+      hiring_developers_help_text: Vous êtes une entreprise qui cherche à recruter un développeur d'intelligence artificielle à la mission, à temps partiel ou à temps plein.
       looking_for_work: Je suis à la recherche d'un emploi ou mission
-      looking_for_work_help_text: Vous êtes un développeur Ruby on Rails à la recherche de votre prochain emploi ou mission.
+      looking_for_work_help_text: Vous êtes un développeur d'intelligence artificielle à la recherche de votre prochain emploi ou mission.
       what_brings_you_here: Qu'est-ce qui vous amène sur BotDevs?
   sessions:
     sign_in: Se connecter

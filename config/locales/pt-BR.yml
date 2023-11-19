@@ -3,7 +3,7 @@ pt-BR:
   about:
     show:
       caption: fundador do BotDevs
-      description: Eu sou Duncan Miller. Estou construindo BotDevs para ser mais fácil para desenvolvedores Ruby on Rails acharem seu próximo trabalho.
+      description: Eu sou Duncan Miller. Estou construindo BotDevs para ser mais fácil para desenvolvedores de inteligência artificial acharem seu próximo trabalho.
       readtime: 1 minuto de leitura
       title: Sobre
       title_og: Sobre BotDevs
@@ -184,7 +184,7 @@ pt-BR:
       subtitle_2: empodera desenvolvedores independentes disponíveis para o próximo trabalho.
       subtitle_3: Pare de vasculhar lista de empregos e sente-se enquanto as empresas entram em contato com você primeiro.
       title_1: A lista de trabalhos reversa para
-      title_2: desenvolvedores Rails
+      title_2: desenvolvedores de inteligência artificial
   messages:
     form:
       help: Adicionar sua mensagem
@@ -296,9 +296,9 @@ pt-BR:
   roles:
     new:
       hiring_developers: Estou contratando desenvolvedores
-      hiring_developers_help_text: Você é uma empresa buscando contratar desenvolvedores Ruby on Rails autônomos, meio periodo ou tempo integral.
+      hiring_developers_help_text: Você é uma empresa buscando contratar desenvolvedores de inteligência artificial autônomos, meio periodo ou tempo integral.
       looking_for_work: Estou buscando trabalho
-      looking_for_work_help_text: Você é um desenvolvedor Ruby on Rails buscando seu próximo trabalho.
+      looking_for_work_help_text: Você é um desenvolvedor de inteligência artificial buscando seu próximo trabalho.
       what_brings_you_here: O que te traz ao BotDevs?
   sessions:
     sign_in: Entrar
