@@ -2,7 +2,7 @@
 es:
   about:
     show:
-      description: Soy Joe Masilotti. Estoy creando BotDevs para que desarrolladores de Ruby on Rails puedan encontrar su próximo trabajo.
+      description: Soy Duncan Miller. Estoy creando BotDevs para que desarrolladores de Ruby on Rails puedan encontrar su próximo trabajo.
       title_og: Acerca de BotDevs
   activerecord:
     attributes:
