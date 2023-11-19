@@ -204,16 +204,16 @@ zh-CN:
       empty_state:
         body: 请尝试修改或清空筛选条件。
         title: 未找到相关开发者
-      title: Ruby on Rails 开发者
+      title: 人工智能开发者
     invisible_banner_component:
       cta: 编辑我的资料
       title: 你的开发者资料已隐藏 - 仅你自己可见。
     meta:
-      description: "%{count}+ Ruby on Rails 开发者正在寻找他们的下一份工作. 初级到高级开发者，你都可以在这里找到。"
+      description: "%{count}+ 人工智能开发者正在寻找他们的下一份工作. 初级到高级开发者，你都可以在这里找到。"
       freelance: 自由职业
       hire: 招聘
       in_country: 在 %{country}
-      ruby_on_rails_developers: Ruby on Rails 开发者
+      ruby_on_rails_developers: 人工智能开发者
     new_field_component:
       new: 新!
     new_fields_component:
@@ -239,7 +239,7 @@ zh-CN:
       role_level:
         title: 等级
       search_query_label: 搜索个人资料
-      search_query_placeholder: Hotwire, React, Heroku, 等等.
+      search_query_placeholder: Python, TensorFlow, OpenAI, 等等.
       timezone:
         title: 时区
       title: 开发者筛选条件
@@ -274,9 +274,9 @@ zh-CN:
       subtitle_1: BotDevs
       subtitle_2: 帮助独立开发者为他们的下一份工作做好准备
       subtitle_3: 坐等公司与你联系，不用再去招聘网站搜寻。
-      title_1: 面向 Rails 开发人员的工作台
+      title_1: 面向人工智能开发人员的工作台
       title_2: ''
-      title_og: Ruby on Rails 开发人员的工作台
+      title_og: 人工智能开发人员的工作台
       turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: 登出
@@ -321,7 +321,7 @@ zh-CN:
   pricing:
     cta:
       cta: 立即开始
-      subtitle: 立即寻找你的下一个 Rails 开发者
+      subtitle: 立即寻找你的下一个人工智能开发者
       title: 准备好开始招聘了吗？
     faq:
       annual:
@@ -341,16 +341,16 @@ zh-CN:
         q: 还有其他问题，我可以联系谁？
       title: 常见问题
     hero:
-      description: 直接与数百位正在寻找他们下一份工作的 Ruby on Rails 开发者取得联系。
-      title: 招聘 Ruby on Rails 开发者
+      description: 直接与数百位正在寻找他们下一份工作的人工智能开发者取得联系。
+      title: 招聘人工智能开发者
     plan:
-      description: 摒弃传统的招聘方式和中介 – 直接面向 Ruby on Rails 开发者招聘，从初级到高级皆可。
+      description: 摒弃传统的招聘方式和中介 – 直接面向人工智能开发者招聘，从初级到高级皆可。
       features:
         email_updates: 新候选人邮件提醒
         hand_selected_matches: 每月精选匹配人员
         message: 直接给开发者发送消息
         oss: 支持独立开发者和 OSS
-        rails: 专门的 Ruby on Rails 开发者
+        rails: 专门的人工智能开发者
         support: 来自创始人的邮件和视频支持
         title: BotDevs 提供
       hiring_fee: "+ 10% 首年薪水"
@@ -359,15 +359,15 @@ zh-CN:
     purchase_button:
       title: 立即开始
     show:
-      description: 订阅 BotDevs 并直接与数百名正在寻找自由职业、合同工和全职工作的 Ruby on Rails 开发人员联系。
+      description: 订阅 BotDevs 并直接与数百名正在寻找自由职业、合同工和全职工作的人工智能开发人员联系。
       title_og: 价格
-      turbo_native_title: 招聘 Rails 开发者
+      turbo_native_title: 招聘人工智能开发者
     stats:
       description: 真实有效的对话，回复率高于 LinkedIn 或电子邮件。
       new_devs: 本月新增开发者
-      rails_developers: Rails 开发者
+      rails_developers: 人工智能开发者
       response_rate: 回复率
-      title: Rails-only 招聘平台
+      title: 人工智能招聘平台
   registrations:
     create_account: 创建一个账号
     register: 注册
@@ -376,10 +376,10 @@ zh-CN:
   roles:
     new:
       hiring_developers: 我在招聘开发者
-      hiring_developers_help_text: 你是一家希望聘请自由职业者、兼职或全职 Ruby on Rails 开发人员的企业。
+      hiring_developers_help_text: 你是一家希望聘请自由职业者、兼职或全职人工智能开发人员的企业。
       looking_for_work: 我在寻找工作
-      looking_for_work_help_text: 你是正在寻找下一份工作的 Ruby on Rails 开发者。
-      what_brings_you_here: 是什么让你来到 Rails Devs?
+      looking_for_work_help_text: 你是正在寻找下一份工作的人工智能开发者。
+      what_brings_you_here: 是什么让你来到 BotDevs?
   sessions:
     sign_in: 登录
     sign_in_hero: 登录账号
@@ -405,7 +405,7 @@ zh-CN:
     saving: 保存中...
   subscription_cta_component:
     cta: 开始招聘
-    description: 与 %{developers}+ 位 Ruby on Rails 开发者取得联系。
+    description: 与 %{developers}+ 位人工智能开发者取得联系。
     title: 立即注册以查看更多开发者。
   users:
     paywalled:
