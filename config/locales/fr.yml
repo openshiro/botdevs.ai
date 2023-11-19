@@ -448,6 +448,7 @@ fr:
     base_component:
       developers: Candidats
       home: Accueil
+      articles: Articles
       pricing: Tarif
     guest_component:
       register: Créer un compte

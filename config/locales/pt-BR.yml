@@ -198,6 +198,7 @@ pt-BR:
     base_component:
       developers: Desenvolvedores
       pricing: Preços
+      articles: Artigos
     guest_component:
       register: Registrar
       sign_in: Entrar

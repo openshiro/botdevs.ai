@@ -190,6 +190,7 @@ es:
   nav_bar:
     base_component:
       developers: Desarrolladores
+      articles: Artículos
       pricing: Precios
     guest_component:
       register: Registrarse

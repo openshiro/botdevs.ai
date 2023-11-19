@@ -594,6 +594,7 @@ en:
     base_component:
       affiliates: Affiliate program
       developers: Developers
+      articles: Articles
       home: Home
       pricing: Pricing
     guest_component:
