@@ -18,6 +18,7 @@
     <%= csp_meta_tag %>
     <%= render_open_graph_tags %>
     <%= render "shared/favicon_tags" %>
+    <%= render AlternateLinksComponent.new %>
 
     <%= stylesheet_link_tags %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
