@@ -18,7 +18,7 @@ We operate with full transparency and share our key metrics like revenue and exp
 * [Full open source code](https://github.com/openshiro/botdevs.ai/)
 * [Platform errors and status](https://app.honeybadger.io/project/vlnQvYl85Q)
 
-### Working to help to solve the climate crisis
+### Working to help create safe AI that benefits all
 
 Passion is critical in a good life and good work. It's incredibly rewarding to work for something positive. The challenge can be scary and sometimes overwhelming but knowing we are working together and supporting each other gives us strength. There is amazing work being done every day and we want to be part of it.
 

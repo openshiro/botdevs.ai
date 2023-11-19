@@ -8,7 +8,7 @@ It is being built around [our core values](https://botdevs.ai/about):
 
 - Championing **all** AI/ML developers and their work
 - Operating with trust, integrity and open transparency
-- Working to help to solve the climate crisis
+- Working to help create safe AI that benefits all
 
 ---
 
