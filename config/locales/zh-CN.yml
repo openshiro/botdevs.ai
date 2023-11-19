@@ -2,10 +2,10 @@
 zh-CN:
   about:
     show:
-      caption: RailsDevs 的创立者
+      caption: BotDevs 的创立者
       readtime: 1 分钟阅读时间
       title: 关于
-      title_og: 关于 RailsDevs
+      title_og: 关于 BotDevs
   activerecord:
     attributes:
       business:
@@ -95,7 +95,7 @@ zh-CN:
       change_avatar: 上传
       creating: 创建中...
       developer_notifications:
-        help_text: 当新开发人员将他们的个人资料添加到 RailsDevs 时，每天或每周收到电子邮件通知。
+        help_text: 当新开发人员将他们的个人资料添加到 BotDevs 时，每天或每周收到电子邮件通知。
         legend: 开发者消息通知
         values:
           daily: 每天
@@ -105,7 +105,7 @@ zh-CN:
       notifications:
         title: 邮件提醒
       personal:
-        help: 关于您的信息，您在 RailsDevs 上的业务联络点。
+        help: 关于您的信息，您在 BotDevs 上的业务联络点。
         title: 个人资料
       something_went_wrong: 上传图片过程中出错了，请重试。
       updating: 更新中...
@@ -266,18 +266,18 @@ zh-CN:
       updated: 你的个人资料已更新！
   home:
     show:
-      description_og: RailsDevs 帮助独立开发者为他们的下一份工作做好准备。坐等公司与你联系，不用再去招聘网站搜寻。
+      description_og: BotDevs 帮助独立开发者为他们的下一份工作做好准备。坐等公司与你联系，不用再去招聘网站搜寻。
       developers_heading: 现在有空的开发者
       get_started: 开始
       learn_more: 了解更多
       more: 查看更多开发者
-      subtitle_1: RailsDevs
+      subtitle_1: BotDevs
       subtitle_2: 帮助独立开发者为他们的下一份工作做好准备
       subtitle_3: 坐等公司与你联系，不用再去招聘网站搜寻。
       title_1: 面向 Rails 开发人员的工作台
       title_2: ''
       title_og: Ruby on Rails 开发人员的工作台
-      turbo_native_title: RailsDevs
+      turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: 登出
     title: 以 %{email} 登录
@@ -331,10 +331,10 @@ zh-CN:
         a_html: 是的。您可以从用户下拉菜单中的账单链接取消订阅。在结算期结束时，您将无法使用所有付费功能。
         q: 我可以随时取消我的套餐吗？
       developers:
-        a: RailsDevs 对开发者是免费的。
-        q: RailsDevs 对开发者收费吗？
+        a: BotDevs 对开发者是免费的。
+        q: BotDevs 对开发者收费吗？
       fee:
-        a_html: 如果您通过 RailsDevs 找到开发人员，您需要支付开发人员第一年工资的 10% 的招聘费。这仅适用于雇用全职员工，不适用于承包商或自由职业者。发送电子邮件给 Joe 以协调付款事宜，电子邮件地址为 duncan@waivolt.com。
+        a_html: 如果您通过 BotDevs 找到开发人员，您需要支付开发人员第一年工资的 10% 的招聘费。这仅适用于雇用全职员工，不适用于承包商或自由职业者。发送电子邮件给 Joe 以协调付款事宜，电子邮件地址为 duncan@waivolt.com。
         q: 10% 的招聘费是什么？
       support:
         a_html: 联系创建者 – 那就是我, Joe! – 任何问题都可以. 我的邮件是 <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
@@ -352,14 +352,14 @@ zh-CN:
         oss: 支持独立开发者和 OSS
         rails: 专门的 Ruby on Rails 开发者
         support: 来自创始人的邮件和视频支持
-        title: RailsDevs 提供
+        title: BotDevs 提供
       hiring_fee: "+ 10% 首年薪水"
       per_month: "/月"
       title_html: 开始你的招聘吧
     purchase_button:
       title: 立即开始
     show:
-      description: 订阅 RailsDevs 并直接与数百名正在寻找自由职业、合同工和全职工作的 Ruby on Rails 开发人员联系。
+      description: 订阅 BotDevs 并直接与数百名正在寻找自由职业、合同工和全职工作的 Ruby on Rails 开发人员联系。
       title_og: 价格
       turbo_native_title: 招聘 Rails 开发者
     stats:

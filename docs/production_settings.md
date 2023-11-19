@@ -4,7 +4,7 @@ This documents all of the configuration for the production environment.
 
 ## Environment variables
 
-* `HOST` - Set to the production URL for route helpers, like `root_url`. RailsDevs uses `botdevs.ai`.
+* `HOST` - Set to the production URL for route helpers, like `root_url`. BotDevs uses `botdevs.ai`.
 
 ## Credentials
 
@@ -203,7 +203,7 @@ It also requires the following ACL where `SITEMAPS-BUCKET-NAME` is the name of t
 
 ## Analytics
 
-RailsDevs uses [Fathom](https://usefathom.com/ref/HBTNVR) for GDPR-compliant analytics. The sites keys are identified in `config/fathom.yml`.
+BotDevs uses [Fathom](https://usefathom.com/ref/HBTNVR) for GDPR-compliant analytics. The sites keys are identified in `config/fathom.yml`.
 
 ```
 # config/fathom.yml
@@ -217,7 +217,7 @@ production: CACNFAAN
 
 A few settings need to be configured in [RevenueCat](https://www.revenuecat.com) for in-app purchases to work.
 
-1. A project - RailsDevs names this "railsdevs"
+1. A project - BotDevs names this "railsdevs"
 1. Two products (to match the subscription tiers)
 1. An App Store (iOS) app configured with the name and bundle identifier
 1. The App Store Connect App-Specific Shared Secret copied to App Store Connect
@@ -228,7 +228,7 @@ A few settings need to be configured in [RevenueCat](https://www.revenuecat.com)
 
 A few settings need to be configured in [Stripe](https://stripe.com) for payments to work.
 
-1. A product - RailsDevs names this "Business subscription"
+1. A product - BotDevs names this "Business subscription"
 1. A recurring price for the product - BotDevs sets this to $99/mo to match the copy on `/pricing`
 1. All the [webhooks Pay requires](https://github.com/pay-rails/pay/blob/master/docs/stripe/5_webhooks.md), sent to `/pay/webhooks/stripe`
 

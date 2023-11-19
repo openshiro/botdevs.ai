@@ -2,11 +2,11 @@
 fr:
   about:
     show:
-      caption: fondateur de RailsDevs
-      description: Je m'appelle Joe Masilotti. J'ai créé RailsDevs pour permettre aux développeurs Ruby on Rails de trouver plus facilement leur prochain emploi.
+      caption: fondateur de BotDevs
+      description: Je m'appelle Joe Masilotti. J'ai créé BotDevs pour permettre aux développeurs Ruby on Rails de trouver plus facilement leur prochain emploi.
       readtime: 1 minute à lire
       title: À propos
-      title_og: À propos de RailsDevs
+      title_og: À propos de BotDevs
   activerecord:
     attributes:
       business:
@@ -155,7 +155,7 @@ fr:
       title: Bloquer l'expéditeur
   business_mailer:
     welcome:
-      subject: "Bienvenue sur RailsDevs 👋"
+      subject: "Bienvenue sur BotDevs 👋"
   businesses:
     admin_component:
       invisiblize: Masquer
@@ -175,7 +175,7 @@ fr:
       change_avatar: Charger
       creating: Chargement...
       developer_notifications:
-        help_text: Recevez des notifications quotidiennes ou hebdomadaires par e-mail lorsque de nouveaux candidats ajoutent leur profil à RailsDevs.
+        help_text: Recevez des notifications quotidiennes ou hebdomadaires par e-mail lorsque de nouveaux candidats ajoutent leur profil à BotDevs.
         legend: Notifications de nouveaux candidats
         values:
           daily: Quotidiennes
@@ -185,7 +185,7 @@ fr:
       notifications:
         title: Notifications E-mail
       personal:
-        help: Des informations sur vous, le point de contact de votre entreprise sur RailsDevs.
+        help: Des informations sur vous, le point de contact de votre entreprise sur BotDevs.
         title: Informations personnelles
       something_went_wrong: Un problème est survenu lors du téléchargement de votre image, veuillez réessayer.
       updating: Mise à jour...
@@ -214,7 +214,7 @@ fr:
       cta:
         expired: Réactiver mon compte
         upgrade: Passer à un compte premium
-      details: En savoir plus sur RailsDevs premium
+      details: En savoir plus sur BotDevs premium
       title:
         expired: Abonnement expiré
         upgrade: Abonnement premium requis
@@ -247,7 +247,7 @@ fr:
     celebration_promotion:
       subject: Comment se passe votre conversation avec %{contact} de l'entreprise %{company}?
     first_message:
-      subject: Conseils pour répondre à votre premier message sur RailsDevs
+      subject: Conseils pour répondre à votre premier message sur BotDevs
   developers:
     admin_component:
       copy: Copier
@@ -397,8 +397,8 @@ fr:
     unauthorized: Vous n'avez pas accès à ça.
   hired:
     show:
-      description: RailsDevs offre un pack de célébration pour vous féliciter d'avoir rejoint une entreprise par le biais de la plateforme.
-      image_alt: Pack de célébration RailsDevs
+      description: BotDevs offre un pack de célébration pour vous féliciter d'avoir rejoint une entreprise par le biais de la plateforme.
+      image_alt: Pack de célébration BotDevs
       title: Félicitations pour votre nouveau job !
   hiring_agreements:
     signatures:
@@ -410,24 +410,24 @@ fr:
         agreement: J'accepte ces conditions
         description: Dernière mise à jour %{last_updated}
         questions_html: Vous avez des questions ? Envoyez un e-mail au fondateur - c'est moi, Joe ! à <a href="mailto:duncan@waivolt.com" class="font-medium no-underline hover:underline">duncan@waivolt.com</a>.
-        title: Contrat de recrutement - RailsDevs
+        title: Contrat de recrutement - BotDevs
     terms:
       show:
         signed_on: Signé le %{date}
   home:
     show:
-      description_og: RailsDevs permet aux développeurs indépendants de trouver leur prochain emploi. Arrêtez de parcourir les sites d'offres d'emploi et attendez tranquillement que les entreprises vous contactent en premier.
+      description_og: BotDevs permet aux développeurs indépendants de trouver leur prochain emploi. Arrêtez de parcourir les sites d'offres d'emploi et attendez tranquillement que les entreprises vous contactent en premier.
       developers_heading: Candidats disponibles maintenant
       get_started: Créer un compte
       learn_more: En savoir plus
       more: Voir plus de développeurs
-      subtitle_1: RailsDevs
+      subtitle_1: BotDevs
       subtitle_2: aide les développeurs indépendants à trouver leur prochain emploi.
       subtitle_3: Oubliez les sites d'offres d'emploi et attendez que les entreprises vous contactent en premier.
       title_1: Le job board inversé pour
       title_2: les développeurs Rails
       title_og: Le job board inversé pour les développeurs Ruby on Rails
-      turbo_native_title: RailsDevs
+      turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: Se déconnecter
     title: Connecté avec l'adresse %{email}
@@ -436,7 +436,7 @@ fr:
   messages:
     form:
       help: Ajoutez votre message
-      hiring_fee_agreement: J'accepte de payer à RailsDevs les 10 % de frais de recrutement si j'engage ce développeur pour un poste à temps plein.
+      hiring_fee_agreement: J'accepte de payer à BotDevs les 10 % de frais de recrutement si j'engage ce développeur pour un poste à temps plein.
       hiring_fee_cta: Des questions?
       sending: Envoi...
       submit: Envoyer
@@ -491,12 +491,12 @@ fr:
         title: "%{developer} a peut-être été embauché"
     businesses:
       invisiblize_notification:
-        title: Votre profil RailsDevs a été signalé
+        title: Votre profil BotDevs a été signalé
     developers:
       invisiblize_notification:
-        title: Votre profil RailsDevs a été signalé
+        title: Votre profil BotDevs a été signalé
       profile_reminder_notification:
-        email_subject: Est-ce que votre profil RailsDevs est à jour ?
+        email_subject: Est-ce que votre profil BotDevs est à jour ?
         title: Est-ce que votre profil de développeur est à jour ?
     index:
       cta: Voir l'historique
@@ -506,7 +506,7 @@ fr:
       mark_all_as_read: Marquer tout comme lu
       title: Nouvelles notifications
     new_message_notification:
-      email_subject: "%{sender} vous a envoyé un message sur RailsDevs"
+      email_subject: "%{sender} vous a envoyé un message sur BotDevs"
       title: "%{sender} vous a envoyé un message"
     show:
       notice: Notification marquée comme lue.
@@ -516,18 +516,18 @@ fr:
         amount: Montant
         contributions: Contributions
         date: Date
-        description: RailsDevs contribue à hauteur de 10% de ses revenus à des communautés de développeuses et 2% de ses revenus à l'élimination du CO₂
+        description: BotDevs contribue à hauteur de 10% de ses revenus à des communautés de développeuses et 2% de ses revenus à l'élimination du CO₂
         external_link: Ouvrir dans un nouvel onglet
         open_startup: Open startup
         recipient: Recipient
-        title: Contributions de RailsDevs
+        title: Contributions de BotDevs
         to_co2_removal: pour l'élimination du CO₂
         to_communities: aux communautés
     dashboard:
       show:
         contributions: Contributions
         date: Date
-        description: RailsDevs est une open startup avec des données publiques.
+        description: BotDevs est une open startup avec des données publiques.
         expenses: Dépenses
         external_link: Ouvrir dans un nouvel onglet
         mrr: MRR
@@ -539,20 +539,20 @@ fr:
       index:
         amount: Montant
         date: Date
-        description: Toutes les transactions associées à RailsDevs, comme l'hébergement, les frais et les achats.
+        description: Toutes les transactions associées à BotDevs, comme l'hébergement, les frais et les achats.
         expenses: Dépenses
         open_startup: Open startup
         source: Source
-        title: Dépenses de RailsDevs
+        title: Dépenses de BotDevs
     revenue:
       index:
         amount: Montant
         date: Date
-        description: Tous le CA que RailsDevs a généré depuis son lancement en novembre 2021.
+        description: Tous le CA que BotDevs a généré depuis son lancement en novembre 2021.
         open_startup: Open startup
         revenue: Chiffre d'affaires
         source: Source
-        title: chiffre d'affaires de RailsDevs
+        title: chiffre d'affaires de BotDevs
   policies:
     privacy:
       show:
@@ -573,10 +573,10 @@ fr:
         a_html: Oui. Vous pouvez annuler votre abonnement à partir du lien "Facturation" dans la liste déroulante de votre profil en haut à droite. Vous perdrez l'accès à toutes les fonctionnalités payantes à la fin de votre période de facturation.
         q: Puis-je annuler mon abonnement à tout moment ?
       developers:
-        a: Non. RailsDevs est gratuit pour les développeurs.
-        q: RailsDevs coûte-t-il quelque chose aux développeurs ?
+        a: Non. BotDevs est gratuit pour les développeurs.
+        q: BotDevs coûte-t-il quelque chose aux développeurs ?
       fee:
-        a_html: Vous êtes tenu de payer des frais de recrutement correspondant à 10 % du salaire de la première année d'un développeur si vous le trouvez par l'intermédiaire de RailsDevs. Cela ne s'applique qu'à l'embauche d'employés à temps plein et non de prestataires ou de freelances. Envoyez un e-mail à Joe pour coordonner le paiement à <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
+        a_html: Vous êtes tenu de payer des frais de recrutement correspondant à 10 % du salaire de la première année d'un développeur si vous le trouvez par l'intermédiaire de BotDevs. Cela ne s'applique qu'à l'embauche d'employés à temps plein et non de prestataires ou de freelances. Envoyez un e-mail à Joe pour coordonner le paiement à <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
         q: Comment fonctionne la commission d'embauche de 10 % ?
       support:
         a_html: EEnvoyez un e-mail au fondateur - c'est moi, Joe ! - pour toute question. Vous pouvez me joindre à <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
@@ -590,18 +590,18 @@ fr:
       features:
         email_updates: Mise à jour par e-mail des nouveaux candidats
         hand_selected_matches: Des candidats sélectionnés à la main chaque mois
-        message: Contactez des développeurs depuis RailsDevs
+        message: Contactez des développeurs depuis BotDevs
         oss: Soutenir les développeurs indépendants et les logiciels libres
         rails: Exclusivement des développeurs Ruby on Rails
         support: Soutien par e-mail et vidéo du fondateur
-        title: Exclusivités RailsDevs premium
+        title: Exclusivités BotDevs premium
       hiring_fee: "+ 10 % du salaire de la première année"
       per_month: "/mois"
       title_html: Pour votre 1<sup>ère</sup> embauche et au-delà
     purchase_button:
       title: S'abonner
     show:
-      description: Inscrivez-vous à RailsDevs et entrez directement en contact avec des centaines de développeurs Ruby on Rails à la recherche d'un emploi ou mission à temps plein ou temps partiel.
+      description: Inscrivez-vous à BotDevs et entrez directement en contact avec des centaines de développeurs Ruby on Rails à la recherche d'un emploi ou mission à temps plein ou temps partiel.
       title_og: Tarif
       turbo_native_title: Recrutez des développeurs Rails
     stats:
@@ -634,7 +634,7 @@ fr:
       hiring_developers_help_text: Vous êtes une entreprise qui cherche à recruter un développeur Ruby on Rails à la mission, à temps partiel ou à temps plein.
       looking_for_work: Je suis à la recherche d'un emploi ou mission
       looking_for_work_help_text: Vous êtes un développeur Ruby on Rails à la recherche de votre prochain emploi ou mission.
-      what_brings_you_here: Qu'est-ce qui vous amène sur RailsDevs?
+      what_brings_you_here: Qu'est-ce qui vous amène sur BotDevs?
   sessions:
     sign_in: Se connecter
     sign_in_hero: Connectez-vous à votre compte
@@ -664,7 +664,7 @@ fr:
     save: Sauvegarder
     saving: Sauvegarde...
   subscription_cta_component:
-    description: Abonnez vous à RailsDevs pour débloquer %{developers}+ profils des candidats.
+    description: Abonnez vous à BotDevs pour débloquer %{developers}+ profils des candidats.
     title: Abonnement requis
   users:
     paywalled:

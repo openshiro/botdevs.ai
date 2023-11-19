@@ -1,4 +1,4 @@
-# RailsDevs documentation
+# BotDevs documentation
 
 * [Production settings](./production_settings.md)
 * [Database seeds](./seeds.md)
