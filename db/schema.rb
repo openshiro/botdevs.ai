@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_19_031321) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_19_063304) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -176,6 +176,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_19_031321) do
     t.datetime "profile_updated_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
     t.integer "search_score", default: 0, null: false
     t.integer "conversations_count", default: 0, null: false
+    t.string "hugging_face"
     t.index ["public_profile_key"], name: "index_developers_on_public_profile_key", unique: true
     t.index ["textsearchable_index_col"], name: "textsearchable_index", using: :gin
     t.index ["user_id"], name: "index_developers_on_user_id"

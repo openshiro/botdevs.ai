@@ -15,9 +15,10 @@
   <%= render Users::PaywalledComponent.new(current_user, developer, size: :large, public_key:) do %>
     <%= render RenderableComponent.new("space-y-3 pt-4") do %>
       <%= render SocialLinkComponent.new(developer.github, :github) %>
+      <%= render SocialLinkComponent.new(developer.hugging_face, :hugging_face) %>
       <%= render SocialLinkComponent.new(developer.linkedin, :linkedin) %>
-      <%= render ExternalLinkComponent.new(developer.website) %>
       <%= render SocialLinkComponent.new(developer.twitter, :twitter) %>
+      <%= render ExternalLinkComponent.new(developer.website) %>
     <% end %>
   <% end %>
 
