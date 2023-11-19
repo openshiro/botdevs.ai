@@ -11,8 +11,6 @@ class Feature
       false
     when :developer_specialties
       true
-    when :role_levels
-      Rails.env.test?
     else
       raise "Unknown feature name: #{feature_name}"
     end

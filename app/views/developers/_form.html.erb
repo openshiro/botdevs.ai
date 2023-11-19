@@ -258,38 +258,36 @@
               </fieldset>
             <% end %>
 
-            <% if Feature.enabled?(:role_levels) %>
-              <%= form.fields_for :role_level, include_id: false do |role_level| %>
-                <fieldset>
-                  <div>
-                    <legend class="text-base font-medium text-gray-900 w-full">
-                      <div class="flex">
-                        <%= t(".role_level.title") %>
-                        <%= render Developers::NewFieldComponent.new(form.object, :role_level) %>
-                      </div>
-                    </legend>
-                    <p class="text-sm text-gray-500"><%= t(".role_level.help_text") %></p>
+            <%= form.fields_for :role_level, include_id: false do |role_level| %>
+              <fieldset>
+                <div>
+                  <legend class="text-base font-medium text-gray-900 w-full">
+                    <div class="flex">
+                      <%= t(".role_level.title") %>
+                      <%= render Developers::NewFieldComponent.new(form.object, :role_level) %>
+                    </div>
+                  </legend>
+                  <p class="text-sm text-gray-500"><%= t(".role_level.help_text") %></p>
+                </div>
+                <div class="mt-4 space-y-4">
+                  <div class="flex items-center">
+                    <%= role_level.check_box :entry_level, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
+                    <%= role_level.label :entry_level, class: "ml-3 block text-sm font-medium text-gray-700" %>
                   </div>
-                  <div class="mt-4 space-y-4">
-                    <div class="flex items-center">
-                      <%= role_level.check_box :entry_level, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
-                      <%= role_level.label :entry_level, class: "ml-3 block text-sm font-medium text-gray-700" %>
-                    </div>
-                    <div class="flex items-center">
-                      <%= role_level.check_box :apprentice, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
-                      <%= role_level.label :apprentice, class: "ml-3 block text-sm font-medium text-gray-700" %>
-                    </div>
-                    <div class="flex items-center">
-                      <%= role_level.check_box :journeyman, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
-                      <%= role_level.label :journeyman, class: "ml-3 block text-sm font-medium text-gray-700" %>
-                    </div>
-                    <div class="flex items-center">
-                      <%= role_level.check_box :master, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
-                      <%= role_level.label :master, class: "ml-3 block text-sm font-medium text-gray-700" %>
-                    </div>
+                  <div class="flex items-center">
+                    <%= role_level.check_box :apprentice, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
+                    <%= role_level.label :apprentice, class: "ml-3 block text-sm font-medium text-gray-700" %>
                   </div>
-                </fieldset>
-              <% end %>
+                  <div class="flex items-center">
+                    <%= role_level.check_box :journeyman, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
+                    <%= role_level.label :journeyman, class: "ml-3 block text-sm font-medium text-gray-700" %>
+                  </div>
+                  <div class="flex items-center">
+                    <%= role_level.check_box :master, class: "focus:ring-gray-500 h-4 w-4 text-gray-600 border-gray-300 rounded" %>
+                    <%= role_level.label :master, class: "ml-3 block text-sm font-medium text-gray-700" %>
+                  </div>
+                </div>
+              </fieldset>
             <% end %>
           </div>
         </div>
