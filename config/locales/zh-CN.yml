@@ -334,10 +334,10 @@ zh-CN:
         a: BotDevs 对开发者是免费的。
         q: BotDevs 对开发者收费吗？
       fee:
-        a_html: 如果您通过 BotDevs 找到开发人员，您需要支付开发人员第一年工资的 10% 的招聘费。这仅适用于雇用全职员工，不适用于承包商或自由职业者。发送电子邮件给 Duncan 以协调付款事宜，电子邮件地址为 duncan@botdevs.ai。
+        a_html: 如果您通过 BotDevs 找到开发人员，您需要支付开发人员第一年工资的 10% 的招聘费。这仅适用于雇用全职员工，不适用于承包商或自由职业者。发送电子邮件给 Duncan 以协调付款事宜，电子邮件地址为 duncan@waivolt.com。
         q: 10% 的招聘费是什么？
       support:
-        a_html: 联系创建者 – 那就是我, Duncan! – 任何问题都可以. 我的邮件是 <a href='mailto:duncan@botdevs.ai' class='underline'>duncan@botdevs.ai</a>.
+        a_html: 联系创建者 – 那就是我, Duncan! – 任何问题都可以. 我的邮件是 <a href='mailto:duncan@waivolt.com' class='underline'>duncan@waivolt.com</a>.
         q: 还有其他问题，我可以联系谁？
       title: 常见问题
     hero:
