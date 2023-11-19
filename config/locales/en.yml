@@ -22,10 +22,10 @@ en:
         country_code: Country
       role_level:
         c_level: C-level
-        entry_level: Entry-level
-        apprentice: Apprentice
-        master: Master
-        journeyman: Journeyman
+        junior: Junior
+        mid: Mid-level
+        principal: Principal
+        senior: Senior
       role_type:
         full_time_contract: Full-time contract
         full_time_employment: Full-time employment
@@ -461,7 +461,7 @@ en:
       cta: Edit my profile
       title: Your developer profile is invisible – only you can see it.
     meta:
-      description: "Find AI/ML developers looking for their next job. Apprentice to master and everyone in between, you'll find them all here."
+      description: "Find AI/ML developers looking for their next job. Apprentice to principal and everyone in between, you'll find them all here."
       freelance: freelance
       hire: Hire
       in_country: in %{country}
@@ -744,7 +744,7 @@ en:
       description: Directly connect with top AI/ML talent looking for their next job.
       title: Hire AI/ML developers
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of AI/ML developers, from apprentice to master.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of AI/ML developers, from mid to principal.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
@@ -795,7 +795,7 @@ en:
   roles:
     new:
       hiring_developers: I'm hiring AI/ML developers
-      hiring_developers_help_text: You're a business looking to hire an apprentice, journeyman or master AI/ML developer.
+      hiring_developers_help_text: You're a business looking to hire an junior, senior or principal AI/ML developer.
       looking_for_work: I'm looking for work
       looking_for_work_help_text: You're an AI/ML developer looking for your next job.
       what_brings_you_here: What brings you to BotDevs?

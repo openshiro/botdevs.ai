@@ -1,13 +1,13 @@
 none: {}
 
 some:
-  entry_level: true
-  journeyman: true
-  master: true
+  junior: true
+  mid: true
+  senior: true
 
 all:
   developer: one
-  entry_level: true
-  apprentice: true
-  journeyman: true
-  master: true
+  junior: true
+  mid: true
+  senior: true
+  principal: true

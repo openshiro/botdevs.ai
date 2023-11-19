@@ -13,10 +13,21 @@ module RoleLevels
 
       render_inline Component.new(role_level)
 
-      assert_text RoleLevel.human_attribute_name("entry_level")
-      assert_text RoleLevel.human_attribute_name("journeyman")
-      assert_text RoleLevel.human_attribute_name("master")
-      assert_no_text RoleLevel.human_attribute_name("apprentice")
+      assert_text RoleLevel.human_attribute_name("junior")
+      assert_text RoleLevel.human_attribute_name("senior")
+      assert_text RoleLevel.human_attribute_name("mid")
+      assert_no_text RoleLevel.human_attribute_name("principal")
+    end
+
+    test "renders all selected role levels" do
+      role_level = role_levels(:all)
+
+      render_inline Component.new(role_level)
+
+      assert_text RoleLevel.human_attribute_name("junior")
+      assert_text RoleLevel.human_attribute_name("senior")
+      assert_text RoleLevel.human_attribute_name("mid")
+      assert_text RoleLevel.human_attribute_name("principal")
     end
   end
 end

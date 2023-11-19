@@ -2,10 +2,10 @@ require "test_helper"
 
 class Developers::MetaTest < ActiveSupport::TestCase
   test "displays role level when one is selected" do
-    title = build_title(role_levels: [:entry_level])
-    assert_equal title, "Hire entry-level AI/ML developers"
+    title = build_title(role_levels: [:junior])
+    assert_equal title, "Hire junior AI/ML developers"
 
-    title = build_title(role_levels: [:entry_level, :journeyman])
+    title = build_title(role_levels: [:junior, :senior])
     assert_equal title, "Hire AI/ML developers"
 
     title = build_title(role_levels: [])
@@ -36,11 +36,11 @@ class Developers::MetaTest < ActiveSupport::TestCase
 
   test "role level comes before freelance (and country at the end)" do
     title = build_title(
-      role_levels: [:journeyman],
+      role_levels: [:senior],
       role_types: [:part_time_contract, :full_time_contract],
       countries: ["United States"]
     )
-    assert_equal title, "Hire journeyman freelance AI/ML developers in United States"
+    assert_equal title, "Hire senior freelance AI/ML developers in United States"
   end
 
   def build_title(query_options = {})

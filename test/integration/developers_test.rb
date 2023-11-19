@@ -85,11 +85,11 @@ class DevelopersTest < ActionDispatch::IntegrationTest
   end
 
   test "developers can be filtered by role level" do
-    create_developer(hero: "Mid", role_level_attributes: {apprentice: true})
+    create_developer(hero: "Mid", role_level_attributes: {mid: true})
 
-    get developers_path(role_levels: ["apprentice"])
+    get developers_path(role_levels: ["mid"])
 
-    assert_select "input[checked][type=checkbox][value=apprentice][name='role_levels[]']"
+    assert_select "input[checked][type=checkbox][value=mid][name='role_levels[]']"
     assert_select "h2", "Mid"
   end
 
@@ -112,11 +112,11 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     get developers_path
     assert_select "h2", text: developers(:one).hero
     assert_select "form#developer-filters-mobile"
-    developers(:one).role_level.update!(entry_level: false)
+    developers(:one).role_level.update!(junior: false)
 
     get developers_path, params: {
       "developer-filters-mobile": {
-        role_levels: [:entry_level]
+        role_levels: [:junior]
       }
     }
 
@@ -210,13 +210,13 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     assert_difference "Developer.count", 1 do
       params = valid_developer_params
       params[:developer][:role_type_attributes] = {part_time_contract: true}
-      params[:developer][:role_level_attributes] = {journeyman: true}
+      params[:developer][:role_level_attributes] = {senior: true}
       params[:developer][:specialty_ids] = [specialties(:one).id]
       post developers_path, params:
     end
 
     assert user.developer.role_type.part_time_contract?
-    assert user.developer.role_level.journeyman?
+    assert user.developer.role_level.senior?
     assert user.developer.avatar.attached?
     assert_includes user.developer.specialties, specialties(:one)
   end
@@ -323,15 +323,15 @@ class DevelopersTest < ActionDispatch::IntegrationTest
           part_time_contract: true
         },
         role_level_attributes: {
-          entry_level: true,
-          apprentice: true
+          junior: true,
+          mid: true
         }
       }
     }
 
     assert user.developer.reload.role_type.part_time_contract?
-    assert user.developer.reload.role_level.entry_level?
-    assert user.developer.reload.role_level.apprentice?
+    assert user.developer.reload.role_level.junior?
+    assert user.developer.reload.role_level.mid?
   end
 
   test "invalid profile creation" do

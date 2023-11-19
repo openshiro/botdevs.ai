@@ -36,12 +36,12 @@ developer = SeedsHelper.create_developer!("featured", {
 developer.feature! unless developer.featured_at?
 
 # Junior developer
-SeedsHelper.create_developer!("entry_level", {
+SeedsHelper.create_developer!("junior", {
   hero: "Entry-level developer",
   location: SeedsHelper.locations[:new_york],
   search_status: :actively_looking,
   role_type: RoleType.new(full_time_employment: true),
-  role_level: RoleLevel.new(entry_level: true)
+  role_level: RoleLevel.new(junior: true)
 })
 
 # Freelancer developer
@@ -50,7 +50,7 @@ SeedsHelper.create_developer!("freelancer", {
   location: SeedsHelper.locations[:new_york],
   search_status: :open,
   role_type: RoleType.new(part_time_contract: true),
-  role_level: RoleLevel.new(apprentice: true, journeyman: true),
+  role_level: RoleLevel.new(mid: true, senior: true),
   website: Faker::Internet.url,
   github: Faker::Internet.username
 })

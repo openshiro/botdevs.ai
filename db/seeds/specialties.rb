@@ -5,4 +5,4 @@ end
 
 User.find_by(email: "developer@example.com").developer.specialties = Specialty.first(5)
 User.find_by(email: "freelancer@example.com").developer.specialties = [Specialty.second, Specialty.third]
-User.find_by(email: "entry_level@example.com").developer.specialties = [Specialty.fourth]
+User.find_by(email: "junior@example.com").developer.specialties = [Specialty.fourth]

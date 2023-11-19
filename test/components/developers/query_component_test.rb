@@ -63,13 +63,13 @@ module Developers
     end
 
     test "checks selected role levels" do
-      query = DeveloperQuery.new(role_levels: ["entry_level", "apprentice", "journeyman"])
+      query = DeveloperQuery.new(role_levels: ["junior", "mid", "senior"])
       render_inline QueryComponent.new(query:, user: @user, form_id: nil)
 
-      assert_selector build_input("role_levels[]", type: "checkbox", value: "entry_level", checked: true)
-      assert_selector build_input("role_levels[]", type: "checkbox", value: "apprentice", checked: true)
-      assert_selector build_input("role_levels[]", type: "checkbox", value: "journeyman", checked: true)
-      assert_no_selector build_input("role_levels[]", type: "checkbox", value: "master", checked: true)
+      assert_selector build_input("role_levels[]", type: "checkbox", value: "junior", checked: true)
+      assert_selector build_input("role_levels[]", type: "checkbox", value: "mid", checked: true)
+      assert_selector build_input("role_levels[]", type: "checkbox", value: "senior", checked: true)
+      assert_no_selector build_input("role_levels[]", type: "checkbox", value: "principal", checked: true)
     end
 
     test "checks selected badges" do
