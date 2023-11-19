@@ -465,7 +465,7 @@ en:
       freelance: freelance
       hire: Hire
       in_country: in %{country}
-      developers: AI/ML developers
+      ai_developers: AI/ML developers
     new_field_component:
       new: New!
     new_fields_component:
