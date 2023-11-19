@@ -393,13 +393,12 @@ zh-CN:
       email: Email
       github: GitHub
       language_name_of_locale: 简体中文
-      masilotti_com: Masilotti.com
       open_source: 开源
       open_startup: 创业公司
       privacy_policy: 隐私政策
       support: 帮助
       terms_and_conditions: 条款
-      twitter: Twitter
+      linkedin: LinkedIn
   submit_button_component:
     save: 保存
     saving: 保存中...

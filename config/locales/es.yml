@@ -253,10 +253,9 @@ es:
       email: Correo Electrónico
       github: GitHub
       language_name_of_locale: Español
-      masilotti_com: Masilotti.com
       open_source: Código abierto
       support: Soporte
-      twitter: Twitter
+      linkedin: LinkedIn
   users:
     paywalled_component:
       description: Información que solo es visible con una suscripción comercial.

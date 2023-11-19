@@ -648,13 +648,12 @@ fr:
       email: Email
       github: GitHub
       language_name_of_locale: Français
-      masilotti_com: Masilotti.com
       open_source: Open source
       open_startup: Open startup
       privacy_policy: Politique de confidentialité
       support: Support
       terms_and_conditions: Termes et conditions
-      twitter: Twitter
+      linkedin: LinkedIn
   size:
     billion: B
     million: M
