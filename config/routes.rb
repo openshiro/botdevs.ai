@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   match "(*any)",
     to: redirect(subdomain: ""),
     via: :all,
-    constraints: { subdomain: "www", domain: "botdevs.ai" }
+    constraints: {subdomain: "www", domain: "botdevs.ai"}
 
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     devise_for :users, controllers: {
