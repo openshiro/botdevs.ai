@@ -1,5 +1,9 @@
 ---
 en:
+  invisible_captcha:
+    sentence_for_humans: "If you are human, ignore this field it is for detecting spam bots."
+    timestamp_error_message: "Sorry, that was too quick (the form thinks you might be a bot). Please resubmit."
+
   activerecord:
     attributes:
       business:

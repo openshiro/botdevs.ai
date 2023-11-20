@@ -1,4 +1,5 @@
 class InquiriesController < ApplicationController
+  invisible_captcha honeypot: :subtitle
   # GET /inquiries/new
   def new
     @inquiry = Inquiry.new
