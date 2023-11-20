@@ -6,9 +6,9 @@
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8">
-        <%#= link_to root_path, class: "hidden sm:inline-block" do %>
-          <%#= render_svg 'mark', styles: "h-7 fill-current text-gray-700 hover:text-gray-800 dark:text-gray-50 dark:hover:text-gray-200" %>
-        <%# end %>
+        <%= link_to root_path, class: "hidden sm:inline-block" do %>
+          <%= inline_svg_tag 'mark', class: "h-10 w-auto", alt: "BotDevs logo", title: "BotDevs logo" %>
+        <% end %>
         <p class="text-sm leading-6 text-gray-300"><%= t(".tagline") %></p>
         <div class="flex space-x-6">
           <a href="https://github.com/openshiro/botdevs.ai" class="text-gray-500 hover:text-gray-400">
