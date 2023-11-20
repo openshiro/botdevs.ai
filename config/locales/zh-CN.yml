@@ -3,7 +3,6 @@ zh-CN:
   about:
     show:
       caption: BotDevs 的创立者
-      readtime: 1 分钟阅读时间
       title: 关于
       title_og: 关于 BotDevs
   activerecord:
@@ -209,11 +208,11 @@ zh-CN:
       cta: 编辑我的资料
       title: 你的开发者资料已隐藏 - 仅你自己可见。
     meta:
+      ai_developers: 人工智能开发者
       description: "%{count}+ 人工智能开发者正在寻找他们的下一份工作. 初级到高级开发者，你都可以在这里找到。"
       freelance: 自由职业
       hire: 招聘
       in_country: 在 %{country}
-      ruby_on_rails_developers: 人工智能开发者
     new_field_component:
       new: 新!
     new_fields_component:

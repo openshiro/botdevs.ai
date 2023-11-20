@@ -2,9 +2,8 @@
 fr:
   about:
     show:
-      caption: fondateur de BotDevs
+      caption: BotDevs fondateur
       description: Je m'appelle Duncan Miller. J'ai créé BotDevs pour permettre aux développeurs d'intelligence artificielle de trouver plus facilement leur prochain emploi.
-      readtime: 1 minute à lire
       title: À propos
       title_og: À propos de BotDevs
   activerecord:

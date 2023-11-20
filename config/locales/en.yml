@@ -1,5 +1,11 @@
 ---
 en:
+  about:
+    show:
+      caption: BotDevs Founder
+      description: A reverse job board for AI/ML developers. Developers can create a free profile that features their experience, skills and location.
+      title: About
+      title_og: About BotDevs
   activerecord:
     attributes:
       business:
@@ -595,7 +601,6 @@ en:
       you: You
   nav_bar:
     base_component:
-      affiliates: Affiliate program
       articles: Articles
       developers: Developers
       home: Home
@@ -819,7 +824,9 @@ en:
       affiliates: Affiliates
       analytics: Analytics
       articles: Articles
+      company: Company
       contact: Contact
+      copyright: BotDevs All rights reserved. Made in Portland, Oregon.
       email: Email
       github: GitHub
       language: Language
@@ -833,6 +840,8 @@ en:
       support: Support
       tagline: The reverse job board for AI/ML developers.
       terms_and_conditions: Terms and conditions
+      twitter: Twitter
+      youtube: YouTube
     newsletter:
       enter_email: Enter your email
       privacy_policy: privacy policy

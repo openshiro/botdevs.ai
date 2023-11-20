@@ -9,8 +9,8 @@
             <span><%= t(".subtitle_2") %></span>
             <span class="md:block"><%= t(".subtitle_3") %></span></p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <%= link_to "Get started", new_role_path, class: "rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400" %>
-            <a href="<%= about_path %>" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+            <%= link_to t(".get_started"), new_role_path, class: "rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400" %>
+            <a href="<%= about_path %>" class="text-sm font-semibold leading-6 text-white"><%= t(".learn_more") %> <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
