@@ -217,7 +217,7 @@ production: CACNFAAN
 
 A few settings need to be configured in [RevenueCat](https://www.revenuecat.com) for in-app purchases to work.
 
-1. A project - BotDevs names this "railsdevs"
+1. A project - BotDevs names this "botdevs"
 1. Two products (to match the subscription tiers)
 1. An App Store (iOS) app configured with the name and bundle identifier
 1. The App Store Connect App-Specific Shared Secret copied to App Store Connect
