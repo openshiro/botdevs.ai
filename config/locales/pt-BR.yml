@@ -196,9 +196,9 @@ pt-BR:
       you: Você
   nav_bar:
     base_component:
+      articles: Artigos
       developers: Desenvolvedores
       pricing: Preços
-      articles: Artigos
     guest_component:
       register: Registrar
       sign_in: Entrar
@@ -315,10 +315,10 @@ pt-BR:
       email: E-mail
       github: GitHub
       language_name_of_locale: Português (Brasil)
+      linkedin: LinkedIn
       open_source: Código fonte
       open_startup: Open startup
       support: Suporte
-      linkedin: LinkedIn
   size:
     billion: B
     million: M

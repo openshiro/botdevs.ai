@@ -2,9 +2,9 @@
 zh-TW:
   nav_bar:
     base_component:
+      articles: 文章
       developers: 開發者們
       pricing: 價格
-      articles: 文章
   shared:
     footer:
       language_name_of_locale: 繁體中文

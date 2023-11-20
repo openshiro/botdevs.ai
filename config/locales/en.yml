@@ -1,9 +1,5 @@
 ---
 en:
-  invisible_captcha:
-    sentence_for_humans: "If you are human, ignore this field it is for detecting spam bots."
-    timestamp_error_message: "Sorry, that was too quick (the form thinks you might be a bot). Please resubmit."
-
   activerecord:
     attributes:
       business:
@@ -465,11 +461,11 @@ en:
       cta: Edit my profile
       title: Your developer profile is invisible – only you can see it.
     meta:
-      description: "Find AI/ML developers looking for their next job. Apprentice to principal and everyone in between, you'll find them all here."
+      ai_developers: AI/ML developers
+      description: Find AI/ML developers looking for their next job. Apprentice to principal and everyone in between, you'll find them all here.
       freelance: freelance
       hire: Hire
       in_country: in %{country}
-      ai_developers: AI/ML developers
     new_field_component:
       new: New!
     new_fields_component:
@@ -581,6 +577,9 @@ en:
   impersonating_banner_component:
     cta: Sign out
     title: Signed in as %{email}
+  invisible_captcha:
+    sentence_for_humans: If you are human, ignore this field it is for detecting spam bots.
+    timestamp_error_message: Sorry, that was too quick (the form thinks you might be a bot). Please resubmit.
   loading_component:
     loading: Loading...
   messages:
@@ -597,8 +596,8 @@ en:
   nav_bar:
     base_component:
       affiliates: Affiliate program
-      developers: Developers
       articles: Articles
+      developers: Developers
       home: Home
       pricing: Pricing
     guest_component:
@@ -821,12 +820,12 @@ en:
       email: Email
       github: GitHub
       language_name_of_locale: English
+      linkedin: LinkedIn
       open_source: Open source
       open_startup: Open startup
       privacy_policy: Privacy policy
       support: Support
       terms_and_conditions: Terms and conditions
-      linkedin: LinkedIn
   size:
     billion: B
     million: M

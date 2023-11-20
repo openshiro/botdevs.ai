@@ -189,8 +189,8 @@ es:
       you: Tú
   nav_bar:
     base_component:
-      developers: Desarrolladores
       articles: Artículos
+      developers: Desarrolladores
       pricing: Precios
     guest_component:
       register: Registrarse
@@ -255,9 +255,9 @@ es:
       email: Correo Electrónico
       github: GitHub
       language_name_of_locale: Español
+      linkedin: LinkedIn
       open_source: Código abierto
       support: Soporte
-      linkedin: LinkedIn
   users:
     paywalled_component:
       description: Información que solo es visible con una suscripción comercial.

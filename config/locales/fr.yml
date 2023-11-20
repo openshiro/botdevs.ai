@@ -328,11 +328,11 @@ fr:
       cta: Modifier mon profil
       title: Votre profil de développeur est invisible - vous seul pouvez le voir.
     meta:
+      ai_developers: développeurs IA
       description: "%{count}+ développeurs IA à la recherche de leur prochain emploi. Allant de junior à senior, vous les trouverez tous ici."
       freelance: freelance
       hire: Recrutez
       in_country: en %{country}
-      ai_developers: développeurs IA
     new_field_component:
       new: Nouveau!
     new_fields_component:
@@ -446,9 +446,9 @@ fr:
       you: Vous
   nav_bar:
     base_component:
+      articles: Articles
       developers: Candidats
       home: Accueil
-      articles: Articles
       pricing: Tarif
     guest_component:
       register: Créer un compte
@@ -649,12 +649,12 @@ fr:
       email: Email
       github: GitHub
       language_name_of_locale: Français
+      linkedin: LinkedIn
       open_source: Open source
       open_startup: Open startup
       privacy_policy: Politique de confidentialité
       support: Support
       terms_and_conditions: Termes et conditions
-      linkedin: LinkedIn
   size:
     billion: B
     million: M
