@@ -9,7 +9,7 @@
         <%#= link_to root_path, class: "hidden sm:inline-block" do %>
           <%#= render_svg 'mark', styles: "h-7 fill-current text-gray-700 hover:text-gray-800 dark:text-gray-50 dark:hover:text-gray-200" %>
         <%# end %>
-        <p class="text-sm leading-6 text-gray-300">The reverse job board for AI/ML developers.</p>
+        <p class="text-sm leading-6 text-gray-300"><%= t(".tagline") %></p>
         <div class="flex space-x-6">
           <a href="https://github.com/openshiro/botdevs.ai" class="text-gray-500 hover:text-gray-400">
             <span class="sr-only">GitHub</span>
@@ -44,7 +44,7 @@
       <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
-            <h3 class="text-sm font-semibold leading-6 text-white">Language</h3>
+            <h3 class="text-sm font-semibold leading-6 text-white"><%= t(".language") %></h3>
               <nav aria-label="Language links">
                 <ul role="list" class="list-none mt-6 space-y-4">
                   <% I18n.available_locales.each do |locale| %>
@@ -61,13 +61,13 @@
             <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
             <ul role="list" class="list-none mt-6 space-y-4">
               <li>
-                <%= link_to "Pricing", pricing_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
+                <%= link_to t(".pricing"), pricing_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
               <li>
-                <%= link_to "Contact", "mailto:support@botdevs.ai", class: "text-sm leading-6 text-gray-300 hover:text-white" %>
+                <%= link_to t(".contact"), "mailto:support@botdevs.ai", class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
               <li>
-                <%= link_to "Status", "#", class: "text-sm leading-6 text-gray-300 hover:text-white" %>
+                <%= link_to t(".status"), "#", class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
             </ul>
           </div>
@@ -80,10 +80,10 @@
                 <%= link_to t(".about"), about_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
               <li>
-                <%= link_to "Articles", articles_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
+                <%= link_to t(".articles"), articles_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
               <li>
-                <%= link_to "Affiliates", affiliates_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
+                <%= link_to t(".affiliates"), affiliates_path, class: "text-sm leading-6 text-gray-300 hover:text-white" %>
               </li>
             </ul>
           </div>

@@ -816,16 +816,30 @@ en:
   shared:
     footer:
       about: About
+      affiliates: Affiliates
       analytics: Analytics
+      articles: Articles
+      contact: Contact
       email: Email
       github: GitHub
+      language: Language
       language_name_of_locale: English
       linkedin: LinkedIn
       open_source: Open source
       open_startup: Open startup
+      pricing: Pricing
       privacy_policy: Privacy policy
+      status: Status
       support: Support
+      tagline: The reverse job board for AI/ML developers.
       terms_and_conditions: Terms and conditions
+    newsletter:
+      enter_email: Enter your email
+      privacy_policy: privacy policy
+      privacy_statement: We care about your data. Read our
+      subscribe: Subscribe
+      subtitle: The latest AI/ML job alerts and tips, sent to your inbox weekly.
+      title: Subscribe to our newsletter
   size:
     billion: B
     million: M
