@@ -139,7 +139,7 @@ zh-CN:
       source_contributor: 来源贡献者
     count_component:
       cta: 重置过滤条件
-      title_html: 展示 <span class='font-bold'>%{count}</span> / 总计 <span class='font-bold'>%{total}</span>+ 位开发者.
+      title_html: 展示 <span class='font-bold'>%{count}</span>+ 位开发者.
     cover_image_component:
       alt: 开发者的封面图片
     create:

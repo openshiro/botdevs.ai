@@ -258,7 +258,7 @@ fr:
       featured: En vedette
     count_component:
       cta: Réinitialiser les filtres
-      title_html: Affichage de <span class='font-bold'>%{count}</span> sur <span class='font-bold'>%{total}</span>+ développeurs.
+      title_html: Affichage de <span class='font-bold'>%{count}</span>+ IA développeurs.
     cover_image_component:
       alt: Image de couverture du développeur
     create:

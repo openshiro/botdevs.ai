@@ -462,7 +462,7 @@ en:
       title: Your developer profile is invisible – only you can see it.
     meta:
       ai_developers: AI/ML developers
-      description: Find AI/ML developers looking for their next job. Apprentice to principal and everyone in between, you'll find them all here.
+      description: "%{count}+ AI/ML developers looking for their next job. Junior to principal and everyone in between, you'll find them all here."
       freelance: freelance
       hire: Hire
       in_country: in %{country}
