@@ -40,6 +40,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
     get developers_path(sort: :newest)
 
+    sleep(0.5)
     assert_select "button.font-medium[value=newest]"
     assert response.body.index("Newest") < response.body.index("Oldest")
   end
