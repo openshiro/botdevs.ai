@@ -35,13 +35,14 @@ class DevelopersTest < ActionDispatch::IntegrationTest
   end
 
   test "developers can be sorted by newest first" do
-    create_developer(hero: "Oldest")
-    create_developer(hero: "Newest")
+    dev1 = create_developer(hero: "Oldest")
+    dev2 = create_developer(hero: "Newest")
+    dev1.update(created_at: 7.days.ago)
+    dev2.update(created_at: Time.zone.now)
 
     get developers_path(sort: :newest)
 
     assert_select "button.font-medium[value=newest]"
-    sleep(1)
     assert response.body.index("Newest") < response.body.index("Oldest")
   end
 
