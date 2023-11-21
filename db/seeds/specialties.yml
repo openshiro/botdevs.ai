@@ -1,9 +1,7 @@
-- Python
-- Ruby
 - Langchain
 - Prompt Engineering
 - TensorFlow
-- Jupyter Notebooks
+- Jupyter Notebook
 - Pandas
 - NumbPy
 - SciKit-Learn
@@ -13,19 +11,18 @@
 - Large Language Models
 - Natural Language Processing
 - Vector Search Databases
-- OpenAI
-- AI21
-- Anthropic
-- AWS Bedrock
-- Cohere
-- GooglePalm
-- HuggingFace
-- Replicate
-- Chroma
-- Hnswlib
-- Milvus
-- Pinecone
-- Pgvector
-- Qdrant
-- Weaviate
-- Elasticsearch
+- Python
+- PyTorch
+- Keras
+- Theano
+- Lisp
+- Java
+- Kubeflow
+- OpenNLP
+- Neuroph
+- C++
+- R
+- Ruby
+- Julia
+- Haskell
+- Scala
