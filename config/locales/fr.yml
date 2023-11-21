@@ -328,7 +328,7 @@ fr:
       title: Votre profil de développeur est invisible - vous seul pouvez le voir.
     meta:
       ai_developers: développeurs IA
-      description: "%{count}+ développeurs IA à la recherche de leur prochain emploi. Allant de junior à senior, vous les trouverez tous ici."
+      description: Développeurs IA à la recherche de leur prochain emploi. Allant de junior à senior, vous les trouverez tous ici.
       freelance: freelance
       hire: Recrutez
       in_country: en %{country}
