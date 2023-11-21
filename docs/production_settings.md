@@ -203,7 +203,7 @@ It also requires the following ACL where `SITEMAPS-BUCKET-NAME` is the name of t
 
 ## Analytics
 
-BotDevs uses [Fathom](https://usefathom.com/ref/HBTNVR) for GDPR-compliant analytics. The sites keys are identified in `config/fathom.yml`.
+BotDevs uses [Fathom](https://usefathom.com/ref/QVBAVA) for GDPR-compliant analytics. The sites keys are identified in `config/fathom.yml`.
 
 ```
 # config/fathom.yml
