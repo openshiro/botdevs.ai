@@ -16,7 +16,7 @@ We operate with full transparency and share our key metrics like revenue and exp
 
 * [Revenue and expenses](/open)
 * [Full open source code](https://github.com/openshiro/botdevs.ai/)
-* [Platform errors and status](https://app.honeybadger.io/project/vlnQvYl85Q)
+* [Platform errors and status](https://app.honeybadger.io/project/kK58DYOB5X)
 
 ### Working to help create safe AI that benefits all
 
