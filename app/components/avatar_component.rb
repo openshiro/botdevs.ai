@@ -30,10 +30,6 @@ class AvatarComponent < ViewComponent::Base
   end
 
   def name
-    if avatarable.instance_of?(Developer)
-      "Professional's"
-    else
-      "#{avatarable.class.name}'s"
-    end
+    "#{avatarable.class.name}'s"
   end
 end
