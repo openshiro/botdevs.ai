@@ -404,7 +404,7 @@ zh-CN:
     saving: 保存中...
   subscription_cta_component:
     cta: 开始招聘
-    description: 与 %{developers}+ 位人工智能开发者取得联系。
+    description: 与位人工智能开发者取得联系。
     title: 立即注册以查看更多开发者。
   users:
     paywalled:

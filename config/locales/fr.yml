@@ -663,7 +663,7 @@ fr:
     save: Sauvegarder
     saving: Sauvegarde...
   subscription_cta_component:
-    description: Abonnez vous à BotDevs pour débloquer %{developers}+ profils des candidats.
+    description: Abonnez vous à BotDevs pour débloquer profils des candidats.
     title: Abonnement requis
   users:
     paywalled:

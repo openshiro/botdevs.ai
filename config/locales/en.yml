@@ -861,7 +861,7 @@ en:
     saving: Saving...
   subscription_cta_component:
     cta: Start hiring
-    description: Gain access to %{developers}+ AI/ML developers.
+    description: Gain access to AI/ML developers.
     title: Sign up now to see more profiles.
   users:
     paywalled:
