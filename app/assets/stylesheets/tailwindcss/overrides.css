@@ -2,6 +2,9 @@
   code::before, code::after {
     display: none;
   }
+  figure {
+    margin: 1.5rem 0;
+  }
   h2 {
     font-size: 1.2em;
     font-weight: 800;
@@ -14,7 +17,12 @@
     line-height: 1.5;
     margin: 1rem 0;
   }
-  figure {
-    margin: 1.5rem 0;
+}
+.trix-content{
+  li {
+    margin-bottom: 1rem;
+  }
+  ul {
+    margin-top: 1rem;
   }
 }
