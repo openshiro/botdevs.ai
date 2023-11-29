@@ -20,7 +20,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
   test "custom meta tags are rendered" do
     get developers_path
-    assert_title_contains "Hire AI/ML developers"
+    assert_title_contains "Hire AI developers"
     assert_description_contains "looking for their"
   end
 
@@ -68,7 +68,7 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     get developers_path(countries: [country])
 
     assert_select "input[checked][type=checkbox][value='#{country}'][name='countries[]']"
-    assert_text "Hire AI/ML developers in #{country}"
+    assert_text "Hire AI developers in #{country}"
   end
 
   test "developers can be filtered by role type" do

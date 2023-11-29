@@ -1,10 +1,10 @@
-### Championing all AI/ML developers and their work
+### Championing all AI developers and their work
 
-The site is open to all AI/ML developers, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
+The site is open to all AI developers, regardless of race, color, national origin, religion, gender, age, disability, or skill level that follow the [code of conduct](/conduct).
 
-I've been developing software since 1999 when I started learning html. With my first company, HeatSpring, I built a online education platform. The first verison was built using static html and css, then it was rebuilt in php and (thankfully) rebuilt again in Ruby on Rails. The platform has been used by over 100,000 clean energy professionals and building companies for training on topics like solar PV installation and design. In 2023 I created [OpenShiro](https://openshiro.com), an Oregon benefit company, and BotDevs to help AI/ML developers find work and get better jobs.
+I've been developing software since 1999 when I started learning html. With my first company, HeatSpring, I built a online education platform. The first verison was built using static html and css, then it was rebuilt in php and (thankfully) rebuilt again in Ruby on Rails. The platform has been used by over 100,000 clean energy professionals and building companies for training on topics like solar PV installation and design. In 2023 I created [OpenShiro](https://openshiro.com), an Oregon benefit company, and BotDevs to help AI developers find work and get better jobs.
 
-Now more than ever, the world is in need of AI/ML developers. Millions of developers will be required to do for this exciting new technology frontier, are you up for it?
+Now more than ever, the world is in need of AI developers. Millions of developers will be required to do for this exciting new technology frontier, are you up for it?
 
 Make a [free profile](users/sign_up) to get you next career move started.
 

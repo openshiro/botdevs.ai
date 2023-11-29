@@ -3,35 +3,35 @@ require "test_helper"
 class Developers::MetaTest < ActiveSupport::TestCase
   test "displays role level when one is selected" do
     title = build_title(role_levels: [:junior])
-    assert_equal title, "Hire junior AI/ML developers"
+    assert_equal title, "Hire junior AI developers"
 
     title = build_title(role_levels: [:junior, :senior])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
 
     title = build_title(role_levels: [])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
   end
 
   test "displays 'freelance' when only both contract role types are selected" do
     title = build_title(role_types: [:part_time_contract, :full_time_contract])
-    assert_equal title, "Hire freelance AI/ML developers"
+    assert_equal title, "Hire freelance AI developers"
 
     title = build_title(role_types: [:part_time_contract, :full_time_contract, :full_time_employment])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
 
     title = build_title(role_types: [:part_time_contract])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
   end
 
   test "displays country if one is selected" do
     title = build_title(countries: ["United States"])
-    assert_equal title, "Hire AI/ML developers in United States"
+    assert_equal title, "Hire AI developers in United States"
 
     title = build_title(countries: ["United States", "Canada"])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
 
     title = build_title(countries: [])
-    assert_equal title, "Hire AI/ML developers"
+    assert_equal title, "Hire AI developers"
   end
 
   test "role level comes before freelance (and country at the end)" do
@@ -40,7 +40,7 @@ class Developers::MetaTest < ActiveSupport::TestCase
       role_types: [:part_time_contract, :full_time_contract],
       countries: ["United States"]
     )
-    assert_equal title, "Hire senior freelance AI/ML developers in United States"
+    assert_equal title, "Hire senior freelance AI developers in United States"
   end
 
   def build_title(query_options = {})

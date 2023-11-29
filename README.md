@@ -1,12 +1,12 @@
 # BotDevs
 
-BotDevs is a reverse job board for the AI/ML developers.
+BotDevs is a reverse job board for the AI developers.
 
 Developers can create a free profile that features their experience, skills and location. Hiring companies can then search the profiles and contact developers through the platform about jobs.
 
 It is being built around [our core values](https://botdevs.ai/about):
 
-- Championing **all** AI/ML developers and their work
+- Championing **all** AI developers and their work
 - Operating with trust, integrity and open transparency
 - Working to help create safe AI that benefits all
 

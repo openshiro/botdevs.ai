@@ -3,7 +3,7 @@ en:
   about:
     show:
       caption: BotDevs Founder
-      description: A reverse job board for AI/ML developers. Developers can create a free profile that features their experience, skills and location.
+      description: A reverse job board for AI developers. Developers can create a free profile that features their experience, skills and location.
       title: About
       title_og: About BotDevs
   activerecord:
@@ -218,7 +218,7 @@ en:
       create:
         notice: Your request will be approved shortly. Look out for an email from Duncan soon.
       index:
-        description: Earn 10% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for AI/ML developers.
+        description: Earn 10% recurring commissions for every referral to BotDevs. Join the affiliate program today and start earning money while promoting the only open source hiring platform for AI developers.
         title: Earn money promoting BotDevs
       new:
         agreement: I agree to these rules
@@ -261,7 +261,7 @@ en:
       change_avatar: Upload
       creating: Creating...
       developer_notifications:
-        help_text: Receive daily or weekly email notifications when new AI/ML developers add their profile to BotDevs.
+        help_text: Receive daily or weekly email notifications when new AI developers add their profile to BotDevs.
         legend: developer notifications
         values:
           daily: Daily
@@ -312,8 +312,8 @@ en:
       title: Requires an active business subscription.
     upgrade_required_component:
       body:
-        expired: Your subscription has expired. Reactivate your account to continue messaging AI/ML developers.
-        upgrade: With your current plan you can only message AI/ML developers looking for part-time work. Upgrade your account to message this developer.
+        expired: Your subscription has expired. Reactivate your account to continue messaging AI developers.
+        upgrade: With your current plan you can only message AI developers looking for part-time work. Upgrade your account to message this developer.
       cta:
         expired: Reactivate my account
         upgrade: Upgrade my account
@@ -383,9 +383,9 @@ en:
         title: Did you find a job through BotDevs?
     count_component:
       cta: Reset filters
-      title_html: Showing <span class='font-bold'>%{count}</span> AI/ML developers.
+      title_html: Showing <span class='font-bold'>%{count}</span> AI developers.
     cover_image_component:
-      alt: AI/ML developer's cover image
+      alt: AI developer's cover image
     create:
       created: Your profile was added!
     details:
@@ -422,7 +422,7 @@ en:
         change: Upload
         cover_image: Cover image
         help_text: This information will be displayed publicly so be careful what you share.
-        hero_help_text: Summarize yourself as an AI/ML developer in a few words.
+        hero_help_text: Summarize yourself as an AI developer in a few words.
         location_help_text: Providing your location makes it easier to connect with local business.
         name_help_text_html: Your name will <i>not</i> be displayed on your public profile.
         title: Profile
@@ -445,7 +445,7 @@ en:
         open_help_text: Companies can still find you, but you won't appear on the homepage.
         title: Search status
       specialties:
-        description: Choose up to 5 specialties that set you apart from other AI/ML developers. Pick ones that you are passionate about - you don't need to be an expert.
+        description: Choose up to 5 specialties that set you apart from other AI developers. Pick ones that you are passionate about - you don't need to be an expert.
         new:
           before: If you don't see a specialty that matches your unique skills you can
           cta: suggest a new specialty
@@ -462,13 +462,13 @@ en:
       empty_state:
         body: Try changing or clearing your filters.
         title: No developers found
-      title: AI/ML developers
+      title: AI developers
     invisible_banner_component:
       cta: Edit my profile
       title: Your developer profile is invisible – only you can see it.
     meta:
-      ai_developers: AI/ML developers
-      description: Search for AI/ML developers looking for their next job. Junior to principal and everyone in between, you'll find them all here.
+      ai_developers: AI developers
+      description: Search for AI developers looking for their next job. Junior to principal and everyone in between, you'll find them all here.
       freelance: freelance
       hire: Hire
       in_country: in %{country}
@@ -533,11 +533,11 @@ en:
       updated: Your profile was updated!
   dir: ltr
   errors:
-    business_blank: Fill out your business profile to message AI/ML developers.
-    business_subscription_inactive: Sign up for a business subscription to message AI/ML developers.
+    business_blank: Fill out your business profile to message AI developers.
+    business_subscription_inactive: Sign up for a business subscription to message AI developers.
     developer_blank: Please create a developer profile first.
     hiring_agreements:
-      cold_message: Please sign the hiring agreement to message AI/ML developers.
+      cold_message: Please sign the hiring agreement to message AI developers.
       payment: Please sign the hiring agreement before subscribing.
     messages:
       attached: is not attached
@@ -568,17 +568,17 @@ en:
         signed_on: Signed on %{date}
   home:
     show:
-      description_og: BotDevs empowers AI/ML developers available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
-      developers_heading: New AI/ML developers on BotDevs
+      description_og: BotDevs empowers AI developers available for their next job. Stop scouring job boards and sit back as companies reach out to you first.
+      developers_heading: New AI developers on BotDevs
       get_started: Get started
       learn_more: Learn more
-      more: See more AI/ML developers
+      more: See more AI developers
       subtitle_1: We help artificial intelligence and machine learning
       subtitle_2: developers get hired.
       subtitle_3: Create a free profile today and open yourself up to opportunity.
       title_1: The reverse job board
-      title_2: for AI/ML developers
-      title_og: The reverse job board for AI/ML developers
+      title_2: for AI developers
+      title_og: The reverse job board for AI developers
       turbo_native_title: BotDevs
   impersonating_banner_component:
     cta: Sign out
@@ -735,7 +735,7 @@ en:
   pricing:
     cta:
       cta: Get started today
-      subtitle: Find your next AI/ML developer today.
+      subtitle: Find your next AI developer today.
       title: Ready to start hiring?
     faq:
       annual:
@@ -755,16 +755,16 @@ en:
         q: Who can I contact for more specific questions?
       title: Frequently asked questions
     hero:
-      description: Directly connect with top AI/ML talent looking for their next job.
-      title: Hire AI/ML developers
+      description: Directly connect with top AI talent looking for their next job.
+      title: Hire AI developers
     plan:
-      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of AI/ML developers, from mid to principal.
+      description: Skip the formal job postings and middlemen – hire directly from a candidate pool of AI developers, from mid to principal.
       features:
         email_updates: Email updates of new candidates
         hand_selected_matches: Hand-selected matches every month
         message: Message directly with developers
         oss: Support independent developers
-        rails: Exclusively AI/ML developers
+        rails: Exclusively AI developers
         support: Email and video support from the founder
         title: BotDevs exclusives
       hiring_fee: "+ 10% first year salary"
@@ -773,20 +773,20 @@ en:
     purchase_button:
       title: Get started today
     show:
-      description: Subscribe to BotDevs and directly connect with hundreds of AI/ML developers who are looking for contract and full-time work.
+      description: Subscribe to BotDevs and directly connect with hundreds of AI developers who are looking for contract and full-time work.
       title_og: Pricing
-      turbo_native_title: Hire AI/ML developers
+      turbo_native_title: Hire AI developers
     stats:
       description: Organic, genuine conversations with higher response rates than LinkedIn or cold email.
-      new_devs: New AI/ML developers a month
-      rails_developers: AI/ML developers
+      new_devs: New AI developers a month
+      rails_developers: AI developers
       response_rate: Response rate
-      title: The AI/ML developer hiring platform
+      title: The AI developer hiring platform
   public_profiles:
     new:
       cancel: Cancel
       copy_link: Copy link
-      message: Share your AI/ML developer profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
+      message: Share your AI developer profile privately with someone. This will reveal hidden information like your real name, social links, and email address to them.
       title: Share your profile
   read_notifications:
     create:
@@ -808,10 +808,10 @@ en:
       interested_in_roles: Interested in roles
   roles:
     new:
-      hiring_developers: I'm hiring AI/ML developers
-      hiring_developers_help_text: You're a business looking to hire an junior, senior or principal AI/ML developer.
+      hiring_developers: I'm hiring AI developers
+      hiring_developers_help_text: You're a business looking to hire an junior, senior or principal AI developer.
       looking_for_work: I'm looking for work
-      looking_for_work_help_text: You're an AI/ML developer looking for your next job.
+      looking_for_work_help_text: You're an AI developer looking for your next job.
       what_brings_you_here: What brings you to BotDevs?
   sessions:
     sign_in: Sign in
@@ -840,7 +840,7 @@ en:
       privacy_policy: Privacy policy
       status: Status
       support: Support
-      tagline: The reverse job board for AI/ML developers.
+      tagline: The reverse job board for AI developers.
       terms_and_conditions: Terms and conditions
       twitter: Twitter
       youtube: YouTube
@@ -849,7 +849,7 @@ en:
       privacy_policy: privacy policy
       privacy_statement: We care about your data. Read our
       subscribe: Subscribe
-      subtitle: The latest AI/ML job alerts and tips, sent to your inbox weekly.
+      subtitle: The latest AI job alerts and tips, sent to your inbox weekly.
       title: Subscribe to our newsletter
   size:
     billion: B
@@ -861,7 +861,7 @@ en:
     saving: Saving...
   subscription_cta_component:
     cta: Start hiring
-    description: Gain access to AI/ML developers.
+    description: Gain access to AI developers.
     title: Sign up now to see more profiles.
   users:
     paywalled:
