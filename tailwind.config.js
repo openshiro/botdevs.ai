@@ -90,8 +90,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
-        serif: ["Merriweather", "serif"],
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        serif: ["Playfair Display", "serif"],
       },
       animation: {
         "reverse-spin": "reverse-spin 1.5s linear infinite"

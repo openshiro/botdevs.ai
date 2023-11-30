@@ -1,28 +1,37 @@
 @font-face {
-  font-family: "DM Sans";
+  font-family: "Montserrat";
   font-weight: 700;
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url("DMSans-Bold.woff2") format("woff2");
+  src: url("Montserrat-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "DM Sans";
+  font-family: "Montserrat";
   font-weight: 400;
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url("DMSans-Regular.woff2") format("woff2");
+  src: url("Montserrat-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "DM Sans";
+  font-family: "Montserrat";
   font-weight: 400;
   font-display: swap;
   font-style: italic;
   font-named-instance: "Italic";
-  src: url("DMSans-Italic.woff2") format("woff2");
+  src: url("Montserrat-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("PlayfairDisplay-Regular.woff2") format("woff2");
 }
 
 @font-face {
