@@ -589,8 +589,7 @@ en:
   learn:
     show:
       description: A running list of technical AI courses, tutorials, books and videos to help software developers and engineers learn about artificial intelligence and machine learning.
-      title: Technical Courses, Books, and Tutorials on Artificial Intelligence, Deep Learning, and Machine Learning for AI Developers
-      title_og: Technical Courses, Books, and Tutorials on Artificial Intelligence, Deep Learning, and Machine Learning for AI Developers
+      title_og: Technical Courses, Books, and Tutorials on Artificial Intelligence, and Machine Learning for AI Developers
   loading_component:
     loading: Loading...
   messages:
