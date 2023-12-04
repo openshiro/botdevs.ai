@@ -77,3 +77,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ### BotDevs Gems ###
 
 gem "friendly_id", "~> 5.4.0"
+
+group :test do
+  gem "vcr"
+end
