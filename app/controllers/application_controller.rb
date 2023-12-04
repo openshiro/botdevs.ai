@@ -17,6 +17,12 @@ class ApplicationController < ActionController::Base
 
   impersonates :user
 
+  def redirect_resource_if_not_latest_friendly_id(resource)
+    if resource.friendly_id != params[:id]
+      redirect_to resource, status: 301
+    end
+  end
+
   def after_sign_in_path_for(user)
     if (stored_location = stored_location_for(:user)).present?
       stored_location
