@@ -1,4 +1,4 @@
-## Technical Courses, Books, and Tutorials on Artificial Intelligence and Machine Learning for AI Developers
+## Technical Courses, Books, and Tutorials on Artificial Intelligence, Deep Learning and Machine Learning for AI Developers
 
 I've been keeping a running list of highly recommended and informative resources that I have come across while learning more about AI and Machine Learning. Most of these are technical resources intended for experienced software engineers, developers, and coders. The majority of these resources are free and for any that are not, I've added (paid) to the title to distinguish.
 
