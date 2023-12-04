@@ -13,9 +13,10 @@ class Article < ApplicationRecord
   scope :scheduled, -> { where("published_at >= ?", Time.current) }
 
   LEARNING_RESOURCES_URL = "https://raw.githubusercontent.com/duncantmiller/ai-developer-resources/main/technical-courses-books-tutorials.md".freeze
+  LEARNING_ARTICLE_SLUG = "technical-ai-courses-books-and-tutorials-for-ai-developers".freeze
 
   def self.learning_resources
-    Article.friendly.find("technical-ai-courses-books-and-tutorials-for-ai-developers")
+    Article.friendly.find(LEARNING_ARTICLE_SLUG)
   end
 
   def should_generate_new_friendly_id?

@@ -9,12 +9,12 @@ Article.find_or_create_by!(title:) do |article|
   article.assign_attributes(attributes)
 end
 
-title2 = "technical-ai-courses-books-and-tutorials-for-ai-developers"
+title2 = Article::LEARNING_ARTICLE_SLUG
 attributes = {
   title: title2,
   published_at: Time.now,
   content: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.\n\n Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-  slug: "technical-ai-courses-books-and-tutorials-for-ai-developers"
+  slug: Article::LEARNING_ARTICLE_SLUG
 }
 
 Article.find_or_create_by!(title: title2) do |article|

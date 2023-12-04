@@ -14,7 +14,7 @@ Rails.application.routes.draw do
     resources :inquiries, only: %i[new create]
     resources :articles, only: [:show, :index]
     resource :about, only: :show, controller: :about
-    resource :learn, only: :show, controller: :learn, path: Article.learning_resources.slug
+    resource :learn, only: :show, controller: :articles, id: Article::LEARNING_ARTICLE_SLUG
     resource :conduct, only: :show
     resource :home, only: :show
     resource :pricing, only: :show, controller: :pricing
