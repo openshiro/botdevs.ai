@@ -586,6 +586,11 @@ en:
   invisible_captcha:
     sentence_for_humans: If you are human, ignore this field it is for detecting spam bots.
     timestamp_error_message: Sorry, that was too quick (the form thinks you might be a bot). Please resubmit.
+  learn:
+    show:
+      description: A running list of technical AI courses, tutorials, books and videos to help software developers and engineers learn about artificial intelligence and machine learning.
+      title: Technical Courses, Books, and Tutorials on Artificial Intelligence, Deep Learning, and Machine Learning for AI Developers
+      title_og: Technical Courses, Books, and Tutorials on Artificial Intelligence, Deep Learning, and Machine Learning for AI Developers
   loading_component:
     loading: Loading...
   messages:
@@ -604,6 +609,7 @@ en:
       articles: Articles
       developers: Developers
       home: Home
+      learn: Learn
       pricing: Pricing
     guest_component:
       register: Register
@@ -832,6 +838,7 @@ en:
       github: GitHub
       language: Language
       language_name_of_locale: English
+      learn: Learn
       legal: Legal
       linkedin: LinkedIn
       open_source: Open source

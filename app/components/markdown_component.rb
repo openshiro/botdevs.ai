@@ -18,6 +18,10 @@ class MarkdownComponent < ApplicationComponent
     new("about/body")
   end
 
+  def self.learn_body
+    new("learn/body")
+  end
+
   def self.code_of_coduct
     new("CODE_OF_CONDUCT.md", localize: false)
   end
