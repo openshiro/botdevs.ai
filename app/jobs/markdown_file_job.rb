@@ -24,7 +24,8 @@ class MarkdownFileJob < ApplicationJob
       if first_h2_tag
         first_h2_tag.remove
         updated_html_content = doc.to_html
-        save_updated_content(first_h2_tag, updated_html_content)
+        title = first_h2_tag.inner_text.strip
+        save_updated_content(title, updated_html_content)
       else
         Honeybadger.notify("No H2 tags found in the HTML content.")
       end
