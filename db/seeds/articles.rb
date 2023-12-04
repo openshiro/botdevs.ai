@@ -9,13 +9,17 @@ Article.find_or_create_by!(title:) do |article|
   article.assign_attributes(attributes)
 end
 
-title = "technical-ai-courses-books-and-tutorials-for-ai-developers"
+title2 = "technical-ai-courses-books-and-tutorials-for-ai-developers"
 attributes = {
-  title:,
+  title: title2,
   published_at: Time.now,
-  content: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.\n\n Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum."
+  content: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum. Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.\n\n Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+  slug: "technical-ai-courses-books-and-tutorials-for-ai-developers"
 }
 
-Article.find_or_create_by!(title:) do |article|
+Article.find_or_create_by!(title: title2) do |article|
   article.assign_attributes(attributes)
 end
+
+Article.learning_resources.update(title: "technical-courses-books-and-tutorials-on-artificial-"\
+  "intelligence-deep-learning-and-machine-learning-for-ai-developers")
