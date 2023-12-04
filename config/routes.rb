@@ -6,8 +6,10 @@ Rails.application.routes.draw do
     via: :all,
     constraints: {subdomain: "www", domain: "botdevs.ai"}
 
-  get "/articles/technical-ai-courses-books-and-tutorials-for-ai-developers",
-    to: redirect("/learn/technical-ai-courses-books-and-tutorials-for-ai-developers")
+  get "/articles/technical-courses-books-and-tutorials-on-artificial-intelligence-deep-learning-"\
+      "and-machine-learning-for-ai-developers",
+    to: redirect("/learn/technical-courses-books-and-tutorials-on-artificial-intelligence-deep-"\
+                 "learning-and-machine-learning-for-ai-developers")
 
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     devise_for :users, controllers: {
@@ -17,8 +19,9 @@ Rails.application.routes.draw do
     resources :inquiries, only: %i[new create]
     resources :articles, only: [:show, :index]
     resource :about, only: :show, controller: :about
-    resource :learn, only: :show, controller: :learn, path: "/learn/technical-ai-courses-books-and"\
-                                                            "-tutorials-for-ai-developers"
+    resource :learn, only: :show, controller: :learn,
+      path: "/learn/technical-courses-books-and-tutorials-on-artificial-intelligence-deep-"\
+            "learning-and-machine-learning-for-ai-developers"
     resource :conduct, only: :show
     resource :home, only: :show
     resource :pricing, only: :show, controller: :pricing
