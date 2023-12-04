@@ -11,6 +11,6 @@ two:
   slug: article-2
 
 learning:
-  title: technical-ai-courses-books-and-tutorials-for-ai-developers
+  title: <%= Article::LEARNING_ARTICLE_SLUG %>
   published_at: 2020-09-08 14:33:16
-  slug: technical-ai-courses-books-and-tutorials-for-ai-developers
+  slug: <%= Article::LEARNING_ARTICLE_SLUG %>

@@ -1,5 +1,5 @@
 one:
-  slug: technical-ai-courses-books-and-tutorials-for-ai-developers
+  slug: <%= Article::LEARNING_ARTICLE_SLUG %>
   sluggable_type: Article
   sluggable_id: <%= ActiveRecord::FixtureSet.identify :learning %>
 
