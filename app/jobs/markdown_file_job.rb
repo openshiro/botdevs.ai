@@ -1,7 +1,7 @@
 # app/jobs/markdown_file_job.rb
-require 'net/http'
-require 'redcarpet'
-require 'nokogiri'
+require "net/http"
+require "redcarpet"
+require "nokogiri"
 
 class MarkdownFileJob < ApplicationJob
   queue_as :default
@@ -20,7 +20,7 @@ class MarkdownFileJob < ApplicationJob
       doc = Nokogiri::HTML(html_content)
 
       # Find and remove the first H2 tag
-      first_h2_tag = doc.at('h2')
+      first_h2_tag = doc.at("h2")
       if first_h2_tag
         first_h2_tag.remove
         updated_html_content = doc.to_html
@@ -48,4 +48,3 @@ class MarkdownFileJob < ApplicationJob
     end
   end
 end
-
