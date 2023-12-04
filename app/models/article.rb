@@ -12,7 +12,8 @@ class Article < ApplicationRecord
   scope :published, -> { where("published_at <= ?", Time.current) }
   scope :scheduled, -> { where("published_at >= ?", Time.current) }
 
-  LEARNING_RESOURCES_URL = "https://raw.githubusercontent.com/duncantmiller/ai-developer-resources/main/technical-courses-books-tutorials.md".freeze
+  LEARNING_RESOURCES_URL = "https://raw.githubusercontent.com/duncantmiller/"\
+                           "ai-developer-resources/main/technical-courses-books-tutorials.md".freeze
   LEARNING_ARTICLE_SLUG = "technical-ai-courses-books-and-tutorials-for-ai-developers".freeze
 
   def self.learning_resources
