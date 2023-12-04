@@ -1,9 +1,11 @@
+## Technical Courses, Books, and Tutorials on Artificial Intelligence and Machine Learning for AI Developers
+
 I've been keeping a running list of highly recommended and informative resources that I have come across while learning more about AI and Machine Learning. Most of these are technical resources intended for experienced software engineers, developers, and coders. The majority of these resources are free and for any that are not, I've added (paid) to the title to distinguish.
 
-### Contributing
+#### Contributing
 I hope you find these resources useful as well and if you have any to add that I'm missing please email me at [duncan@botdevs.ai](mailto:duncan@botdevs.ai) or submit a PR to update the [source code](https://github.com/openshiro/botdevs.ai/blob/main/app/views/learn/body/en.md) for this list.
 
-### About BotDevs
+#### About BotDevs
 [BotDevs.ai](https://botdevs.ai) is a reverse job board for AI developers. We are an open source, open startup. Learn more [about us](https://botdevs.ai/about).
 
 ### Courses
