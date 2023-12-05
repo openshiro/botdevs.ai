@@ -43,6 +43,8 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     get developers_path(sort: :newest)
 
     puts "Response Body: #{response.body}"
+    puts "Dev1 Timestamp: #{dev1.created_at}"
+    puts "Dev2 Timestamp: #{dev2.created_at}"
     puts "Index of Newest: #{response.body.index("Newest")}"
     puts "Index of Oldest: #{response.body.index("Oldest")}"
 
