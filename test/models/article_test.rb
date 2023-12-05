@@ -21,8 +21,6 @@ class ArticleTest < ActiveSupport::TestCase
     assert @article.has_canonical_url?
   end
 
-
-
   test "#published? is true if published in past" do
     @article.published_at = Date.yesterday
 
