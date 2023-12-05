@@ -35,6 +35,7 @@
       by Duncan Miller on <%= article.published_at&.strftime("%B %e, %Y") %>
       <%# <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a> %>
     </div>
+    <%= render partial: "articles/updated", locals: {article: article} %>
     <article class="prose lg:prose-xl mt-6">
       <%= article.content %>
     </article>
