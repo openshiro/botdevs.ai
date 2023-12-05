@@ -4,5 +4,6 @@
 @import "./tailwindcss/overrides.css";
 
 @import "./components/pagy.css";
+@import "./components/typography.css";
 @import 'actiontext.css';
 @import "buttons.css";
