@@ -39,10 +39,12 @@ class DevelopersTest < ActionDispatch::IntegrationTest
     dev2 = create_developer(hero: "Newest")
     dev1.update(created_at: 7.days.ago)
     dev2.update(created_at: Time.zone.now)
-    dev1.reload
-    dev2.reload
 
     get developers_path(sort: :newest)
+
+    puts "Response Body: #{response.body}"
+    puts "Index of Newest: #{response.body.index("Newest")}"
+    puts "Index of Oldest: #{response.body.index("Oldest")}"
 
     assert_select "button.font-medium[value=newest]"
     assert response.body.index("Newest") < response.body.index("Oldest")
