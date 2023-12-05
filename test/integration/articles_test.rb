@@ -34,6 +34,14 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
     assert_select "h1", @article.title
   end
 
+  test "should show article if there is a canonical url" do
+    get article_url(@article)
+    assert_select 'head link[rel="canonical"]', count: 0
+
+    get article_url(articles(:canonical))
+    assert_select 'head link[rel="canonical"][href="https://foo.com"]', count: 1
+  end
+
   test "article should redirect if scheduled" do
     @article.update(content: "foo", published_at: 2.days.from_now)
     get article_url(@article)

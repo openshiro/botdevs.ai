@@ -19,6 +19,10 @@ class Article < ApplicationRecord
     Article.friendly.find(LEARNING_ARTICLE_SLUG)
   end
 
+  def has_canonical_url?
+    canonical_url.present?
+  end
+
   def should_generate_new_friendly_id?
     title_changed?
   end

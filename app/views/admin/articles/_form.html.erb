@@ -6,6 +6,9 @@
     <%= render Admin::Forms::FieldComponent.new(form, :published_at) do |field| %>
       <% field.with_input_datetime %>
     <% end %>
+    <%= render Admin::Forms::FieldComponent.new(form, :canonical_url) do |field| %>
+      <% field.with_input_text %>
+    <% end %>
     <%= render Admin::Forms::FieldComponent.new(form, :content) do |field| %>
       <% field.with_input_rich_text_area classes: "prose max-w-none" %>
     <% end %>

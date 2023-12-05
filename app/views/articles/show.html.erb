@@ -1,3 +1,9 @@
 <%= open_graph_tags title: @article.title %>
 
+<% if @article.has_canonical_url? %>
+  <% content_for :head do %>
+    <%= tag(:link, rel: "canonical", href: @article.canonical_url) %>
+  <% end %>
+<% end %>
+
 <%= render partial: "article", locals: {article: @article} %>
