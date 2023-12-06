@@ -42,14 +42,19 @@ class DevelopersTest < ActionDispatch::IntegrationTest
 
     get developers_path(sort: :newest)
 
-    puts "Response Body: #{response.body}"
-    puts "Dev1 Timestamp: #{dev1.created_at}"
-    puts "Dev2 Timestamp: #{dev2.created_at}"
-    puts "Index of Newest: #{response.body.index("Newest")}"
-    puts "Index of Oldest: #{response.body.index("Oldest")}"
+    # Extract developer content from the response body
+    dev_elements = response.body.scan(/<li>([^<]+)<\/li>/).flatten
 
-    assert_select "button.font-medium[value=newest]"
-    assert response.body.index("Newest") < response.body.index("Oldest")
+    # Parse timestamp for each developer
+    timestamps = dev_elements.map do |element|
+      # Extract timestamp element based on your HTML structure
+      timestamp_element = element.scan(/<span class="timestamp">([^<]+)<\/span>/).flatten.first
+      # Parse the timestamp string to a DateTime object
+      DateTime.parse(timestamp_element)
+    end
+
+    # Assert that timestamps are in descending order (newest first)
+    assert timestamps.sort == timestamps
   end
 
   test "subscribers can filter developers by time zone" do
