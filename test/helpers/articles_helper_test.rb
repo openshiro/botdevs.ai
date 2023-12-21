@@ -21,4 +21,16 @@ class ArticlesHelperTest < ActionView::TestCase
 
     assert_equal false, show_updated?(@article)
   end
+
+  test "show_appeared? returns true cannonical url matches openshiro" do
+    @article.canonical_url = "https://openshiro.com/foo"
+
+    assert_equal true, show_appeared?(@article)
+  end
+
+  test "show_appeared? returns false if canonical url blank or other address" do
+    assert_equal false, show_appeared?(@article)
+    @article.canonical_url = "https://github.com/foo"
+    assert_equal false, show_appeared?(@article)
+  end
 end
