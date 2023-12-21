@@ -1,0 +1,3 @@
+<% if show_appeared?(article) %>
+  <p class="mt-4 text-base text-gray-600">This article was originally published on <%= link_to "openshiro.com", article.canonical_url, class: "font-semibold underline text-gray-700 hover:text-gray-900" %>.</p>
+<% end %>
