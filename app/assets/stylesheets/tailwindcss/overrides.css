@@ -19,4 +19,26 @@
   ul {
     margin-top: 1rem;
   }
+  pre {
+    background-color: #1e1e1e !important; /* Dark background for code blocks */
+    color: #d4d4d4 !important; /* Light text color for readability */
+    font-family: 'Courier New', Courier, monospace !important; /* Monospace font */
+    padding: 10px !important;
+    border-radius: 4px !important;
+    overflow-x: auto !important; /* Horizontal scroll for long lines */
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+  }
+
+  /* Special styling for emphasized text within <pre> */
+  pre em {
+      color: #569cd6 !important; /* Light blue for keywords, similar to syntax highlighting */
+      font-style: normal !important; /* Override italic style */
+  }
+
+  /* Styling for strong elements within <pre> */
+  pre strong {
+      font-weight: bold !important;
+      color: #4ec9b0 !important; /* Lighter color for strong elements, like comments or annotations */
+  }
 }
