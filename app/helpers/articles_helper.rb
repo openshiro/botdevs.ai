@@ -1,5 +1,7 @@
 module ArticlesHelper
   def show_updated?(article)
+    return false unless article.published_at.present?
+
     article.updated_at > article.published_at + 3.days
   end
 
