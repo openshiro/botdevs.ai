@@ -22,6 +22,12 @@ class ArticlesHelperTest < ActionView::TestCase
     assert_equal false, show_updated?(@article)
   end
 
+  test "show_updated? returns false if the article has not yet be published" do
+    @article.updated_at = Time.now + 2.days
+
+    assert_equal false, show_updated?(@article)
+  end
+
   test "show_appeared? returns true cannonical url matches openshiro" do
     @article.canonical_url = "https://openshiro.com/foo"
     assert_equal true, show_appeared?(@article)
