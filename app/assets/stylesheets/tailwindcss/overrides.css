@@ -20,15 +20,11 @@
     margin-top: 1rem;
   }
   pre {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
     background-color: #1e1e1e !important; /* Dark background for code blocks */
     color: #d4d4d4 !important; /* Light text color for readability */
-    font-family: 'Courier New', Courier, monospace !important; /* Monospace font */
-    padding: 10px !important;
     border-radius: 4px !important;
-    overflow-x: auto !important; /* Horizontal scroll for long lines */
-    white-space: pre-wrap !important;
     word-break: break-word !important;
   }
 
@@ -42,5 +38,10 @@
   pre strong {
       font-weight: bold !important;
       color: #4ec9b0 !important; /* Lighter color for strong elements, like comments or annotations */
+  }
+
+  pre s, del {
+      color: #b1364f; /* Sets the text color to red */
+      text-decoration: none; /* Removes the line-through decoration */
   }
 }
