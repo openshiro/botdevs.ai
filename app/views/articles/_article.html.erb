@@ -39,7 +39,7 @@
     <%= render partial: "articles/original_appearance", locals: {article: article} %>
     <div data-controller="highlight">
       <article class="prose lg:prose-xl mt-6">
-        <%= raw language_formatter(article.content) %>
+        <%= language_formatter(article.content) %> <%# erblint:disable ErbSafety %>
       </article>
     </div>
     <div class="mt-10">

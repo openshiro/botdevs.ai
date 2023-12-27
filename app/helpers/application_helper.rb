@@ -8,7 +8,7 @@ module ApplicationHelper
         pre["class"] = "hljs language-#{language}"
       end
     end
-    doc.to_html
+    doc.to_html.html_safe
   end
 
   def hotwire_livereload_tags
