@@ -29,3 +29,23 @@
   padding: 0 !important;
   max-width: 100% !important;
 }
+
+.trix-content pre, trix-editor pre {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  font-family: monospace;
+  font-size: .65em;
+  padding: 1em;
+  white-space: pre;
+  background-color: #24272D;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  word-break: break-word
+}
+
+trix-editor pre {
+  color: #c9cfd7;
+}

@@ -21,6 +21,9 @@ application.register("file-upload", FileUploadController)
 import Forms__KeyboardSubmitController from "./forms/keyboard_submit_controller.js"
 application.register("forms--keyboard-submit", Forms__KeyboardSubmitController)
 
+import HighlightController from "./highlight_controller.js"
+application.register("highlight", HighlightController)
+
 import KeyboardShortcutController from "./keyboard_shortcut_controller.js"
 application.register("keyboard-shortcut", KeyboardShortcutController)
 
