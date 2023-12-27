@@ -5,6 +5,8 @@ import erb from 'highlight.js/lib/languages/erb';
 import ruby from 'highlight.js/lib/languages/ruby';
 import python from 'highlight.js/lib/languages/python';
 import bash from 'highlight.js/lib/languages/bash';
+import json from 'highlight.js/lib/languages/json';
+import markdown from 'highlight.js/lib/languages/markdown';
 
 // Connects to data-controller="highlight"
 export default class extends Controller {
@@ -14,6 +16,8 @@ export default class extends Controller {
     hljs.registerLanguage('ruby', ruby);
     hljs.registerLanguage('python', python);
     hljs.registerLanguage('bash', bash);
+    hljs.registerLanguage('json', json);
+    hljs.registerLanguage('markdown', markdown);
 
     this.element.querySelectorAll('pre').forEach((element) => {
       hljs.highlightElement(element);
